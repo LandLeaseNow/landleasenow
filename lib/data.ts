@@ -10,7 +10,7 @@ import { Community, Operator } from "./types";
  * original wording — no text is copied from source articles or operator
  * marketing material, and no images are included.
  *
- * Coverage: 279 communities across 20 operators, spanning
+ * Coverage: 280 communities across 20 operators, spanning
  * NSW, VIC, QLD, WA, SA and ACT.
  *
  * lat/lng values (where present) are approximate town/suburb-centre
@@ -31,7 +31,7 @@ export const operators: Operator[] = [
     name: "Ingenia Communities",
     description:
       "ASX-listed operator of land lease, rental and holiday communities across Australia, with active developments underway in New South Wales, Victoria and Queensland.",
-    communityCount: 33,
+    communityCount: 34,
     listed: true
   },
   {
@@ -1013,7 +1013,7 @@ export const communities: Community[] = [
   {
     slug: "gemlife-tweed-waters",
     name: "GemLife Tweed Waters",
-    suburb: "Tweed Heads",
+    suburb: "Tweed Heads South",
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
@@ -1022,8 +1022,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Rooftop pool", "Tenpin bowling", "Cinema", "Gym", "Library", "Lawn bowls", "Golf simulator"],
     summary:
       "A waterfront over-50s resort community on the Tweed River, between the Gold Coast and Northern NSW.",
-    lat: -28.1833,
-    lng: 153.55
+    lat: -28.1959882,
+    lng: 153.524148
   },
   {
     slug: "gemlife-rainbow-beach",
@@ -4213,6 +4213,21 @@ export const communities: Community[] = [
       "A 272-home over-50s land lease community, part of a larger master-planned coastal development near Victor Harbor on the Fleurieu Peninsula.",
     lat: -35.541,
     lng: 138.635
+  },
+  {
+    slug: "ingenia-holiday-kingscliff",
+    name: "Ingenia Holiday Kingscliff",
+    suburb: "Chinderah",
+    state: "NSW",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 107,
+    operatorSlug: "ingenia-communities",
+    amenities: ["Swimming pool", "games room", "playground"],
+    summary:
+      "A long-running mixed-use park on the Tweed Coast combining permanent over-50s land lease homes with a separate holiday park section, set on a peninsula between the Tweed River and Kingscliff Beach.",
+    lat: -28.236074,
+    lng: 153.5602572
   },
 ];
 
