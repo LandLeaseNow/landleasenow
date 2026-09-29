@@ -15,11 +15,10 @@ const ICONS = {
   ),
   underDevelopment: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.75} className="h-5 w-5 text-eucalypt">
-      <path d="M4 21V4" strokeLinecap="round" />
-      <path d="M4 6h13" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M17 6v4.5" strokeLinecap="round" />
-      <path d="M2 21h13" strokeLinecap="round" />
-      <path d="M13 21v-4a2 2 0 1 1 4 0v4" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 3.5 16 18H8L12 3.5Z" strokeLinejoin="round" />
+      <path d="M9.6 10.5h4.8" />
+      <path d="M8.6 14h6.8" />
+      <path d="M6 20h12" strokeLinecap="round" />
     </svg>
   ),
   communities: (
