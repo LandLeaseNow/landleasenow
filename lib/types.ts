@@ -26,6 +26,7 @@ export interface Operator {
   description: string;
   communityCount: number;
   website?: string;
+  listed: boolean;
 }
 
 export interface Community {

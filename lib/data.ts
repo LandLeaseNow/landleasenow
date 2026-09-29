@@ -31,7 +31,8 @@ export const operators: Operator[] = [
     name: "Ingenia Communities",
     description:
       "ASX-listed operator of land lease, rental and holiday communities across Australia, with active developments underway in New South Wales, Victoria and Queensland.",
-    communityCount: 33
+    communityCount: 33,
+    listed: true
   },
   {
     slug: "stockland-halcyon",
@@ -39,63 +40,72 @@ export const operators: Operator[] = [
     description:
       "Stockland's land lease communities brand for the over-50s market, built on the Halcyon business Stockland acquired in 2021, with communities across Queensland, New South Wales, Victoria and Western Australia.",
     communityCount: 30,
-    website: "https://www.stockland.com.au/halcyon-communities"
+    website: "https://www.stockland.com.au/halcyon-communities",
+    listed: true
   },
   {
     slug: "hampshire-villages",
     name: "Hampshire Villages",
     description:
       "Family-owned land lease operator running communities for over-50s across New South Wales, Victoria, South Australia and Western Australia, with some communities offering a shared-equity purchase option.",
-    communityCount: 4
+    communityCount: 4,
+    listed: false
   },
   {
     slug: "eureka-group",
     name: "Eureka Group",
     description:
       "ASX-listed provider of affordable rental communities for seniors, expanding into all-age rental parks in regional Queensland.",
-    communityCount: 3
+    communityCount: 3,
+    listed: true
   },
   {
     slug: "gemlife",
     name: "GemLife",
     description:
       "ASX-listed pureplay land lease developer and operator founded in 2015, delivering resort-style over-50s communities across Queensland, New South Wales and Victoria, with its portfolio expanding sharply after acquiring developer Aliria's projects in 2025.",
-    communityCount: 23
+    communityCount: 23,
+    listed: true
   },
   {
     slug: "lifestyle-communities",
     name: "Lifestyle Communities",
     description:
       "ASX-listed, Melbourne-based operator focused entirely on Victoria, running dozens of land lease communities for people aged over 50 under a standard 90-year land lease model.",
-    communityCount: 3
+    communityCount: 3,
+    listed: true
   },
   {
     slug: "hometown-australia",
     name: "Hometown Australia",
     description:
       "The Australian arm of US land lease operator Hometown America, running around 58-60 over-55s communities across New South Wales, Queensland and South Australia, built largely through acquisition of existing parks.",
-    communityCount: 63
+    communityCount: 63,
+    listed: false
   },
   {
     slug: "palm-lake-resort",
     name: "Palm Lake Resort",
     description:
       "Family-owned Australian developer operating since 1977, with around 38 land lease resorts for over-50s across Queensland, New South Wales and Victoria, home to more than 10,000 residents.",
-    communityCount: 27
+    communityCount: 27,
+    listed: false
   },
   {
     slug: "living-gems",
     name: "Living Gems",
     description:
       "Family-owned Gold Coast land lease developer founded in the 1980s, building over-50s resorts across South East Queensland with a pipeline extending into Townsville, Yeppoon and northern NSW.",
-    communityCount: 3
+    communityCount: 3,
+    listed: false
   },
   {
     slug: "serenitas",
     name: "Serenitas",
     description:
       "Land lease operator majority-owned by Mirvac, Pacific Equity Partners and Tasman Capital Partners, running around 34 communities across NSW, VIC, QLD and WA under brands including Thyme Lifestyle Resorts and National Lifestyle Villages.",
-    communityCount: 30
+    communityCount: 30,
+    listed: false
   },
   {
     slug: "aspen-group",
@@ -103,7 +113,8 @@ export const operators: Operator[] = [
     description:
       "ASX-listed developer and manager of over-50s land lease lifestyle communities across Western Australia, South Australia, New South Wales and Victoria, offering home ownership on leased land with no exit fees or stamp duty.",
     communityCount: 10,
-    website: "https://aspengroup.com.au/lifestyle"
+    website: "https://aspengroup.com.au/lifestyle",
+    listed: true
   },
   {
     slug: "lincoln-place",
@@ -111,7 +122,8 @@ export const operators: Operator[] = [
     description:
       "Developer and operator of over-50s land lease lifestyle communities across NSW, VIC, QLD and the ACT, with homes offered on a no entry fee, no exit fee, no deferred management fee basis.",
     communityCount: 28,
-    website: "https://www.lincolnplace.com.au/"
+    website: "https://www.lincolnplace.com.au/",
+    listed: false
   },
   {
     slug: "liven-communities",
@@ -119,7 +131,8 @@ export const operators: Operator[] = [
     description:
       "Developer of resort-style, architecturally designed over-50s land lease communities in regional Queensland.",
     communityCount: 4,
-    website: "https://www.livencommunities.com.au/"
+    website: "https://www.livencommunities.com.au/",
+    listed: false
   },
   {
     slug: "springtree",
@@ -127,7 +140,8 @@ export const operators: Operator[] = [
     description:
       "A new lifestyle resort brand dedicated to creating vibrant, welcoming communities for downsizers, with thoughtfully designed land lease communities in idyllic locations.",
     communityCount: 3,
-    website: "https://springtree.com.au/welcome-to-springtree/"
+    website: "https://springtree.com.au/welcome-to-springtree/",
+    listed: false
   },
   {
     slug: "vivacity-property",
@@ -135,7 +149,8 @@ export const operators: Operator[] = [
     description:
       "A developer and operator of boutique retirement lifestyle communities, building thriving land lease communities in architecturally designed, lavish spaces for active, connected over-55s living.",
     communityCount: 5,
-    website: "https://vivacityproperty.com.au/"
+    website: "https://vivacityproperty.com.au/",
+    listed: false
   },
   {
     slug: "ocean-club-resort",
@@ -143,7 +158,8 @@ export const operators: Operator[] = [
     description:
       "The original blueprint for over-50s resort-style living on the Mid-North Coast of NSW, offering resort-style facilities and a laid-back, friendly community.",
     communityCount: 1,
-    website: "https://oceanclubresort.com.au/"
+    website: "https://oceanclubresort.com.au/",
+    listed: false
   },
   {
     slug: "solana-lifestyle-resorts",
@@ -151,7 +167,8 @@ export const operators: Operator[] = [
     description:
       "Stockwell's manufactured home park business, managing over-50s lifestyle resorts from inception through ongoing operations, offering freestanding homes with no traditional retirement fees.",
     communityCount: 5,
-    website: "https://www.solana.com.au/"
+    website: "https://www.solana.com.au/",
+    listed: false
   },
   {
     slug: "millbray",
@@ -159,7 +176,8 @@ export const operators: Operator[] = [
     description:
       "An owner and operator of over-50s land lease living in Australia, focused on thoughtfully designed homes with resort-style amenities and connected neighbourhoods ('Millbray Made').",
     communityCount: 1,
-    website: "https://millbray.com/"
+    website: "https://millbray.com/",
+    listed: false
   },
   {
     slug: "allam-property-group",
@@ -167,7 +185,8 @@ export const operators: Operator[] = [
     description:
       "An Australian-owned property developer and home builder of 35 years, delivering land lease communities for over-55s as an alternative to traditional retirement villages.",
     communityCount: 2,
-    website: "https://www.allam.com.au/retirement"
+    website: "https://www.allam.com.au/retirement",
+    listed: false
   },
   {
     slug: "kingsley-properties",
@@ -175,7 +194,8 @@ export const operators: Operator[] = [
     description:
       "A South Australian developer of master-planned communities, operating under the Kingsley Living brand, founded by industry veteran Kingsley Andrew.",
     communityCount: 1,
-    website: "https://kingsleyliving.com.au/"
+    website: "https://kingsleyliving.com.au/",
+    listed: false
   },
 ];
 
