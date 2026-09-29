@@ -1682,8 +1682,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Boat and caravan storage"],
     summary:
       "An established over-50s community on the Logan River.",
-    lat: -27.6667,
-    lng: 153.15
+    lat: -27.6889489,
+    lng: 153.1607535
   },
   {
     slug: "river-terraces",
@@ -2312,8 +2312,8 @@ export const communities: Community[] = [
     amenities: ["Two clubhouses", "Resort-style pool with spa", "River waterfront access"],
     summary:
       "An over-55s lifestyle community halfway between Brisbane and the Gold Coast, on the Logan River.",
-    lat: -27.6667,
-    lng: 153.15
+    lat: -27.6794733,
+    lng: 153.1559456
   },
   {
     slug: "ingenia-lifestyle-chambers-pines",
@@ -3798,7 +3798,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Water aerobics", "tai chi", "line dancing", "gym", "bowling green", "library", "resort pool", "BBQ area", "caravan storage", "indoor pool"],
     summary:
-      "A luxury resort-style community for over-50s featuring exclusive resort-style living among leafy walkways and tropical gardens near Brisbane."
+      "A luxury resort-style community for over-50s featuring exclusive resort-style living among leafy walkways and tropical gardens near Brisbane.",
+    lat: -27.6985967,
+    lng: 153.1541369
   },
   {
     slug: "palm-lake-resort-caloundra-cay",
