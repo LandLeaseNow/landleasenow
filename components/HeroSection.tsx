@@ -57,7 +57,7 @@ export default function HeroSection({
   return (
     <div className="grid gap-8 md:grid-cols-[1.1fr_1fr] md:gap-16 md:items-stretch">
       <div className="max-w-2xl">
-        <h1 className="font-serif font-bold text-4xl leading-tight text-ink md:text-5xl">
+        <h1 className="font-serif font-bold text-5xl leading-tight text-ink md:text-6xl">
           The directory for Australia's land lease sector.
         </h1>
         <p className="mt-5 max-w-lg text-ink/70">

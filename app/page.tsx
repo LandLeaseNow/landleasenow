@@ -1,20 +1,9 @@
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import CommunityCard from "@/components/CommunityCard";
 import HeroSection from "@/components/HeroSection";
+import CommunityMapSection from "@/components/CommunityMapSection";
 import { communities, operators, getStateCounts } from "@/lib/data";
 import { STATE_LABELS } from "@/lib/types";
-
-// Leaflet reads `window` at import time, so it can only render on the
-// client — loading it with ssr disabled avoids a build-time crash.
-const CommunityMap = dynamic(() => import("@/components/CommunityMap"), {
-  ssr: false,
-  loading: () => (
-    <div className="flex h-[600px] w-full items-center justify-center rounded-sm border border-eucalypt/10 bg-sand-light text-sm text-ink/50">
-      Loading map…
-    </div>
-  )
-});
 
 export default function HomePage() {
   const featured = communities.slice(0, 3);
@@ -48,21 +37,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="container-page pb-16">
-        <div className="flex items-end justify-between">
-          <h2 className="font-serif text-3xl text-ink">See where communities are located</h2>
-          <Link href="/map" className="text-sm text-eucalypt hover:underline">
-            Open full map →
-          </Link>
-        </div>
-        <p className="mt-2 max-w-2xl text-sm text-ink/60">
-          {communities.filter((c) => c.lat && c.lng).length} communities plotted across Australia.
-        </p>
-
-        <div className="mt-6">
-          <CommunityMap communities={communities} heightClassName="h-[600px]" />
-        </div>
-      </section>
+      <CommunityMapSection communities={communities} />
 
       <section className="bg-sand-light py-16">
         <div className="container-page grid gap-12 md:grid-cols-2">
