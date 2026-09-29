@@ -5,16 +5,8 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import Link from "next/link";
 import "leaflet/dist/leaflet.css";
-import { Community, CommunityStatus } from "@/lib/types";
+import { Community, CommunityStatus, STATUS_MARKER_COLOR } from "@/lib/types";
 import { getOperator } from "@/lib/data";
-
-// One marker color per status, matching the same palette as the status
-// badges elsewhere on the site (see STATUS_COLOR in lib/types.ts).
-const STATUS_MARKER_COLOR: Record<CommunityStatus, string> = {
-  "Under Development": "#F5923E",
-  "Selling Now": "#3FA34D",
-  Established: "#1F3A33"
-};
 
 // Leaflet's default marker image is a plain pin; drawing our own pin as an
 // inline SVG lets each marker be colored per community status without

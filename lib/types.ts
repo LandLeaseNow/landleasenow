@@ -10,6 +10,16 @@ export const STATUS_COLOR: Record<CommunityStatus, string> = {
   Established: "bg-sand text-ink/70"
 };
 
+// Solid hex color per status, shared by the map markers and the map's
+// status filter toggle so the two stay visually in sync. Established uses a
+// blue-grey (rather than the brand's dark green) so it doesn't read as a
+// second, confusingly similar green next to Selling Now.
+export const STATUS_MARKER_COLOR: Record<CommunityStatus, string> = {
+  "Under Development": "#F5923E",
+  "Selling Now": "#3FA34D",
+  Established: "#6E93A0"
+};
+
 export interface Operator {
   slug: string;
   name: string;
