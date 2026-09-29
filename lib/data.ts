@@ -1007,8 +1007,8 @@ export const communities: Community[] = [
     amenities: ["Country Club"],
     summary:
       "A planned over-50s resort community in Mackay's Northern Beaches, 1km from Bucasia Beach.",
-    lat: -21.0667,
-    lng: 149.1667
+    lat: -21.0166,
+    lng: 149.1422
   },
   {
     slug: "gemlife-tweed-waters",
@@ -4105,7 +4105,9 @@ export const communities: Community[] = [
     operatorSlug: "solana-lifestyle-resorts",
     amenities: ["Livewell Centre with indoor/outdoor pools", "tennis courts", "lawn bowls greens", "gymnasium", "cinema", "library", "craft rooms", "cafe", "BBQ areas"],
     summary:
-      "A coastal resort positioned as a gateway to the Whitsunday Islands with modern, ground-level homes and no body corporate fees."
+      "A coastal resort positioned as a gateway to the Whitsunday Islands with modern, ground-level homes and no body corporate fees.",
+    lat: -21.0661,
+    lng: 149.1597
   },
   {
     slug: "solana-hervey-bay",
