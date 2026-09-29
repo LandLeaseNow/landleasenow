@@ -4073,7 +4073,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 386,
     operatorSlug: "solana-lifestyle-resorts",
     amenities: ["Livewell Centre with indoor/outdoor pools", "tennis courts", "lawn bowls greens", "gymnasium", "cinema", "library", "craft rooms", "cafe", "BBQ areas"],
     summary:

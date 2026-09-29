@@ -7,6 +7,17 @@ export const metadata = {
   title: "Browse land lease communities | Landlease Now"
 };
 
+// A community's own suburb name doesn't always tell a searcher which larger
+// city/region it belongs to (e.g. Shoal Point is part of greater Mackay, but
+// nothing in that community's name, suburb or operator mentions "Mackay").
+// This adds a few known extra search terms per community, keyed by slug
+// (never by suburb name alone, since suburb names repeat across states —
+// e.g. there's a Beaconsfield near Mackay and an unrelated one near
+// Melbourne in this dataset).
+const EXTRA_SEARCH_TERMS: Record<string, string> = {
+  "gemlife-shoal-point": "Mackay"
+};
+
 const TYPE_FILTERS: { label: string; value?: CommunityType }[] = [
   { label: "All types", value: undefined },
   { label: "Over-50s", value: "Over-50s" },
@@ -42,7 +53,8 @@ export default function CommunitiesPage({
         c.suburb,
         c.state,
         STATE_LABELS[c.state],
-        operator?.name ?? ""
+        operator?.name ?? "",
+        EXTRA_SEARCH_TERMS[c.slug] ?? ""
       ]
         .join(" ")
         .toLowerCase();
