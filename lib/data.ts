@@ -1084,8 +1084,8 @@ export const communities: Community[] = [
     amenities: ["Indoor swimming pool", "Community centre", "Cinema", "Bowls court", "Pickleball court"],
     summary:
       "An over-50s land lease community near Newcastle, with homes from $530K and no stamp duty, council rates or exit fees.",
-    lat: -32.8,
-    lng: 151.8
+    lat: -32.8627,
+    lng: 151.7992
   },
   {
     slug: "banksia-waters",
@@ -1954,8 +1954,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Bowling green", "Boat and caravan storage"],
     summary:
       "A master-planned over-50s community offering country-style living near Brisbane.",
-    lat: -27.7,
-    lng: 153.0
+    lat: -27.7109,
+    lng: 153.0336
   },
   {
     slug: "twin-cedars",
@@ -2134,8 +2134,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Billiards room", "Fitness centre", "Dining facilities"],
     summary:
       "A waterfront over-55s lifestyle community on the NSW South Coast.",
-    lat: -35.3,
-    lng: 150.5
+    lat: -35.2667,
+    lng: 150.4769
   },
   {
     slug: "ingenia-lifestyle-nepean-river",
@@ -2554,8 +2554,8 @@ export const communities: Community[] = [
     amenities: ["Competition-sized bowls green", "Pickleball courts", "Outdoor dining pavilion"],
     summary:
       "A gated over-50s community in Mudgee, with Stage 1 over 60% sold.",
-    lat: -32.6,
-    lng: 149.6
+    lat: -32.6183,
+    lng: 149.6069
   },
   {
     slug: "lincoln-lifestyle-griffith-hill",
