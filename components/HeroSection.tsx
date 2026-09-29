@@ -15,12 +15,14 @@ const ICONS = {
   ),
   underDevelopment: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.75} className="h-5 w-5 text-eucalypt">
-      <path d="M2 20h9" strokeLinecap="round" />
-      <rect x="3" y="15" width="7" height="5" rx="1.5" />
-      <path d="M6 15V9.5a1.5 1.5 0 0 1 1.5-1.5h1A1.5 1.5 0 0 1 10 9.5V15" />
-      <path d="M10 10.5 16 6.5" strokeLinecap="round" />
-      <path d="M16 6.5 14.5 12" strokeLinecap="round" />
-      <path d="M14.5 12 18 13 16.5 15.5" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="5" cy="18.2" r="1" />
+      <circle cx="9" cy="18.2" r="1" />
+      <rect x="3" y="14.5" width="8" height="2.4" rx="0.4" />
+      <rect x="6.2" y="9.3" width="4.8" height="4.9" rx="0.7" />
+      <path d="M7.2 11.3h3" strokeLinecap="round" />
+      <path d="M9.4 9.3 15.4 5.2" strokeLinecap="round" />
+      <path d="M15.4 5.2 18.9 8.6" strokeLinecap="round" />
+      <path d="M18.9 8.6 22.3 8.6 21.5 11.6 19.7 11.6 Z" strokeLinejoin="round" />
     </svg>
   ),
   communities: (
