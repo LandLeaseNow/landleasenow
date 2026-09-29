@@ -50,7 +50,7 @@ export default function HomePage() {
 
       <section className="container-page pb-16">
         <div className="flex items-end justify-between">
-          <h2 className="font-serif text-3xl text-ink">Where are our communities?</h2>
+          <h2 className="font-serif text-3xl text-ink">See where communities are located</h2>
           <Link href="/map" className="text-sm text-eucalypt hover:underline">
             Open full map →
           </Link>
