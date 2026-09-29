@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { communities, getCommunity, getOperator } from "@/lib/data";
+import { STATUS_COLOR } from "@/lib/types";
 
 export function generateStaticParams() {
   return communities.map((c) => ({ slug: c.slug }));
@@ -23,7 +24,7 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
           <h1 className="font-serif text-3xl text-eucalypt">{community.name}</h1>
           <p className="mt-1 text-ink/60">{community.suburb}, {community.state}</p>
         </div>
-        <span className="rounded-sm bg-sand px-3 py-1 text-sm text-ink/70">
+        <span className={`rounded-sm px-3 py-1 text-sm font-medium ${STATUS_COLOR[community.status]}`}>
           {community.status}
         </span>
       </div>

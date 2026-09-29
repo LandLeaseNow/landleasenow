@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Community } from "@/lib/types";
+import { Community, STATUS_COLOR } from "@/lib/types";
 import { getOperator } from "@/lib/data";
 
 const TYPE_COLOR: Record<Community["type"], string> = {
@@ -25,7 +25,9 @@ export default function CommunityCard({ community }: { community: Community }) {
             </h3>
             <p className="text-sm text-ink/60">{community.suburb}, {community.state}</p>
           </div>
-          <span className="whitespace-nowrap rounded-sm bg-sand px-2 py-1 text-xs text-ink/70">
+          <span
+            className={`whitespace-nowrap rounded-sm px-2 py-1 text-xs font-medium ${STATUS_COLOR[community.status]}`}
+          >
             {community.status}
           </span>
         </div>
