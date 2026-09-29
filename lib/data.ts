@@ -10,7 +10,7 @@ import { Community, Operator } from "./types";
  * original wording — no text is copied from source articles or operator
  * marketing material, and no images are included.
  *
- * Coverage: 278 communities across 19 operators, spanning
+ * Coverage: 279 communities across 20 operators, spanning
  * NSW, VIC, QLD, WA, SA and ACT.
  *
  * lat/lng values (where present) are approximate town/suburb-centre
@@ -168,6 +168,14 @@ export const operators: Operator[] = [
       "An Australian-owned property developer and home builder of 35 years, delivering land lease communities for over-55s as an alternative to traditional retirement villages.",
     communityCount: 2,
     website: "https://www.allam.com.au/retirement"
+  },
+  {
+    slug: "kingsley-properties",
+    name: "Kingsley Properties",
+    description:
+      "A South Australian developer of master-planned communities, operating under the Kingsley Living brand, founded by industry veteran Kingsley Andrew.",
+    communityCount: 1,
+    website: "https://kingsleyliving.com.au/"
   },
 ];
 
@@ -4156,6 +4164,21 @@ export const communities: Community[] = [
     amenities: ["Planned community centre and shared amenities"],
     summary:
       "Allam Property's planned second land lease community on the NSW Mid North Coast, currently at development application stage with council."
+  },
+  {
+    slug: "oceane-victor-harbor",
+    name: "Océane",
+    suburb: "McCracken",
+    state: "SA",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 272,
+    operatorSlug: "kingsley-properties",
+    amenities: ["Village precinct with retail", "Wellness centre", "Coastal location"],
+    summary:
+      "A 272-home over-50s land lease community, part of a larger master-planned coastal development near Victor Harbor on the Fleurieu Peninsula.",
+    lat: -35.541,
+    lng: 138.635
   },
 ];
 
