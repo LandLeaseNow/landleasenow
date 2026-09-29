@@ -257,8 +257,8 @@ export const communities: Community[] = [
     amenities: ["Heated mineral pool", "Gym and sauna", "Pickleball courts", "Bowling green"],
     summary:
       "Stockland Halcyon's first NSW community, under construction inside the broader Gables masterplanned area northwest of Sydney.",
-    lat: -33.637653,
-    lng: 150.9041924
+    lat: -33.626714,
+    lng: 150.9159963
   },
   {
     slug: "halcyon-coves",
