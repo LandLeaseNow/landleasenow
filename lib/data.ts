@@ -2408,7 +2408,7 @@ export const communities: Community[] = [
   {
     slug: "ingenia-lifestyle-hervey-bay",
     name: "Ingenia Lifestyle Hervey Bay",
-    suburb: "Hervey Bay",
+    suburb: "Urangan",
     state: "QLD",
     type: "Over-50s",
     status: "Established",
@@ -2417,8 +2417,8 @@ export const communities: Community[] = [
     amenities: ["Two resort-style clubhouses", "Community boat", "Workshop with micro-brewery", "Bowling green"],
     summary:
       "A 457-home coastal over-55s community near the Urangan Pier.",
-    lat: -25.2833,
-    lng: 152.85
+    lat: -25.3222049,
+    lng: 152.8961797
   },
   {
     slug: "ingenia-lifestyle-parkside-lucas",
@@ -2888,7 +2888,7 @@ export const communities: Community[] = [
   {
     slug: "liven-beach-road",
     name: "Liven Beach Road",
-    suburb: "Hervey Bay",
+    suburb: "Urraween",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -2897,8 +2897,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Lawn bowls greens", "Cinema", "Gated community"],
     summary:
       "A masterplanned retirement community in Hervey Bay across nearly six hectares, planned for 132 homes.",
-    lat: -25.2833,
-    lng: 152.85
+    lat: -25.2885842,
+    lng: 152.8307763
   },
   {
     slug: "liven-willow-rise",
@@ -3008,7 +3008,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Resort clubhouse with pool and spa", "tennis court", "pickleball court", "bowls green", "gym", "library", "private bar"],
     summary:
-      "A harbourside over-50s lifestyle community in Hervey Bay offering resort-style living with no entry or exit fees."
+      "A harbourside over-50s lifestyle community in Hervey Bay offering resort-style living with no entry or exit fees.",
+    lat: -25.2966647,
+    lng: 152.9037131
   },
   {
     slug: "lucas-lifestyle-estate",
@@ -3060,7 +3062,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["The Lakehouse clubhouse", "12-acre lake with 1.2km private paths", "pet-friendly", "secure gated entry"],
     summary:
-      "Over-50s resort-style living in Hervey Bay featuring modern, low-maintenance homes surrounded by nature."
+      "Over-50s resort-style living in Hervey Bay featuring modern, low-maintenance homes surrounded by nature.",
+    lat: -25.3162831,
+    lng: 152.8299864
   },
   {
     slug: "tuart-lakes-lifestyle-resort",
@@ -3221,7 +3225,7 @@ export const communities: Community[] = [
   {
     slug: "latitude-25",
     name: "Latitude 25",
-    suburb: "Hervey Bay",
+    suburb: "Nikenbah",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -3229,7 +3233,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Gated secure community", "resort-style facilities", "Health Hub", "green open spaces", "walkways", "BBQ facilities", "scenic lakes", "RV garage with each home"],
     summary:
-      "An over-50s luxury RV lifestyle community offering owner-occupied residences with the freedom to travel while maintaining a secure home base."
+      "An over-50s luxury RV lifestyle community offering owner-occupied residences with the freedom to travel while maintaining a secure home base.",
+    lat: -25.3155651,
+    lng: 152.8220169
   },
   {
     slug: "thyme-bundaberg-springs",
@@ -3870,7 +3876,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Library", "art classes", "bowling green", "gym", "tennis court", "resort pool", "indoor pool and spa", "caravan and boat storage", "workshop", "dancefloor"],
     summary:
-      "A luxury over-50s community offering waterfront homes, resort facilities, and a vibrant coastal lifestyle in Hervey Bay."
+      "A luxury over-50s community offering waterfront homes, resort facilities, and a vibrant coastal lifestyle in Hervey Bay.",
+    lat: -25.286529,
+    lng: 152.8110304
   },
   {
     slug: "palm-lake-resort-mt-warren-park",
@@ -4120,7 +4128,9 @@ export const communities: Community[] = [
     operatorSlug: "solana-lifestyle-resorts",
     amenities: ["Livewell Centre with indoor/outdoor pools", "tennis courts", "lawn bowls", "gymnasium", "cinema", "library", "craft rooms", "cafe", "BBQ areas"],
     summary:
-      "Serene coastal living in Hervey Bay, famous for whale watching, water sports, fishing and access to Fraser Island."
+      "Serene coastal living in Hervey Bay, famous for whale watching, water sports, fishing and access to Fraser Island.",
+    lat: -25.3174042,
+    lng: 152.8324503
   },
   {
     slug: "solana-bribie-island",
