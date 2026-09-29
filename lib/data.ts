@@ -629,7 +629,7 @@ export const communities: Community[] = [
     state: "WA",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 158,
     operatorSlug: "aspen-group",
     amenities: ["Clubhouse", "Swimming pool", "Bowling green", "Library", "Gated entry"],
     summary:
@@ -644,7 +644,7 @@ export const communities: Community[] = [
     state: "SA",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 79,
     operatorSlug: "aspen-group",
     amenities: ["Clubhouse", "Pool room", "Gym", "Bocce court", "Library", "Gated entry"],
     summary:
@@ -659,7 +659,7 @@ export const communities: Community[] = [
     state: "SA",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 113,
     operatorSlug: "aspen-group",
     amenities: ["Clubhouse", "Swimming pool", "Community garden", "BBQ area", "Caravan storage", "Gated entry"],
     summary:
@@ -674,7 +674,7 @@ export const communities: Community[] = [
     state: "SA",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 181,
     operatorSlug: "aspen-group",
     amenities: [],
     summary:
@@ -704,7 +704,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 102,
     operatorSlug: "aspen-group",
     amenities: ["Clubhouse", "Community garden", "BBQ area", "Gated entry"],
     summary:
@@ -719,7 +719,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 50,
     operatorSlug: "aspen-group",
     amenities: ["Swimming pool", "Clubhouse", "Community garden", "Bowling green", "BBQ area", "Caravan storage", "Gated entry"],
     summary:
@@ -749,7 +749,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 365,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Infinity pool", "Indoor heated pool", "Gym", "Lawn bowls", "Bowling alley", "Cinema", "Library", "Bar"],
     summary:
@@ -764,7 +764,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 205,
     operatorSlug: "gemlife",
     amenities: ["Clubhouse", "Indoor heated pool", "Lounge"],
     summary:
@@ -779,7 +779,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 366,
     operatorSlug: "gemlife",
     amenities: ["Indoor heated pool", "Gym", "Country Club", "BBQ facilities", "Clubhouse"],
     summary:
@@ -794,7 +794,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 316,
     operatorSlug: "gemlife",
     amenities: ["Indoor heated pool", "Lawn bowls", "Bowling alley", "Tennis court", "Billiards room", "Country Club"],
     summary:
@@ -809,7 +809,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 625,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Lounge bar", "Billiards room", "Tenpin bowling", "Outdoor pool", "Walking trails"],
     summary:
@@ -824,7 +824,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 404,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Indoor heated pool", "Bowling alley", "Cinema", "Gym", "Lounge areas"],
     summary:
@@ -839,7 +839,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 276,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Indoor heated pool", "Cinema", "Bar and lounge"],
     summary:
@@ -854,7 +854,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 335,
     operatorSlug: "gemlife",
     amenities: ["Waterfront clubhouse", "Walking and cycling trails", "Country Club", "Private tidal lake"],
     summary:
@@ -869,7 +869,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 437,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Indoor heated pool", "Outdoor resort pool and spa", "Cinema", "Library", "Bar", "Marina access"],
     summary:
@@ -884,7 +884,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 282,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Pet-friendly", "Gated entry", "Shared recreational spaces"],
     summary:
@@ -899,7 +899,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 251,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Walking trails"],
     summary:
@@ -914,7 +914,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 246,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Indoor heated pool", "Outdoor resort pool and spa", "Bowling alley", "Gym", "Bar"],
     summary:
@@ -929,7 +929,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 96,
     operatorSlug: "gemlife",
     amenities: ["Country Club with rooftop bar", "Indoor heated and outdoor pools", "Lawn bowls", "Library", "BBQ facilities"],
     summary:
@@ -944,7 +944,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 204,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Indoor heated pool", "Lawn bowls", "Bowling alley", "Tennis court", "Golf simulator", "Sauna", "Bar"],
     summary:
@@ -959,7 +959,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 205,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "205 apartments planned"],
     summary:
@@ -974,7 +974,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 232,
     operatorSlug: "gemlife",
     amenities: ["Country Club"],
     summary:
@@ -989,7 +989,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 96,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Rooftop pool", "Tenpin bowling", "Cinema", "Gym", "Library", "Lawn bowls", "Golf simulator"],
     summary:
@@ -1019,7 +1019,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 245,
     operatorSlug: "gemlife",
     amenities: ["Country Club", "Indoor heated pool", "Cinema", "Gym", "Library", "Tenpin bowling", "BBQ facilities"],
     summary:
@@ -1034,7 +1034,7 @@ export const communities: Community[] = [
     state: "SA",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 262,
     operatorSlug: "gemlife",
     amenities: ["Country Club planned", "262 homes planned"],
     summary:
@@ -1169,7 +1169,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 178,
     operatorSlug: "hometown-australia",
     amenities: ["Clubhouse", "Swimming pool", "Boat and caravan storage"],
     summary:
@@ -1259,7 +1259,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 151,
     operatorSlug: "hometown-australia",
     amenities: ["Swimming pool", "Bowling green", "Sports bar and cinema"],
     summary:
@@ -1439,7 +1439,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 52,
     operatorSlug: "hometown-australia",
     amenities: ["Swimming pool", "Tennis court", "Beach access"],
     summary:
@@ -1454,7 +1454,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 196,
     operatorSlug: "hometown-australia",
     amenities: ["Heated indoor pool", "Gym and wellness centre", "Cinema"],
     summary:
@@ -1754,7 +1754,7 @@ export const communities: Community[] = [
     state: "SA",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 181,
     operatorSlug: "hometown-australia",
     amenities: ["Wellness centre with gym and pool", "Bowling green", "Community vegetable garden"],
     summary:
@@ -1799,7 +1799,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 219,
     operatorSlug: "hometown-australia",
     amenities: ["Indoor heated swimming pool", "Bowling green", "Clubhouse"],
     summary:
@@ -1979,7 +1979,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 258,
     operatorSlug: "hometown-australia",
     amenities: ["Swimming pool", "Clubhouse", "Community bus", "Boat and caravan storage"],
     summary:
@@ -1994,7 +1994,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 116,
     operatorSlug: "ingenia-communities",
     amenities: ["Swimming pool", "Lake waterfront access"],
     summary:
@@ -2009,7 +2009,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 127,
     operatorSlug: "ingenia-communities",
     amenities: ["Lakefront location", "Pet-friendly"],
     summary:
@@ -2024,7 +2024,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 115,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style facilities", "Community gathering spaces", "Landscaped gardens"],
     summary:
@@ -2039,7 +2039,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 191,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style pool", "Bowling green", "Gym", "Clubhouse"],
     summary:
@@ -2054,7 +2054,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 278,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style facilities", "River views"],
     summary:
@@ -2084,7 +2084,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 54,
     operatorSlug: "ingenia-communities",
     amenities: ["Two clubhouses", "Outdoor pool", "Cinema", "Lawn bowls", "Golf putting green"],
     summary:
@@ -2099,7 +2099,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 270,
     operatorSlug: "ingenia-communities",
     amenities: ["Clubhouse", "Indoor and outdoor pools", "Gym, spa and sauna", "Bowling green"],
     summary:
@@ -2114,7 +2114,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 72,
     operatorSlug: "ingenia-communities",
     amenities: ["Infinity-edge lap pool", "Wellness club", "Lawn bowling green", "Lakeside clubhouse"],
     summary:
@@ -2144,7 +2144,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 150,
     operatorSlug: "ingenia-communities",
     amenities: ["Riverside location", "Social engagement programs"],
     summary:
@@ -2159,7 +2159,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 228,
     operatorSlug: "ingenia-communities",
     amenities: ["Community facilities (being renewed)"],
     summary:
@@ -2174,7 +2174,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 322,
     operatorSlug: "ingenia-communities",
     amenities: ["Swimming pool", "Lawn bowls", "Community lounge and dining"],
     summary:
@@ -2189,7 +2189,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 561,
     operatorSlug: "ingenia-communities",
     amenities: ["Community bar", "Bowling green", "Workshop", "Dog park"],
     summary:
@@ -2204,7 +2204,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 167,
     operatorSlug: "ingenia-communities",
     amenities: ["Indoor and outdoor pools", "Country Club", "Bowling greens", "Gym"],
     summary:
@@ -2219,7 +2219,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 91,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style pool and spa", "Pickleball courts", "Bowling green"],
     summary:
@@ -2234,7 +2234,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 440,
     operatorSlug: "ingenia-communities",
     amenities: ["Country Club", "Indoor and outdoor pools", "Lawn bowling green", "Tennis courts"],
     summary:
@@ -2264,7 +2264,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 125,
     operatorSlug: "ingenia-communities",
     amenities: ["Country Club", "River House", "Two Country Club precincts"],
     summary:
@@ -2279,7 +2279,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 321,
     operatorSlug: "ingenia-communities",
     amenities: ["Two clubhouses", "Resort-style pool with spa", "River waterfront access"],
     summary:
@@ -2294,7 +2294,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 667,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style pool", "Mini golf", "Games room", "Walking paths"],
     summary:
@@ -2309,7 +2309,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 269,
     operatorSlug: "ingenia-communities",
     amenities: ["Magnesium pool with heated spa", "Clubhouse with bar", "Cinema and bowling green"],
     summary:
@@ -2324,7 +2324,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 225,
     operatorSlug: "ingenia-communities",
     amenities: ["Heated magnesium pool and spa", "Cinema", "Bowling green", "Golf simulator"],
     summary:
@@ -2339,7 +2339,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 372,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style clubhouse", "Outdoor pool", "Gated entry"],
     summary:
@@ -2354,7 +2354,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 300,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style heated pool and spa", "Cinema", "Bowling green", "Tennis courts", "Gym"],
     summary:
@@ -2369,7 +2369,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 330,
     operatorSlug: "ingenia-communities",
     amenities: ["Heated magnesium lap pool", "Tennis and pickleball", "Lawn bowling green"],
     summary:
@@ -2399,7 +2399,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 141,
     operatorSlug: "ingenia-communities",
     amenities: ["Heated indoor pool", "Cinema", "Library", "Clubhouse with yoga studio"],
     summary:
@@ -2414,7 +2414,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 363,
     operatorSlug: "ingenia-communities",
     amenities: ["Resort-style clubhouse", "Indoor lawn bowls", "Golf simulator", "Community garden"],
     summary:
@@ -2429,7 +2429,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 166,
     operatorSlug: "ingenia-communities",
     amenities: ["Indoor heated pool (planned)", "Homestead-style clubhouse (planned)", "Pickleball court"],
     summary:
@@ -2489,7 +2489,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 450,
     operatorSlug: "lincoln-place",
     amenities: ["Heated swimming pool", "Lawn bowls green", "Pickleball courts", "Clubhouse and wellness centre"],
     summary:
@@ -2504,7 +2504,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 325,
     operatorSlug: "lincoln-place",
     amenities: ["Bowling green", "Golf simulator", "Outdoor pool", "Wellness centre"],
     summary:
@@ -2519,7 +2519,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 209,
     operatorSlug: "lincoln-place",
     amenities: ["Heated indoor pool", "Bowling green", "Pickleball court", "Gym and wellness centre"],
     summary:
@@ -2549,7 +2549,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 206,
     operatorSlug: "lincoln-place",
     amenities: ["Competition-sized bowls green", "Pickleball courts", "Outdoor dining pavilion"],
     summary:
@@ -2564,7 +2564,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 128,
     operatorSlug: "lincoln-place",
     amenities: ["Wellness centre with pool", "Bowling green", "Pickleball court", "Gym"],
     summary:
@@ -2579,7 +2579,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 96,
     operatorSlug: "lincoln-place",
     amenities: ["Indoor heated pool", "Bowling green", "Clubhouse with games room", "Gym"],
     summary:
@@ -2609,7 +2609,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 232,
     operatorSlug: "lincoln-place",
     amenities: ["Heated indoor swimming pool", "Bowling green and pickleball courts", "Wellness centre"],
     summary:
@@ -2624,7 +2624,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 115,
     operatorSlug: "lincoln-place",
     amenities: ["Bowling green", "Golf buggy zone", "Clubhouse", "Beach access"],
     summary:
@@ -2639,7 +2639,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 165,
     operatorSlug: "lincoln-place",
     amenities: ["Bowling green", "Outdoor pool", "Gym", "Community clubhouse"],
     summary:
@@ -2699,7 +2699,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 23,
     operatorSlug: "lincoln-place",
     amenities: ["Outdoor swimming pool", "Clubhouse with community kitchen", "Community garden"],
     summary:
@@ -2714,7 +2714,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 158,
     operatorSlug: "lincoln-place",
     amenities: ["Bowling green and pickleball court", "Indoor pool and gym", "Community bus"],
     summary:
@@ -2729,7 +2729,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 345,
     operatorSlug: "lincoln-place",
     amenities: ["Bowling green", "Gym", "Outdoor pool", "Clubhouse and community garden"],
     summary:
@@ -2744,7 +2744,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 96,
     operatorSlug: "lincoln-place",
     amenities: ["Clubhouse", "Community garden", "BBQ area", "Dog park"],
     summary:
@@ -2759,7 +2759,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 223,
     operatorSlug: "lincoln-place",
     amenities: ["Bowling green and outdoor pool", "Pickleball and sports pavilion", "Community garden"],
     summary:
@@ -2909,7 +2909,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 422,
     operatorSlug: "liven-communities",
     amenities: ["Wellness club with heated pool and sauna", "Sports courts", "Grand pavilion"],
     summary:
@@ -2924,7 +2924,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 167,
     operatorSlug: "serenitas",
     amenities: ["Clubhouse", "resort facilities", "pet-friendly grounds"],
     summary:
@@ -3041,7 +3041,7 @@ export const communities: Community[] = [
     state: "WA",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 400,
     operatorSlug: "serenitas",
     amenities: ["35+ facilities including bowling green", "tennis", "indoor/outdoor heated pools", "spa", "sports bar", "cinema", "RV/caravan storage"],
     summary:
@@ -3080,7 +3080,7 @@ export const communities: Community[] = [
     state: "WA",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 380,
     operatorSlug: "serenitas",
     amenities: ["Heated indoor pool", "gym and sauna", "bowls green", "arts centre and clubhouse", "caravan and boat storage", "village bus", "vegetable garden"],
     summary:
@@ -3315,7 +3315,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 350,
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools and saunas", "wellness spaces", "cinema and bar", "pickleball courts", "bowling green", "creative arts courtyard"],
     summary:
@@ -3328,7 +3328,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 536,
     operatorSlug: "stockland-halcyon",
     amenities: ["Proximity to Stockland Shoreline", "cafes and dining", "Redland Bay Shopping Village", "medical centres", "and coastal parks"],
     summary:
@@ -3341,7 +3341,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 175,
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-quality clubhouse", "mineral salt pools", "saunas", "wellness spaces", "cinema", "bar", "pickleball courts", "walking paths"],
     summary:
@@ -3354,7 +3354,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 212,
     operatorSlug: "stockland-halcyon",
     amenities: ["Clubhouse with resort-style facilities", "pickleball courts", "lawn bowls", "dining and entertainment areas"],
     summary:
@@ -3367,7 +3367,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 318,
     operatorSlug: "stockland-halcyon",
     amenities: ["Future clubhouse overlooking green spine and lake", "weekly social activities", "central green spine", "secure gated environment"],
     priceFrom: "$805,900",
@@ -3381,7 +3381,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 295,
     operatorSlug: "stockland-halcyon",
     amenities: ["Gold class cinema", "dining facilities", "bowling greens", "pickleball courts", "Homestead and Stables precincts"],
     summary:
@@ -3394,7 +3394,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 217,
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-inspired mineral salt pools", "saunas", "wellness spaces", "gym", "bowls green", "cinema and bar", "pickleball courts"],
     summary:
@@ -3407,7 +3407,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 345,
     operatorSlug: "stockland-halcyon",
     amenities: ["Exclusive clubhouse with bowling green and pickleball courts", "swimming pool", "community cafe", "walking trails", "conservation areas"],
     summary:
@@ -3420,7 +3420,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 500,
     operatorSlug: "stockland-halcyon",
     amenities: ["18-hole championship golf course access", "heated indoor pool", "tennis and pickleball courts", "resort-style leisure club", "library"],
     summary:
@@ -3433,7 +3433,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 240,
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinemas", "bars", "pickleball courts", "clubhouse facilities"],
     priceFrom: "$599,000",
@@ -3447,7 +3447,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 234,
     operatorSlug: "stockland-halcyon",
     amenities: ["$14.5M resort-quality clubhouse", "secure gated community", "proximity to shopping centres", "golf clubs", "and beaches"],
     summary:
@@ -3460,7 +3460,7 @@ export const communities: Community[] = [
     state: "WA",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 153,
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-style facilities and social spaces", "pickleball courts", "community function rooms", "proximity to shopping and medical facilities"],
     summary:
@@ -3487,7 +3487,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 231,
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-style pool", "mineral salt pools", "saunas", "wellness spaces", "cinema", "pickleball courts", "lawn bowls green", "6km of walking trails"],
     summary:
@@ -3500,7 +3500,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 171,
     operatorSlug: "stockland-halcyon",
     amenities: ["Recreation centre with pool table", "community garden", "bowling green", "mineral salt pools and saunas", "wellness spaces", "cinema", "bar", "pickleball courts"],
     summary:
@@ -3513,7 +3513,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 370,
     operatorSlug: "stockland-halcyon",
     amenities: ["Central clubhouse with leisure and social spaces", "200+km of connected walking and cycling paths", "swimming pool", "pickleball courts"],
     summary:
@@ -3526,7 +3526,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 171,
     operatorSlug: "stockland-halcyon",
     amenities: ["36-acre natural parklands with a flora and fauna-filled lake", "bowling green"],
     summary:
@@ -3552,7 +3552,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 410,
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-style social", "leisure and sporting precincts", "gated community with state-of-the-art design"],
     summary:
@@ -3565,7 +3565,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 254,
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools and saunas", "wellness spaces", "cinema and bar facilities", "pickleball courts"],
     summary:
@@ -3578,7 +3578,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 333,
     operatorSlug: "stockland-halcyon",
     amenities: ["BBQ pavilion", "gold-class cinema", "pickleball courts", "riverfront parkland along Logan River", "clubhouse with dining area"],
     summary:
@@ -3591,7 +3591,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 250,
     operatorSlug: "stockland-halcyon",
     amenities: ["The Lodge", "clubhouse", "resort-quality facilities", "nature corridor", "gated community"],
     summary:
@@ -3604,7 +3604,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 161,
     operatorSlug: "stockland-halcyon",
     amenities: ["25-metre heated magnesium pool", "vibrant clubhouse with bar and dining", "elevated terrace homes", "conservation land access"],
     summary:
@@ -3617,7 +3617,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 227,
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinema and bar", "pickleball and tennis courts", "100 acres of lakefront parklands"],
     summary:
@@ -3630,7 +3630,7 @@ export const communities: Community[] = [
     state: "WA",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 228,
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinema and bar facilities", "pickleball courts", "Display Village with five styled homes"],
     summary:
@@ -3643,7 +3643,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 250,
     operatorSlug: "stockland-halcyon",
     amenities: ["Clubhouse with firepit", "proximity to Yandina Medical Clinic", "Yandina Markets", "and Yandina Bowls Club"],
     summary:
@@ -3864,7 +3864,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 180,
     operatorSlug: "palm-lake-resort",
     amenities: ["Pinnacle Country Club", "8-rink undercover bowling green", "infinity edge pool", "indoor and outdoor pools", "tennis precinct", "9-hole putt putt", "gymnasium", "sauna"],
     summary:
@@ -3981,7 +3981,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0,
+    homeCount: 78,
     operatorSlug: "palm-lake-resort",
     amenities: ["Heated magnesium swimming pool and spa", "yoga studio", "gymnasium", "movie theatre", "golf simulator", "art studio", "gated secure living"],
     summary:
@@ -3994,7 +3994,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0,
+    homeCount: 195,
     operatorSlug: "palm-lake-resort",
     amenities: ["Heated indoor swimming pool and spa", "3-lane ten-pin bowling alley", "8-rink undercover bowling green", "gymnasium", "luxury cinema", "yoga studio", "pickleball courts", "billiards room"],
     priceFrom: "$745,000",

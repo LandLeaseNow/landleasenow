@@ -35,7 +35,7 @@ export default function CommunityCard({ community }: { community: Community }) {
         <p className="mt-3 text-sm text-ink/80">{community.summary}</p>
 
         <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink/60">
-          <span>{community.homeCount} homes</span>
+          {community.homeCount > 0 && <span>{community.homeCount} homes</span>}
           <span>{community.type}</span>
           {operator && <span>{operator.name}</span>}
           {community.priceFrom && <span>From {community.priceFrom}</span>}

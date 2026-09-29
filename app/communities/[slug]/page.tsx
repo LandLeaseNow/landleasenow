@@ -47,10 +47,12 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
               <dt className="text-ink/50">Home type</dt>
               <dd className="font-medium">{community.type}</dd>
             </div>
-            <div>
-              <dt className="text-ink/50">Homes</dt>
-              <dd className="font-medium">{community.homeCount}</dd>
-            </div>
+            {community.homeCount > 0 && (
+              <div>
+                <dt className="text-ink/50">Homes</dt>
+                <dd className="font-medium">{community.homeCount}</dd>
+              </div>
+            )}
             {community.priceFrom && (
               <div>
                 <dt className="text-ink/50">Price from</dt>
