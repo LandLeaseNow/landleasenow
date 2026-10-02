@@ -92,7 +92,7 @@ export default function CommunityMapSection({
           id="map-operator-filter"
           value={operatorSlug}
           onChange={(e) => setOperatorSlug(e.target.value)}
-          className="rounded-sm border border-eucalypt/15 bg-card px-3 py-2 text-sm font-medium text-ink/80 hover:text-ink"
+          className="rounded-sm border border-eucalypt/15 bg-card px-3 py-2 text-center text-sm font-medium text-ink/80 hover:text-ink"
         >
           <option value={ALL_OPERATORS}>All Operators</option>
           {sortedOperators.map((op) => (
