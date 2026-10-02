@@ -55,14 +55,14 @@ export default function CommunityMapSection({
   return (
     <section className="container-page pb-16">
       <div className="flex flex-wrap items-end justify-between gap-4">
-        <h2 className="font-serif text-3xl text-ink">See where communities are located</h2>
+        <h2 className="font-serif text-3xl text-ink">Communities on the map</h2>
         <Link href="/map" className="text-sm text-eucalypt hover:underline">
           Open full map →
         </Link>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
-        <div className="inline-flex rounded-sm border border-eucalypt/15 bg-card p-1 text-xs font-medium">
+        <div className="inline-flex rounded-sm border border-eucalypt/15 bg-card p-1 text-sm font-medium">
           {FILTERS.map((f) => {
             const color = colorFor(f);
             const active = f === filter;
@@ -75,7 +75,7 @@ export default function CommunityMapSection({
                   backgroundColor: active ? (color ?? "#000000") : undefined,
                   color: active ? "#ffffff" : color
                 }}
-                className={`whitespace-nowrap rounded-sm px-3 py-1.5 transition-colors hover:opacity-80 ${
+                className={`whitespace-nowrap rounded-sm px-3 py-2 transition-colors hover:opacity-80 ${
                   !color && !active ? "text-ink/60 hover:text-ink hover:opacity-100" : ""
                 }`}
               >
@@ -92,9 +92,9 @@ export default function CommunityMapSection({
           id="map-operator-filter"
           value={operatorSlug}
           onChange={(e) => setOperatorSlug(e.target.value)}
-          className="rounded-sm border border-eucalypt/15 bg-card px-3 py-2 text-xs font-medium text-ink/80 hover:text-ink"
+          className="rounded-sm border border-eucalypt/15 bg-card px-3 py-2 text-center text-sm font-medium text-ink/80 hover:text-ink"
         >
-          <option value={ALL_OPERATORS}>All operators</option>
+          <option value={ALL_OPERATORS}>All Operators</option>
           {sortedOperators.map((op) => (
             <option key={op.slug} value={op.slug}>
               {op.name} ({op.communityCount})
@@ -106,7 +106,7 @@ export default function CommunityMapSection({
           <button
             type="button"
             onClick={() => setOperatorSlug(ALL_OPERATORS)}
-            className="text-xs text-ink/50 underline underline-offset-2 hover:text-ink"
+            className="text-sm text-ink/60 underline underline-offset-2 hover:text-ink"
           >
             Clear operator
           </button>
