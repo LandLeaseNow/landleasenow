@@ -70,6 +70,16 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
               </div>
             )}
           </dl>
+
+          <div className="mt-6 border-t border-eucalypt/10 pt-4 text-sm">
+            <p className="text-ink/70">Are you the operator?</p>
+            <Link
+              href={`/claim?community=${community.slug}`}
+              className="mt-1 inline-block font-medium text-eucalypt underline underline-offset-2 hover:text-eucalypt-light"
+            >
+              Claim this community →
+            </Link>
+          </div>
         </aside>
       </div>
     </div>
