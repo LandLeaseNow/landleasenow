@@ -94,7 +94,7 @@ export default function CommunityMapSection({
           onChange={(e) => setOperatorSlug(e.target.value)}
           className="rounded-sm border border-eucalypt/15 bg-card px-3 py-2 text-xs font-medium text-ink/80 hover:text-ink"
         >
-          <option value={ALL_OPERATORS}>All operators</option>
+          <option value={ALL_OPERATORS}>All Operators</option>
           {sortedOperators.map((op) => (
             <option key={op.slug} value={op.slug}>
               {op.name} ({op.communityCount})

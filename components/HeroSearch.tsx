@@ -123,7 +123,7 @@ export default function HeroSearch({ mode }: { mode: Mode }) {
           name="q"
           type="text"
           placeholder={isPurchaser ? "Suburb, town or region" : "Operator, suburb or state"}
-          className="w-full min-w-0 flex-1 rounded-sm border border-eucalypt/10 bg-card px-4 py-3 text-base text-ink shadow-sm placeholder:text-ink/55 focus:outline-none focus:ring-1 focus:ring-ink/30 sm:min-w-[220px]"
+          className="w-full min-w-0 flex-1 rounded-sm border border-eucalypt/10 bg-card px-4 py-3 text-base text-ink shadow-sm placeholder:text-ink/75 focus:outline-none focus:ring-1 focus:ring-ink/30 sm:min-w-[220px]"
         />
 
         {isPurchaser ? (
