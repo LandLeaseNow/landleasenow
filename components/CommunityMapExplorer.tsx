@@ -139,7 +139,7 @@ export default function CommunityMapExplorer({
             type="button"
             onClick={() => setPanelOpen((open) => !open)}
             aria-expanded={panelOpen}
-            className="inline-flex items-center gap-2 rounded-sm bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-800"
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-sm bg-black px-8 text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
           >
             Filter
             {advancedFilterCount > 0 && (
@@ -150,7 +150,7 @@ export default function CommunityMapExplorer({
           </button>
 
           {panelOpen && (
-            <div className="absolute right-0 z-20 mt-2 w-72 rounded-sm bg-black p-4 text-white shadow-lg">
+            <div className="absolute right-0 z-[1100] mt-2 w-72 rounded-sm bg-black p-4 text-white shadow-lg">
               <div>
                 <label htmlFor="map-filter-state" className="block text-xs uppercase tracking-wide text-white/60">
                   State
