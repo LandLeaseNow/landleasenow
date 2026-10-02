@@ -71,7 +71,7 @@ export const operators: Operator[] = [
     name: "Lifestyle Communities",
     description:
       "ASX-listed, Melbourne-based operator focused entirely on Victoria, running dozens of land lease communities for people aged over 50 under a standard 90-year land lease model.",
-    communityCount: 3,
+    communityCount: 26,
     listed: true
   },
   {
@@ -385,27 +385,29 @@ export const communities: Community[] = [
     suburb: "Cowes",
     state: "VIC",
     type: "Over-50s",
-    status: "Under Development",
+    status: "Selling Now",
     homeCount: 260,
     operatorSlug: "lifestyle-communities",
-    amenities: ["Clubhouse", "Shared boat access", "Beach proximity"],
+    amenities: ["Indoor pool", "Sauna", "Gym", "Golf simulator", "Cinema", "Billiards", "Pickleball court", "Croquet court", "Culinary kitchen"],
+    priceFrom: "$610,000",
     summary:
       "A Phillip Island community close to the Cowes town centre and beach, part of Lifestyle Communities' Club Lifestyle program offering shared recreational boats.",
-    lat: -38.4478,
-    lng: 145.2394
+    lat: -38.4560789,
+    lng: 145.2001312
   },
   {
     slug: "lifestyle-st-leonards",
-    name: "Lifestyle St Leonards",
+    name: "Lifestyle St Leonards – The Shores",
     suburb: "St Leonards",
     state: "VIC",
     type: "Over-50s",
-    status: "Under Development",
+    status: "Selling Now",
     homeCount: 170,
     operatorSlug: "lifestyle-communities",
-    amenities: ["Beachside location", "Community clubhouse"],
+    amenities: ["Sauna", "Gym", "Indoor pool", "Billiards", "Pilates", "Library"],
+    priceFrom: "$499,000",
     summary:
-      "An expansion of Lifestyle Communities' existing St Leonards community on the Bellarine Peninsula, adding a second site nearby.",
+      "A newer stage of Lifestyle Communities' St Leonards development on the Bellarine Peninsula, adjoining its earlier The Waves stage.",
     lat: -38.1879795,
     lng: 144.7013767
   },
@@ -423,6 +425,371 @@ export const communities: Community[] = [
       "A future community within the master-planned Merrifield precinct in Melbourne's north, extending Lifestyle Communities' presence in the growth corridor.",
     lat: -37.5667,
     lng: 144.9333
+  },
+  {
+    slug: "lifestyle-bellarine",
+    name: "Lifestyle Bellarine",
+    suburb: "Leopold",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Outdoor pool", "Indoor pool", "Sauna", "Alfresco", "Lounge", "Chip & putt", "Private beach"],
+    priceFrom: "$799,000",
+    summary:
+      "A coastal Lifestyle Communities village on the Bellarine Peninsula near Leopold, set on around 100 acres with private beach access.",
+    lat: -38.1746337,
+    lng: 144.4629455
+  },
+  {
+    slug: "lifestyle-berwick-waters",
+    name: "Lifestyle Berwick Waters",
+    suburb: "Clyde North",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Gym", "Indoor pool and spa", "Pickleball court", "Tennis court"],
+    priceFrom: "$500,000",
+    summary:
+      "A Lifestyle Communities village in Clyde North, part of the fast-growing south-east Melbourne corridor.",
+    lat: -38.0824527,
+    lng: 145.3663642
+  },
+  {
+    slug: "lifestyle-bittern",
+    name: "Lifestyle Bittern",
+    suburb: "Bittern",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Community garden", "Croquet court", "Indoor pool and spa", "Library", "Outdoor pool"],
+    summary:
+      "A Lifestyle Communities village on the Mornington Peninsula at Bittern, now fully sold with a waitlist for resales.",
+    lat: -38.332843,
+    lng: 145.1750101
+  },
+  {
+    slug: "lifestyle-brookfield",
+    name: "Lifestyle Brookfield",
+    suburb: "Melton",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Community kitchen", "Gym", "Indoor pool and spa", "Library", "Private cinema", "Putting green", "Workshop"],
+    priceFrom: "$310,000",
+    summary:
+      "Lifestyle Communities' first-ever village, located in Melton alongside Arnold's Creek.",
+    lat: -37.6924829,
+    lng: 144.5658887
+  },
+  {
+    slug: "lifestyle-casey-fields",
+    name: "Lifestyle Casey Fields",
+    suburb: "Cranbourne East",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Lounge", "Indoor pool", "Tennis court", "Gym"],
+    priceFrom: "$530,000",
+    summary:
+      "A Lifestyle Communities village minutes from central Cranbourne in Melbourne's south-east.",
+    lat: -38.1204711,
+    lng: 145.290371
+  },
+  {
+    slug: "lifestyle-chelsea-heights",
+    name: "Lifestyle Chelsea Heights",
+    suburb: "Chelsea Heights",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Indoor pool", "Library", "Outdoor pool", "Workshop"],
+    priceFrom: "$750,000",
+    summary:
+      "A Lifestyle Communities village near Edithvale Beach in Melbourne's bayside south-east.",
+    lat: -38.0311408,
+    lng: 145.1352686
+  },
+  {
+    slug: "lifestyle-deanside",
+    name: "Lifestyle Deanside",
+    suburb: "Deanside",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Indoor pool", "Cinema", "Billiards", "Library", "Outdoor BBQ", "Makers' studio", "Gym"],
+    priceFrom: "$490,000",
+    summary:
+      "A Lifestyle Communities village near Caroline Springs, Keilor and Taylors Lakes in Melbourne's west.",
+    lat: -37.7195343,
+    lng: 144.7073943
+  },
+  {
+    slug: "lifestyle-geelong",
+    name: "Lifestyle Geelong",
+    suburb: "Bell Park",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Gym", "Indoor pool and spa", "Library", "Tennis court", "Workshop"],
+    priceFrom: "$375,000",
+    summary:
+      "A Lifestyle Communities village in Bell Park, close to Geelong's CBD and sporting precincts.",
+    lat: -38.1029772,
+    lng: 144.3359914
+  },
+  {
+    slug: "lifestyle-hastings",
+    name: "Lifestyle Hastings",
+    suburb: "Hastings",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Conservation area", "Indoor pool and spa", "Library", "Gym"],
+    priceFrom: "$460,000",
+    summary:
+      "A coastal Lifestyle Communities village on the Mornington Peninsula at Hastings.",
+    lat: -38.3050211,
+    lng: 145.1752483
+  },
+  {
+    slug: "lifestyle-kaduna-park",
+    name: "Lifestyle Kaduna Park",
+    suburb: "Officer South",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Croquet court", "Gym", "Indoor pool and spa", "Pickleball court", "Workshop"],
+    priceFrom: "$480,000",
+    summary:
+      "A Lifestyle Communities village in Officer South, south-east Melbourne.",
+    lat: -38.0896518,
+    lng: 145.4259131
+  },
+  {
+    slug: "lifestyle-lyndarum",
+    name: "Lifestyle Lyndarum",
+    suburb: "Wollert",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Gym", "Indoor pool and spa", "Tennis court", "Workshop"],
+    priceFrom: "$430,000",
+    summary:
+      "A Lifestyle Communities village in Lyndarum, near Epping North in Melbourne's north.",
+    lat: -37.6136904,
+    lng: 145.0283409
+  },
+  {
+    slug: "lifestyle-meridian",
+    name: "Lifestyle Meridian",
+    suburb: "Clyde North",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Outdoor pool", "Indoor pool", "Bowling green", "Billiards", "Gym", "Pickleball court", "Lounge"],
+    priceFrom: "$580,000",
+    summary:
+      "A Lifestyle Communities village in the centre of the growing Clyde North area.",
+    lat: -38.102635,
+    lng: 145.3548112
+  },
+  {
+    slug: "lifestyle-mount-duneed",
+    name: "Lifestyle Mount Duneed",
+    suburb: "Mount Duneed",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Croquet court", "Gym", "Indoor pool", "Library", "Pickleball court", "Workshop"],
+    priceFrom: "$685,000",
+    summary:
+      "A Lifestyle Communities village between Geelong and the Bellarine Peninsula at Mount Duneed.",
+    lat: -38.2169354,
+    lng: 144.3195479
+  },
+  {
+    slug: "lifestyle-ocean-grove",
+    name: "Lifestyle Ocean Grove",
+    suburb: "Ocean Grove",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Croquet court", "Gym", "Indoor pool", "Library", "Outdoor pool", "Pickleball court", "Pizza oven"],
+    summary:
+      "A Lifestyle Communities village in the coastal town of Ocean Grove on the Bellarine Peninsula, now fully sold with a waitlist for resales.",
+    lat: -38.2466807,
+    lng: 144.5436696
+  },
+  {
+    slug: "lifestyle-officer",
+    name: "Lifestyle Officer",
+    suburb: "Officer",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bocce court", "Cinema", "Gym", "Indoor pool and spa", "Library", "Workshop"],
+    priceFrom: "$475,000",
+    summary:
+      "A Lifestyle Communities village in Officer, south-east Melbourne, with streets named after racing identities.",
+    lat: -38.0651777,
+    lng: 145.3953094
+  },
+  {
+    slug: "lifestyle-ridgelea",
+    name: "Lifestyle Ridgelea",
+    suburb: "Nar Nar Goon",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Indoor pool and spa", "Pickleball court", "Reformer Pilates", "Infrared sauna", "Private cinema", "Gym", "Lounge", "Private dining"],
+    priceFrom: "$499,000",
+    summary:
+      "A newer Lifestyle Communities village marketed as Pakenham East, with a premium amenity offering including reformer Pilates and an infrared sauna.",
+    lat: -38.0727384,
+    lng: 145.5210895
+  },
+  {
+    slug: "lifestyle-riverfield",
+    name: "Lifestyle Riverfield",
+    suburb: "Clyde",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards room", "Private cinema", "Indoor pool and spa", "Outdoor cinema and firepit", "Infrared sauna", "Reformer Pilates", "Lounge"],
+    priceFrom: "$659,000",
+    summary:
+      "A newer Lifestyle Communities village in Clyde, south-east Melbourne, with a gold-class private cinema and outdoor firepit.",
+    lat: -38.1334844,
+    lng: 145.3652068
+  },
+  {
+    slug: "lifestyle-seasons",
+    name: "Lifestyle Seasons",
+    suburb: "Tarneit",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Cinema", "Electric car", "Gym", "Indoor pool and spa", "Library"],
+    priceFrom: "$369,000",
+    summary:
+      "A Lifestyle Communities village in the heart of Tarneit, Melbourne's west.",
+    lat: -37.8442388,
+    lng: 144.6899484
+  },
+  {
+    slug: "lifestyle-shepparton",
+    name: "Lifestyle Shepparton",
+    suburb: "Shepparton",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Bowling green", "Cinema", "Outdoor pool", "Indoor pool and spa", "Outdoor gym", "Croquet court", "Tennis court"],
+    priceFrom: "$325,000",
+    summary:
+      "A Lifestyle Communities village in regional Shepparton, offering country-style amenities including a croquet court.",
+    lat: -36.4041588,
+    lng: 145.4166155
+  },
+  {
+    slug: "lifestyle-st-leonards-the-waves",
+    name: "Lifestyle St Leonards – The Waves",
+    suburb: "St Leonards",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Outdoor pool", "Indoor pool and spa", "Croquet court", "Billiards", "Bowling green", "Library", "Lounge"],
+    priceFrom: "$525,000",
+    summary:
+      "A Lifestyle Communities village on the Bellarine Peninsula at St Leonards, one of two adjoining stages at this seaside location.",
+    lat: -38.1844667,
+    lng: 144.701986
+  },
+  {
+    slug: "lifestyle-warragul",
+    name: "Lifestyle Warragul",
+    suburb: "Warragul",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Billiards", "Bowling green", "Gym", "Indoor pool and spa", "Library", "Tennis court", "Workshop"],
+    summary:
+      "A Lifestyle Communities village in regional Warragul, Gippsland, now fully sold with a waitlist for resales.",
+    lat: -38.1679022,
+    lng: 145.9138898
+  },
+  {
+    slug: "lifestyle-wollert",
+    name: "Lifestyle Wollert",
+    suburb: "Wollert",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Bowling green", "Croquet court", "Gym", "Indoor pool and spa", "Library", "Outdoor pool", "Pickleball court"],
+    priceFrom: "$480,000",
+    summary:
+      "A Lifestyle Communities village in Wollert, on Melbourne's northern growth corridor.",
+    lat: -37.6025353,
+    lng: 144.9794738
+  },
+  {
+    slug: "lifestyle-woodlea",
+    name: "Lifestyle Woodlea",
+    suburb: "Aintree",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 0,
+    operatorSlug: "lifestyle-communities",
+    amenities: ["Private cinema", "Indoor pool and spa", "Billiards", "Gym", "Alfresco BBQ area", "Pickleball", "Golf simulator"],
+    priceFrom: "$535,000",
+    summary:
+      "A newer Lifestyle Communities village in Aintree, between Melton and Caroline Springs.",
+    lat: -37.7234923,
+    lng: 144.6741302
   },
   {
     slug: "oasis-redhead",
