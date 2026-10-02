@@ -72,7 +72,7 @@ export default function CommunitiesPage({
         {searchParams.type ? ` · ${searchParams.type}` : ""}
       </p>
 
-      <div className="mt-6 flex flex-wrap gap-2">
+      <div className="mt-6 inline-flex rounded-sm border border-eucalypt/15 bg-card p-1 text-sm font-medium">
         {TYPE_FILTERS.map((filter) => {
           const isActive = (searchParams.type ?? "") === (filter.value ?? "");
           return (
@@ -81,8 +81,8 @@ export default function CommunitiesPage({
               href={buildTypeHref(searchParams, filter.value)}
               className={
                 isActive
-                  ? "rounded-sm bg-black px-4 py-2 text-sm font-medium text-white"
-                  : "rounded-sm border border-eucalypt/15 px-4 py-2 text-sm text-ink/70 hover:border-eucalypt/40 hover:text-ink"
+                  ? "whitespace-nowrap rounded-sm bg-black px-4 py-2 text-white"
+                  : "whitespace-nowrap rounded-sm px-4 py-2 text-ink/70 hover:text-ink"
               }
             >
               {filter.label}
