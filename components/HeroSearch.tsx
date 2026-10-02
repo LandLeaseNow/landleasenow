@@ -106,14 +106,14 @@ export default function HeroSearch({ mode }: { mode: Mode }) {
 
   return (
     <div>
-      <p className="text-xs font-semibold uppercase tracking-wide text-ink/70">
+      <p className="text-base font-bold uppercase tracking-wide text-ink">
         {isPurchaser ? "Looking for a community?" : "Researching the sector?"}
       </p>
 
       <form
         action="/communities"
         method="GET"
-        className="mt-2 flex flex-col gap-3 sm:flex-row"
+        className="mt-3 flex flex-col gap-3 sm:flex-row"
       >
         <label htmlFor="hero-search" className="sr-only">
           {isPurchaser ? "Search by suburb, town or region" : "Search by operator, suburb or state"}
