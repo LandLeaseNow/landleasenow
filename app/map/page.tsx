@@ -18,7 +18,7 @@ export default function MapPage() {
   return (
     <div className="container-page py-12">
       <p className="text-xs uppercase tracking-wide text-brass-dark">Search by location</p>
-      <h1 className="mt-2 font-serif text-3xl text-ink">Communities on the map</h1>
+      <h1 className="mt-2 font-serif text-3xl text-ink">See where communities are located</h1>
       <p className="mt-3 max-w-2xl text-sm text-ink/70">
         {locatedCount} of {communities.length} communities are plotted below using approximate
         town-centre coordinates. Click a marker for details, or use the directory pages for
