@@ -25,7 +25,7 @@ export default function HomePage() {
 
       <section className="container-page py-16">
         <div className="flex items-end justify-between">
-          <h2 className="font-serif text-3xl text-eucalypt">Featured communities</h2>
+          <h2 className="font-serif text-3xl text-eucalypt">Explore communities</h2>
           <Link href="/communities" className="text-sm text-eucalypt hover:underline">
             View all →
           </Link>
