@@ -139,7 +139,7 @@ export default function CommunityMapExplorer({
             type="button"
             onClick={() => setPanelOpen((open) => !open)}
             aria-expanded={panelOpen}
-            className="inline-flex h-11 items-center justify-center gap-2 rounded-sm bg-black px-8 text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-sm bg-black px-12 text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
           >
             Filter
             {advancedFilterCount > 0 && (
