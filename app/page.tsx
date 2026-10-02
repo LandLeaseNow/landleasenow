@@ -37,7 +37,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <CommunityMapSection communities={communities} />
+      <CommunityMapSection communities={communities} operators={operators} />
 
       <section className="bg-sand-light py-16">
         <div className="container-page grid gap-12 md:grid-cols-2">
