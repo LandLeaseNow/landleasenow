@@ -65,7 +65,7 @@ export default function CommunitiesPage({
 
   return (
     <div className="container-page py-12">
-      <h1 className="font-serif text-3xl text-eucalypt">All communities</h1>
+      <h1 className="font-serif text-3xl text-eucalypt">Communities</h1>
       <p className="mt-2 text-ink/60 text-sm">
         {filtered.length} of {communities.length} communities shown
         {searchParams.q ? ` · matching "${searchParams.q}"` : ""}

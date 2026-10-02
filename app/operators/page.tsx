@@ -36,7 +36,7 @@ export default function OperatorsPage({
       </p>
 
       <div className="mt-6">
-        <div className="inline-flex rounded-sm border border-eucalypt/15 bg-card p-1 text-xs font-medium">
+        <div className="inline-flex rounded-sm border border-eucalypt/15 bg-card p-1 text-sm font-medium">
           {FILTERS.map((filter) => {
             const isActive = filter === activeFilter;
             return (
@@ -45,8 +45,8 @@ export default function OperatorsPage({
                 href={buildHref(filter)}
                 className={
                   isActive
-                    ? "whitespace-nowrap rounded-sm bg-black px-3 py-1.5 text-white"
-                    : "whitespace-nowrap rounded-sm px-3 py-1.5 text-ink/60 hover:text-ink"
+                    ? "whitespace-nowrap rounded-sm bg-black px-4 py-2 text-white"
+                    : "whitespace-nowrap rounded-sm px-4 py-2 text-ink/60 hover:text-ink"
                 }
               >
                 {filter}
