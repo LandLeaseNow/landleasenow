@@ -212,8 +212,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse with pool", "Gym and sauna", "Putting green", "Pickleball courts"],
     summary:
       "A boutique over-55s community under construction on the NSW Mid North Coast, planned for 133 homes with a resident clubhouse precinct.",
-    lat: -32.362,
-    lng: 152.542
+    lat: -32.3416725,
+    lng: 152.5256418
   },
   {
     slug: "ingenia-lifestyle-springside",
@@ -227,8 +227,8 @@ export const communities: Community[] = [
     amenities: ["Heated indoor pool", "Gym and yoga studio", "Cinema", "Library"],
     summary:
       "A staged community around 37km north of Melbourne's CBD, with homes progressively completing and a clubhouse and wellness precinct under construction.",
-    lat: -37.383,
-    lng: 144.965
+    lat: -37.47181,
+    lng: 144.9603669
   },
   {
     slug: "archers-run",
@@ -242,8 +242,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style clubhouse", "Swimming pool", "Community facilities"],
     summary:
       "Ingenia's largest land lease community, developed in joint venture with Sun Communities on the NSW Central Coast, planned to exceed 600 homes.",
-    lat: -33.098,
-    lng: 151.478
+    lat: -33.115221,
+    lng: 151.4783416
   },
   {
     slug: "stockland-halcyon-gables",
@@ -332,8 +332,8 @@ export const communities: Community[] = [
     amenities: ["Community facilities (being refurbished)"],
     summary:
       "An Ipswich rental community expanding from its existing rental and land lease homes to 106 residences as part of an $11 million upgrade.",
-    lat: -27.6112,
-    lng: 152.7469
+    lat: -27.5799139,
+    lng: 152.7195249
   },
   {
     slug: "kingaroy-rental-village",
@@ -362,13 +362,13 @@ export const communities: Community[] = [
     amenities: ["Country club", "Swimming pool", "Bowls green"],
     summary:
       "One of GemLife's original Queensland communities north of Brisbane, spanning almost 25 hectares with resort-style facilities for over-50s homeowners.",
-    lat: -27.0667,
-    lng: 153.15
+    lat: -27.0814621,
+    lng: 153.1666759
   },
   {
     slug: "gemlife-on-dean",
     name: "GemLife on Dean",
-    suburb: "Rockhampton",
+    suburb: "Berserker",
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
@@ -377,8 +377,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Community facilities"],
     summary:
       "A boutique regional Queensland community rebranded from Aliria after GemLife's 2025 acquisition, with first residents settling from September 2025.",
-    lat: -23.3791,
-    lng: 150.51
+    lat: -23.3567535,
+    lng: 150.535926
   },
   {
     slug: "gemlife-new-gisborne",
@@ -392,8 +392,8 @@ export const communities: Community[] = [
     amenities: ["Cinema", "Café and dining area", "Swimming pool", "Library"],
     summary:
       "A heritage-inspired community in Victoria's Macedon Ranges, GemLife's second in the area after GemLife Woodend, with construction underway.",
-    lat: -37.4667,
-    lng: 144.5833
+    lat: -37.4619404,
+    lng: 144.5884726
   },
   {
     slug: "lifestyle-phillip-island",
@@ -422,8 +422,8 @@ export const communities: Community[] = [
     amenities: ["Beachside location", "Community clubhouse"],
     summary:
       "An expansion of Lifestyle Communities' existing St Leonards community on the Bellarine Peninsula, adding a second site nearby.",
-    lat: -38.1167,
-    lng: 144.7667
+    lat: -38.1879795,
+    lng: 144.7013767
   },
   {
     slug: "lifestyle-merrifield",
@@ -452,8 +452,8 @@ export const communities: Community[] = [
     amenities: ["Outdoor pool and spa", "Gym and sauna", "Clubhouse with cinema"],
     summary:
       "A Lake Macquarie community being completed in stages after Hometown Australia's acquisition from Oasis Communities, with most homes already occupied.",
-    lat: -33.0167,
-    lng: 151.6167
+    lat: -33.0175846,
+    lng: 151.6902607
   },
   {
     slug: "green-wattle-villages",
@@ -482,8 +482,8 @@ export const communities: Community[] = [
     amenities: ["Lake Macquarie region location"],
     summary:
       "A greenfield Central Coast community approved for 58 homes, acquired by Hometown Australia as part of the Oasis Communities portfolio.",
-    lat: -33.2167,
-    lng: 151.5667
+    lat: -33.196881,
+    lng: 151.5823041
   },
   {
     slug: "palm-lake-resort-pelican-waters",
@@ -497,8 +497,8 @@ export const communities: Community[] = [
     amenities: ["Country club with wellness centre", "Bowling green", "Pool deck", "Cinema"],
     summary:
       "A Sunshine Coast resort built around a large new country club precinct, with more than 70 homeowners already settled ahead of full completion.",
-    lat: -26.8167,
-    lng: 153.1167
+    lat: -26.8375942,
+    lng: 153.0894064
   },
   {
     slug: "palm-lake-resort-bargara",
@@ -512,8 +512,8 @@ export const communities: Community[] = [
     amenities: ["Heated indoor and outdoor pools", "Tenpin bowling", "Gym", "Sauna and spa"],
     summary:
       "Set for a further 116-home expansion that will make it Palm Lake Group's largest resort, on the Bundaberg region's Coral Coast.",
-    lat: -24.8167,
-    lng: 152.4667
+    lat: -24.8491355,
+    lng: 152.4667082
   },
   {
     slug: "palm-lake-resort-forster-lakes",
@@ -527,8 +527,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Tennis courts", "Recreation clubhouse", "Waterfront setting"],
     summary:
       "A Mid North Coast waterfront community, still under construction, positioned near the Belleair Country Club precinct.",
-    lat: -32.1833,
-    lng: 152.5167
+    lat: -32.2219863,
+    lng: 152.5373259
   },
   {
     slug: "living-gems-moreton-bay",
@@ -578,7 +578,7 @@ export const communities: Community[] = [
   {
     slug: "lake-joondalup-lifestyle-village",
     name: "Lake Joondalup Lifestyle Village",
-    suburb: "Joondalup",
+    suburb: "Ashby",
     state: "WA",
     type: "Over-50s",
     status: "Established",
@@ -587,8 +587,8 @@ export const communities: Community[] = [
     amenities: ["Community facilities"],
     summary:
       "An established, fully occupied Perth community and one of Serenitas' original Western Australian lifestyle villages.",
-    lat: -31.7433,
-    lng: 115.7669
+    lat: -31.7366331,
+    lng: 115.7938742
   },
   {
     slug: "the-vantage-lifestyle-resort",
@@ -602,8 +602,8 @@ export const communities: Community[] = [
     amenities: ["Community facilities"],
     summary:
       "An established South West WA community near Busselton, neighboured by a new Serenitas site acquired from Stockland Halcyon.",
-    lat: -33.6667,
-    lng: 115.3333
+    lat: -33.6739189,
+    lng: 115.2461756
   },
   {
     slug: "thyme-lifestyle-resort-hervey-bay",
@@ -617,8 +617,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse (new, under construction)", "Coastal location"],
     summary:
       "Serenitas' first Queensland development under its Thyme Lifestyle brand, still adding homes and a new multimillion-dollar clubhouse.",
-    lat: -25.29,
-    lng: 152.7833
+    lat: -25.2833352,
+    lng: 152.8000213
   },
   {
     slug: "meadowbrooke",
@@ -782,8 +782,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Infinity pool", "Indoor heated pool", "Gym", "Lawn bowls", "Bowling alley", "Cinema", "Library", "Bar"],
     summary:
       "A flagship over-50s resort community in Pimpama with a three-storey Country Club, close to Gold Coast beaches and Surfers Paradise.",
-    lat: -27.8167,
-    lng: 153.3167
+    lat: -27.813034,
+    lng: 153.2924068
   },
   {
     slug: "gemlife-cotswold-hills",
@@ -797,8 +797,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Indoor heated pool", "Lounge"],
     summary:
       "An over-50s resort community in the Toowoomba highlands, close to shopping, dining and healthcare services.",
-    lat: -27.55,
-    lng: 151.9
+    lat: -27.5155012,
+    lng: 151.8851486
   },
   {
     slug: "gemlife-highfields-heights",
@@ -812,8 +812,8 @@ export const communities: Community[] = [
     amenities: ["Indoor heated pool", "Gym", "Country Club", "BBQ facilities", "Clubhouse"],
     summary:
       "An over-50s resort community near Toowoomba backing onto a scenic nature reserve in the Great Dividing Range.",
-    lat: -27.4667,
-    lng: 151.95
+    lat: -27.4521262,
+    lng: 151.9226914
   },
   {
     slug: "gemlife-highfields",
@@ -827,8 +827,8 @@ export const communities: Community[] = [
     amenities: ["Indoor heated pool", "Lawn bowls", "Bowling alley", "Tennis court", "Billiards room", "Country Club"],
     summary:
       "An over-50s resort community in Toowoomba's northern region, with access to regional parks, gardens and wineries.",
-    lat: -27.4667,
-    lng: 151.95
+    lat: -27.452616,
+    lng: 151.9398244
   },
   {
     slug: "gemlife-moreton-bay",
@@ -842,8 +842,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Lounge bar", "Billiards room", "Tenpin bowling", "Outdoor pool", "Walking trails"],
     summary:
       "An over-50s resort community set around private lakes and parklands near Deception Bay Conservation Park, close to Redcliffe and Scarborough.",
-    lat: -27.15,
-    lng: 152.95
+    lat: -27.1595374,
+    lng: 153.0054159
   },
   {
     slug: "gemlife-elimbah",
@@ -857,8 +857,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Bowling alley", "Cinema", "Gym", "Lounge areas"],
     summary:
       "An over-50s resort community in the Moreton Bay region between Bribie Island, Brisbane and the Sunshine Coast.",
-    lat: -27.0333,
-    lng: 152.9333
+    lat: -27.0437623,
+    lng: 152.9711547
   },
   {
     slug: "gemlife-kilcoy-greens",
@@ -872,8 +872,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Cinema", "Bar and lounge"],
     summary:
       "An over-50s resort community between Brisbane and the Sunshine Coast, set around a central lake with mountain views.",
-    lat: -26.95,
-    lng: 152.5667
+    lat: -26.9417863,
+    lng: 152.545297
   },
   {
     slug: "gemlife-beachmere-waterfront",
@@ -887,8 +887,8 @@ export const communities: Community[] = [
     amenities: ["Waterfront clubhouse", "Walking and cycling trails", "Country Club", "Private tidal lake"],
     summary:
       "A waterfront over-50s resort community under development in the Greater Moreton Bay region, close to Caboolture and Bribie Island.",
-    lat: -27.1167,
-    lng: 153.0333
+    lat: -27.1344912,
+    lng: 153.0443814
   },
   {
     slug: "gemlife-lighthouse-bay",
@@ -902,8 +902,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Outdoor resort pool and spa", "Cinema", "Library", "Bar", "Marina access"],
     summary:
       "A coastal over-50s resort community in Bundaberg with marina access, close to Bargara and Mon Repos beaches.",
-    lat: -24.7667,
-    lng: 152.3833
+    lat: -24.7690826,
+    lng: 152.404596
   },
   {
     slug: "gemlife-logan-grove",
@@ -917,8 +917,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Pet-friendly", "Gated entry", "Shared recreational spaces"],
     summary:
       "A secure, gated and pet-friendly over-50s resort community in southeast Queensland, close to Brisbane and the Gold Coast.",
-    lat: -27.6333,
-    lng: 153.1167
+    lat: -27.7212759,
+    lng: 153.0820245
   },
   {
     slug: "gemlife-glass-house-mountains",
@@ -932,8 +932,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Walking trails"],
     summary:
       "An over-50s resort community under development in the Sunshine Coast Hinterland, bordered by a macadamia plantation with mountain views.",
-    lat: -26.8833,
-    lng: 152.95
+    lat: -26.8961072,
+    lng: 152.9459678
   },
   {
     slug: "gemlife-maroochy-quays",
@@ -947,8 +947,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Outdoor resort pool and spa", "Bowling alley", "Gym", "Bar"],
     summary:
       "A waterfront over-50s resort community between the Maroochy River and Eudlo Creek Nature Reserve on the Sunshine Coast.",
-    lat: -26.65,
-    lng: 153.1
+    lat: -26.655823,
+    lng: 153.0541606
   },
   {
     slug: "gemlife-pacific-paradise",
@@ -962,8 +962,8 @@ export const communities: Community[] = [
     amenities: ["Country Club with rooftop bar", "Indoor heated and outdoor pools", "Lawn bowls", "Library", "BBQ facilities"],
     summary:
       "An over-50s resort community 6km from central Maroochydore, built around an $11.2 million Country Club.",
-    lat: -26.6333,
-    lng: 153.0833
+    lat: -26.6137244,
+    lng: 153.0787155
   },
   {
     slug: "gemlife-palmwoods",
@@ -977,8 +977,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Lawn bowls", "Bowling alley", "Tennis court", "Golf simulator", "Sauna", "Bar"],
     summary:
       "An over-50s resort community in the Sunshine Coast hinterland surrounded by rainforest views and the Blackall Range.",
-    lat: -26.6833,
-    lng: 152.95
+    lat: -26.7039802,
+    lng: 152.9380771
   },
   {
     slug: "gemlife-currumbin-waters",
@@ -992,8 +992,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "205 apartments planned"],
     summary:
       "A planned over-50s resort on the southern Gold Coast featuring land lease apartments, close to beaches and Gold Coast Airport.",
-    lat: -28.1667,
-    lng: 153.4667
+    lat: -28.1433718,
+    lng: 153.4593197
   },
   {
     slug: "gemlife-shoal-point",
@@ -1007,8 +1007,8 @@ export const communities: Community[] = [
     amenities: ["Country Club"],
     summary:
       "A planned over-50s resort community in Mackay's Northern Beaches, 1km from Bucasia Beach.",
-    lat: -21.0166,
-    lng: 149.1422
+    lat: -21.0129292,
+    lng: 149.1498256
   },
   {
     slug: "gemlife-tweed-waters",
@@ -1037,8 +1037,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Tenpin bowling", "Cinema", "Gym", "Library", "Lawn bowls", "Golf simulator"],
     summary:
       "An over-50s resort community in coastal Lake Cathie near Port Macquarie, close to beaches and wineries.",
-    lat: -31.5667,
-    lng: 152.85
+    lat: -31.562745,
+    lng: 152.8269811
   },
   {
     slug: "gemlife-woodend",
@@ -1052,8 +1052,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor heated pool", "Cinema", "Gym", "Library", "Tenpin bowling", "BBQ facilities"],
     summary:
       "An over-50s resort community in Victoria's Macedon Ranges, balancing country living with access to Melbourne.",
-    lat: -37.35,
-    lng: 144.5333
+    lat: -37.3638504,
+    lng: 144.5456682
   },
   {
     slug: "gemlife-strathalbyn",
@@ -1067,8 +1067,8 @@ export const communities: Community[] = [
     amenities: ["Country Club planned", "262 homes planned"],
     summary:
       "GemLife's first planned South Australian resort, in the historic township of Strathalbyn near the Adelaide Hills and Fleurieu Peninsula.",
-    lat: -35.2667,
-    lng: 138.8833
+    lat: -35.2616014,
+    lng: 138.8898441
   },
   {
     slug: "lakeside-forster",
@@ -1532,8 +1532,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Craft room", "Community garden and library"],
     summary:
       "An over-50s lifestyle community in northwest Sydney with active social clubs.",
-    lat: -33.7167,
-    lng: 150.9167
+    lat: -33.7221018,
+    lng: 150.9267344
   },
   {
     slug: "nepean-shores",
@@ -1592,8 +1592,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Library"],
     summary:
       "An established over-50s beachside community on Nine Mile Beach in Redhead.",
-    lat: -33.0,
-    lng: 151.7167
+    lat: -33.0155892,
+    lng: 151.7012075
   },
   {
     slug: "orianna",
@@ -1607,8 +1607,8 @@ export const communities: Community[] = [
     amenities: ["Heated swimming pool", "Clubhouse", "Community bus"],
     summary:
       "A master-planned over-50s lifestyle community in Moreton Bay.",
-    lat: -27.05,
-    lng: 153.05
+    lat: -27.0718037,
+    lng: 153.1356252
   },
   {
     slug: "parkside",
@@ -1622,8 +1622,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Bowling green"],
     summary:
       "An exclusive master-planned over-55s land lease community in coastal Yamba.",
-    lat: -29.4333,
-    lng: 153.35
+    lat: -29.4288567,
+    lng: 153.3297176
   },
   {
     slug: "red-gum",
@@ -1637,8 +1637,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Bowling green"],
     summary:
       "An over-55s lifestyle community on the Gold Coast near natural reserves and beaches.",
-    lat: -27.9333,
-    lng: 153.3833
+    lat: -27.9030342,
+    lng: 153.3828851
   },
   {
     slug: "redbank-palms",
@@ -1652,8 +1652,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Bowling green", "Community bus", "Boat and caravan storage"],
     summary:
       "An established over-55s lifestyle community near Brisbane.",
-    lat: -27.6333,
-    lng: 152.8667
+    lat: -27.6172509,
+    lng: 152.8729645
   },
   {
     slug: "redlands",
@@ -1667,8 +1667,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Lawn bowls green", "Vegetable garden"],
     summary:
       "An over-50s lifestyle community in bayside Birkdale, 30 minutes from Brisbane CBD.",
-    lat: -27.5167,
-    lng: 153.2333
+    lat: -27.4974866,
+    lng: 153.2177326
   },
   {
     slug: "regal-waters",
@@ -1697,8 +1697,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Boat and caravan storage"],
     summary:
       "A well-established over-55s community on the Brisbane River banks in Goodna.",
-    lat: -27.6167,
-    lng: 152.9
+    lat: -27.5972438,
+    lng: 152.8888762
   },
   {
     slug: "riverside",
@@ -1712,8 +1712,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Community bus", "BBQ area"],
     summary:
       "An over-50s lifestyle community on the Evans River in Northern NSW.",
-    lat: -29.1167,
-    lng: 153.4333
+    lat: -29.0976629,
+    lng: 153.4062594
   },
   {
     slug: "rosetta",
@@ -1727,8 +1727,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Boat and caravan storage", "Hair and beauty salon"],
     summary:
       "A 40-acre established over-50s community near Encounter Bay.",
-    lat: -35.5667,
-    lng: 138.6167
+    lat: -35.5571521,
+    lng: 138.5996804
   },
   {
     slug: "sanctuary",
@@ -1742,8 +1742,8 @@ export const communities: Community[] = [
     amenities: ["Two swimming pools", "Tennis court", "Indoor bowls room"],
     summary:
       "A seaside over-55s lifestyle community near Lennox Head's beaches.",
-    lat: -28.7833,
-    lng: 153.6
+    lat: -28.7867389,
+    lng: 153.5705973
   },
   {
     slug: "sandy-shores",
@@ -1757,8 +1757,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Proximity to Birubi Beach and Nelson Bay"],
     summary:
       "A master-planned over-50s lifestyle community in Port Stephens.",
-    lat: -32.7167,
-    lng: 152.1167
+    lat: -32.7172016,
+    lng: 152.0725117
   },
   {
     slug: "sea-winds",
@@ -1772,8 +1772,8 @@ export const communities: Community[] = [
     amenities: ["Three swimming pools", "Clubhouse", "Tennis court"],
     summary:
       "A well-established over-50s community on the Tomaree Peninsula in Port Stephens.",
-    lat: -32.7833,
-    lng: 152.0833
+    lat: -32.7606573,
+    lng: 152.1057443
   },
   {
     slug: "seachange",
@@ -1787,8 +1787,8 @@ export const communities: Community[] = [
     amenities: ["Wellness centre with gym and pool", "Bowling green", "Community vegetable garden"],
     summary:
       "A coastal over-50s community on the Fleurieu Peninsula where the Murray River meets the Southern Ocean, about an hour from Adelaide.",
-    lat: -35.5,
-    lng: 138.7833
+    lat: -35.5023876,
+    lng: 138.7740528
   },
   {
     slug: "snappy-gums",
@@ -1802,8 +1802,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Boat and caravan storage"],
     summary:
       "An over-50s bushland community near Conjola National Park.",
-    lat: -35.15,
-    lng: 150.55
+    lat: -35.1647612,
+    lng: 150.578956
   },
   {
     slug: "suncoast",
@@ -1817,8 +1817,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Community areas"],
     summary:
       "An over-50s coastal community combining beach access and bushland surroundings.",
-    lat: -35.35,
-    lng: 150.4667
+    lat: -35.3584722,
+    lng: 150.4740189
   },
   {
     slug: "suncrest",
@@ -1832,8 +1832,8 @@ export const communities: Community[] = [
     amenities: ["Indoor heated swimming pool", "Bowling green", "Clubhouse"],
     summary:
       "A well-established over-50s community in Coombabah on the Gold Coast.",
-    lat: -27.9333,
-    lng: 153.3833
+    lat: -27.8998914,
+    lng: 153.3850191
   },
   {
     slug: "sunrise",
@@ -1847,8 +1847,8 @@ export const communities: Community[] = [
     amenities: ["Two swimming pools and wellness centre", "Clubhouse", "Boat and caravan storage"],
     summary:
       "A resort-style over-55s community in Port Stephens between beaches and countryside.",
-    lat: -32.7167,
-    lng: 152.15
+    lat: -32.7696535,
+    lng: 152.0701151
   },
   {
     slug: "tamarind-place",
@@ -1862,8 +1862,8 @@ export const communities: Community[] = [
     amenities: ["Gym, pool and spa", "Cinema and library", "Lawn bowls"],
     summary:
       "A planned residential community on the Capricorn Coast near the Fitzroy River.",
-    lat: -23.3667,
-    lng: 150.5333
+    lat: -23.3423814,
+    lng: 150.5252565
   },
   {
     slug: "taskers",
@@ -1877,8 +1877,8 @@ export const communities: Community[] = [
     amenities: ["Beach access", "Hastings River access", "BBQ areas"],
     summary:
       "An established over-50s coastal community at the mouth of the Hastings River.",
-    lat: -31.4333,
-    lng: 152.9167
+    lat: -31.4458074,
+    lng: 152.9251709
   },
   {
     slug: "teraglin-lakeshore",
@@ -1892,8 +1892,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Bowling green"],
     summary:
       "A 23-acre over-50s lakefront community on Lake Macquarie with a new clubhouse under construction.",
-    lat: -33.15,
-    lng: 151.5833
+    lat: -33.1726598,
+    lng: 151.5704836
   },
   {
     slug: "terrigal-sands",
@@ -1907,8 +1907,8 @@ export const communities: Community[] = [
     amenities: ["Beach access", "BBQ areas and community garden"],
     summary:
       "An established over-50s lifestyle community near Terrigal Beach on the Central Coast.",
-    lat: -33.45,
-    lng: 151.4333
+    lat: -33.4442212,
+    lng: 151.4253826
   },
   {
     slug: "the-dunes",
@@ -1922,8 +1922,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Tennis court"],
     summary:
       "A bushland-set over-50s community near Conjola National Park on the South Coast.",
-    lat: -35.15,
-    lng: 150.55
+    lat: -35.1647612,
+    lng: 150.578956
   },
   {
     slug: "the-pines",
@@ -1937,8 +1937,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Community bus"],
     summary:
       "An established over-50s lifestyle village alongside Hearnes Lake, within walking distance of the beach.",
-    lat: -30.1167,
-    lng: 153.2
+    lat: -30.1307392,
+    lng: 153.1948854
   },
   {
     slug: "the-retreat",
@@ -1952,8 +1952,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Bowling green", "Boat and caravan storage"],
     summary:
       "An established over-50s community in Port Macquarie among waterways and national parks.",
-    lat: -31.4333,
-    lng: 152.9167
+    lat: -31.4453237,
+    lng: 152.8746916
   },
   {
     slug: "the-sanctuary",
@@ -1967,8 +1967,8 @@ export const communities: Community[] = [
     amenities: ["Two swimming pools", "Bowling green", "Tennis court"],
     summary:
       "A 15-acre over-55s lifestyle community in the Lake Macquarie region, within walking distance of Redhead Beach.",
-    lat: -33.0,
-    lng: 151.7167
+    lat: -33.0182301,
+    lng: 151.6962965
   },
   {
     slug: "the-springs",
@@ -1982,8 +1982,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Bowling green", "Boat and caravan storage"],
     summary:
       "A master-planned over-50s community offering country-style living near Brisbane.",
-    lat: -27.7109,
-    lng: 153.0336
+    lat: -27.7091643,
+    lng: 153.0343704
   },
   {
     slug: "twin-cedars",
@@ -1997,8 +1997,8 @@ export const communities: Community[] = [
     amenities: ["Heated community pool and spa", "Woodworking room", "Community vegetable garden"],
     summary:
       "An established over-50s community in the Sunshine Coast hinterland near the Australia Zoo.",
-    lat: -26.9333,
-    lng: 152.95
+    lat: -26.9648246,
+    lng: 152.9604395
   },
   {
     slug: "valhalla",
@@ -2012,8 +2012,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Community bus", "Boat and caravan storage"],
     summary:
       "A 70-acre over-50s lifestyle community 450 metres from Lake Macquarie.",
-    lat: -33.15,
-    lng: 151.5833
+    lat: -33.1726598,
+    lng: 151.5704836
   },
   {
     slug: "ingenia-lifestyle-ettalong-beach",
@@ -2027,8 +2027,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Lake waterfront access"],
     summary:
       "A coastal over-55s community on Lake Munmorah's shores, close to shopping, medical facilities and bowling clubs.",
-    lat: -33.5167,
-    lng: 151.35
+    lat: -33.5109008,
+    lng: 151.336345
   },
   {
     slug: "ingenia-lifestyle-sunnylake-shores",
@@ -2042,8 +2042,8 @@ export const communities: Community[] = [
     amenities: ["Lakefront location", "Pet-friendly"],
     summary:
       "An over-55s lakeside community on Lake Munmorah with no exit fees and no stamp duty.",
-    lat: -33.2,
-    lng: 151.55
+    lat: -33.215651,
+    lng: 151.5505333
   },
   {
     slug: "ingenia-lifestyle-hunter-valley",
@@ -2057,8 +2057,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style facilities", "Community gathering spaces", "Landscaped gardens"],
     summary:
       "An over-55s lifestyle community in rural Cessnock in the Hunter Valley.",
-    lat: -32.8333,
-    lng: 151.35
+    lat: -32.8314697,
+    lng: 151.3460008
   },
   {
     slug: "ingenia-lifestyle-plantations",
@@ -2072,8 +2072,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style pool", "Bowling green", "Gym", "Clubhouse"],
     summary:
       "A beachside over-55s community near Coffs Harbour, with resort-style enhancements planned.",
-    lat: -30.1167,
-    lng: 153.2
+    lat: -30.1085211,
+    lng: 153.1841142
   },
   {
     slug: "ingenia-lifestyle-south-west-rocks",
@@ -2087,8 +2087,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style facilities", "River views"],
     summary:
       "An established over-55s community on the NSW North Coast with river and scenic views.",
-    lat: -30.8833,
-    lng: 153.0333
+    lat: -30.8897168,
+    lng: 153.0328127
   },
   {
     slug: "ingenia-lifestyle-anna-bay",
@@ -2102,8 +2102,8 @@ export const communities: Community[] = [
     amenities: ["Coastal surroundings", "Community spaces"],
     summary:
       "A new, smaller-scale over-55s coastal community coming to Anna Bay.",
-    lat: -32.7833,
-    lng: 152.0833
+    lat: -32.7695398,
+    lng: 152.0700844
   },
   {
     slug: "ingenia-lifestyle-element",
@@ -2117,8 +2117,8 @@ export const communities: Community[] = [
     amenities: ["Two clubhouses", "Outdoor pool", "Cinema", "Lawn bowls", "Golf putting green"],
     summary:
       "An over-55s community near Newcastle with two award-winning clubhouses; final 10 homes now selling.",
-    lat: -32.8333,
-    lng: 151.75
+    lat: -32.8570715,
+    lng: 151.8029686
   },
   {
     slug: "ingenia-lifestyle-latitude-one",
@@ -2132,8 +2132,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Indoor and outdoor pools", "Gym, spa and sauna", "Bowling green"],
     summary:
       "An award-winning over-55s community in Port Stephens, expanding with a second clubhouse due early 2027.",
-    lat: -32.7833,
-    lng: 152.0833
+    lat: -32.7695398,
+    lng: 152.0700844
   },
   {
     slug: "ingenia-lifestyle-natura",
@@ -2147,8 +2147,8 @@ export const communities: Community[] = [
     amenities: ["Infinity-edge lap pool", "Wellness club", "Lawn bowling green", "Lakeside clubhouse"],
     summary:
       "A lakeside over-55s community in Port Stephens, with final homes now selling.",
-    lat: -32.75,
-    lng: 152.05
+    lat: -32.7672159,
+    lng: 152.0388149
   },
   {
     slug: "ingenia-lifestyle-lake-conjola",
@@ -2162,8 +2162,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Billiards room", "Fitness centre", "Dining facilities"],
     summary:
       "A waterfront over-55s lifestyle community on the NSW South Coast.",
-    lat: -35.2667,
-    lng: 150.4769
+    lat: -35.2692823,
+    lng: 150.4789283
   },
   {
     slug: "ingenia-lifestyle-nepean-river",
@@ -2177,8 +2177,8 @@ export const communities: Community[] = [
     amenities: ["Riverside location", "Social engagement programs"],
     summary:
       "A 55+ lifestyle community on the Nepean River near the Blue Mountains foothills.",
-    lat: -33.75,
-    lng: 150.65
+    lat: -33.743789,
+    lng: 150.678471
   },
   {
     slug: "ingenia-lifestyle-stoney-creek",
@@ -2198,7 +2198,7 @@ export const communities: Community[] = [
   {
     slug: "ingenia-lifestyle-seagrove",
     name: "Ingenia Lifestyle Seagrove",
-    suburb: "Yeppoon",
+    suburb: "Taroomball",
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
@@ -2207,8 +2207,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Lawn bowls", "Community lounge and dining"],
     summary:
       "A resort-style over-55s community coming soon to Yeppoon.",
-    lat: -23.15,
-    lng: 150.75
+    lat: -23.1564085,
+    lng: 150.7516852
   },
   {
     slug: "ingenia-lifestyle-darlingview",
@@ -2222,13 +2222,13 @@ export const communities: Community[] = [
     amenities: ["Community bar", "Bowling green", "Workshop", "Dog park"],
     summary:
       "A new over-55s resort-style community 17km north of Toowoomba, with its first home release now selling.",
-    lat: -27.4667,
-    lng: 151.95
+    lat: -27.4431291,
+    lng: 151.9366475
   },
   {
     slug: "seachange-toowoomba",
     name: "Seachange Toowoomba",
-    suburb: "Toowoomba",
+    suburb: "Harristown",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -2237,8 +2237,8 @@ export const communities: Community[] = [
     amenities: ["Indoor and outdoor pools", "Country Club", "Bowling greens", "Gym"],
     summary:
       "A premium over-55s lifestyle community in Toowoomba with 5-star Country Club facilities.",
-    lat: -27.5667,
-    lng: 151.95
+    lat: -27.5698507,
+    lng: 151.9220147
   },
   {
     slug: "ingenia-lifestyle-millers-glen",
@@ -2252,8 +2252,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style pool and spa", "Pickleball courts", "Bowling green"],
     summary:
       "An over-50s lifestyle community in rural Beaudesert, with off-the-plan homes available.",
-    lat: -27.9833,
-    lng: 152.9833
+    lat: -27.9933139,
+    lng: 153.0113712
   },
   {
     slug: "seachange-arundel",
@@ -2267,8 +2267,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "Indoor and outdoor pools", "Lawn bowling green", "Tennis courts"],
     summary:
       "A gated over-55s resort-style community on the Gold Coast with a 5-star Country Club.",
-    lat: -27.9333,
-    lng: 153.3667
+    lat: -27.9457411,
+    lng: 153.3494615
   },
   {
     slug: "seachange-emerald-lakes",
@@ -2282,13 +2282,13 @@ export const communities: Community[] = [
     amenities: ["Heated indoor pool", "Resort-style outdoor pool", "Clubhouse", "Library"],
     summary:
       "A waterfront community of 126 homes on a 37-hectare lake, with golf buggy access to Emerald Lakes Town Centre.",
-    lat: -28.0,
-    lng: 153.3667
+    lat: -28.0161261,
+    lng: 153.381466
   },
   {
     slug: "seachange-riverside-coomera",
     name: "Seachange Riverside Coomera",
-    suburb: "Coomera",
+    suburb: "Upper Coomera",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -2297,8 +2297,8 @@ export const communities: Community[] = [
     amenities: ["Country Club", "River House", "Two Country Club precincts"],
     summary:
       "A boutique over-50s community on the Gold Coast with a five-star Country Club.",
-    lat: -27.85,
-    lng: 153.3
+    lat: -27.8493995,
+    lng: 153.3024639
   },
   {
     slug: "ingenia-lifestyle-bethania",
@@ -2327,8 +2327,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style pool", "Mini golf", "Games room", "Walking paths"],
     summary:
       "An over-55s lifestyle community between Brisbane and the Gold Coast.",
-    lat: -27.7167,
-    lng: 153.0833
+    lat: -27.7534041,
+    lng: 153.0916123
   },
   {
     slug: "ingenia-lifestyle-freshwater",
@@ -2342,8 +2342,8 @@ export const communities: Community[] = [
     amenities: ["Magnesium pool with heated spa", "Clubhouse with bar", "Cinema and bowling green"],
     summary:
       "An over-55s community in Brisbane's north with resort-style facilities.",
-    lat: -27.15,
-    lng: 152.95
+    lat: -27.164957,
+    lng: 152.9848674
   },
   {
     slug: "ingenia-lifestyle-sanctuary",
@@ -2357,8 +2357,8 @@ export const communities: Community[] = [
     amenities: ["Heated magnesium pool and spa", "Cinema", "Bowling green", "Golf simulator"],
     summary:
       "A bayside over-55s community near Brisbane, set in bushland.",
-    lat: -27.5833,
-    lng: 153.3
+    lat: -27.5843268,
+    lng: 153.2815502
   },
   {
     slug: "ingenia-lifestyle-k",
@@ -2372,13 +2372,13 @@ export const communities: Community[] = [
     amenities: ["Resort-style clubhouse", "Outdoor pool", "Gated entry"],
     summary:
       "An emerging over-50s community beneath Walsh's Pyramid in tropical North Queensland.",
-    lat: -17.1,
-    lng: 145.7833
+    lat: -17.0929149,
+    lng: 145.7862302
   },
   {
     slug: "ingenia-lifestyle-nature-s-edge",
     name: "Ingenia Lifestyle Nature's Edge",
-    suburb: "Buderim",
+    suburb: "Forest Glen",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -2387,13 +2387,13 @@ export const communities: Community[] = [
     amenities: ["Resort-style heated pool and spa", "Cinema", "Bowling green", "Tennis courts", "Gym"],
     summary:
       "A premium over-55s community in the Buderim foothills on the Sunshine Coast.",
-    lat: -26.6833,
-    lng: 153.05
+    lat: -26.6923393,
+    lng: 153.0085585
   },
   {
     slug: "ingenia-lifestyle-drift",
     name: "Ingenia Lifestyle Drift",
-    suburb: "Bargara",
+    suburb: "Innes Park",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -2402,8 +2402,8 @@ export const communities: Community[] = [
     amenities: ["Heated magnesium lap pool", "Tennis and pickleball", "Lawn bowling green"],
     summary:
       "An oceanfront over-55s community on Queensland's Coral Coast, with its main clubhouse opening in 2027.",
-    lat: -24.8333,
-    lng: 152.35
+    lat: -24.8531545,
+    lng: 152.4780121
   },
   {
     slug: "ingenia-lifestyle-hervey-bay",
@@ -2432,8 +2432,8 @@ export const communities: Community[] = [
     amenities: ["Heated indoor pool", "Cinema", "Library", "Clubhouse with yoga studio"],
     summary:
       "An over-55s community near Ballarat's city centre, with move-in-ready homes from $575,000.",
-    lat: -37.5333,
-    lng: 143.8333
+    lat: -37.5448952,
+    lng: 143.7763414
   },
   {
     slug: "ingenia-lifestyle-lakeside-lara",
@@ -2447,8 +2447,8 @@ export const communities: Community[] = [
     amenities: ["Resort-style clubhouse", "Indoor lawn bowls", "Golf simulator", "Community garden"],
     summary:
       "An over-55s community in Greater Geelong, with final homes from $529,000.",
-    lat: -38.0167,
-    lng: 144.4
+    lat: -38.0282976,
+    lng: 144.4264095
   },
   {
     slug: "ingenia-lifestyle-sunbury",
@@ -2462,8 +2462,8 @@ export const communities: Community[] = [
     amenities: ["Indoor heated pool (planned)", "Homestead-style clubhouse (planned)", "Pickleball court"],
     summary:
       "A newly launched over-55s community in Sunbury, with amenities under development.",
-    lat: -37.5833,
-    lng: 144.7167
+    lat: -37.5862039,
+    lng: 144.6932785
   },
   {
     slug: "lincoln-lifestyle-tamworth",
@@ -2477,8 +2477,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green", "Gym", "Indoor pool", "Pickleball courts", "Clubhouse", "Theatrette"],
     summary:
       "A forthcoming over-50s community near Tamworth, planned for 217 single-level homes.",
-    lat: -31.0667,
-    lng: 150.9167
+    lat: -31.0399427,
+    lng: 150.879213
   },
   {
     slug: "lincoln-lifestyle-moama",
@@ -2492,8 +2492,8 @@ export const communities: Community[] = [
     amenities: ["Heated indoor pool", "Bowling green", "Gym", "Theatrette"],
     summary:
       "A new riverside over-50s community adjacent to Rich River Golf Club, planned for 197 lots.",
-    lat: -36.1,
-    lng: 144.75
+    lat: -36.0806258,
+    lng: 144.7257479
   },
   {
     slug: "lincoln-lifestyle-wangaratta",
@@ -2507,8 +2507,8 @@ export const communities: Community[] = [
     amenities: ["Indoor pool", "Clubhouse and wellness centre", "Bowling green", "Community garden"],
     summary:
       "A new masterplanned over-50s land lease community in Northeast Victoria, planned for 227 homes.",
-    lat: -36.3667,
-    lng: 146.3833
+    lat: -36.3404069,
+    lng: 146.2491273
   },
   {
     slug: "lincoln-lifestyle-yeppoon",
@@ -2522,8 +2522,8 @@ export const communities: Community[] = [
     amenities: ["Heated swimming pool", "Lawn bowls green", "Pickleball courts", "Clubhouse and wellness centre"],
     summary:
       "An over-50s land lease community on the Capricorn Coast, planned for 400-450 homes.",
-    lat: -23.1333,
-    lng: 150.7333
+    lat: -23.1130653,
+    lng: 150.7258765
   },
   {
     slug: "lincoln-lifestyle-mackay",
@@ -2537,8 +2537,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green", "Golf simulator", "Outdoor pool", "Wellness centre"],
     summary:
       "A forthcoming over-50s community in coastal Queensland.",
-    lat: -21.2,
-    lng: 149.0667
+    lat: -21.1725491,
+    lng: 149.0574427
   },
   {
     slug: "lincoln-lifestyle-eagle-point",
@@ -2552,8 +2552,8 @@ export const communities: Community[] = [
     amenities: ["Heated indoor pool", "Bowling green", "Pickleball court", "Gym and wellness centre"],
     summary:
       "A new masterplanned over-50s community on the Gippsland Lakes.",
-    lat: -37.8667,
-    lng: 147.7167
+    lat: -37.8944156,
+    lng: 147.6793185
   },
   {
     slug: "lincoln-lifestyle-northern-beaches",
@@ -2567,8 +2567,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse with library and bar", "Gym", "Swimming pool", "Pickleball courts", "Bowling green"],
     summary:
       "Townsville's first over-50s land lease community, planned for 350 homes.",
-    lat: -19.1667,
-    lng: 146.6833
+    lat: -19.2196418,
+    lng: 146.6579846
   },
   {
     slug: "lincoln-lifestyle-mudgee-spring",
@@ -2582,8 +2582,8 @@ export const communities: Community[] = [
     amenities: ["Competition-sized bowls green", "Pickleball courts", "Outdoor dining pavilion"],
     summary:
       "A gated over-50s community in Mudgee, with Stage 1 over 60% sold.",
-    lat: -32.6183,
-    lng: 149.6069
+    lat: -32.6636354,
+    lng: 149.616043
   },
   {
     slug: "lincoln-lifestyle-griffith-hill",
@@ -2597,8 +2597,8 @@ export const communities: Community[] = [
     amenities: ["Wellness centre with pool", "Bowling green", "Pickleball court", "Gym"],
     summary:
       "A master-planned over-50s estate in the Riverina, with 4 homes remaining in Stage 2.",
-    lat: -34.2833,
-    lng: 146.05
+    lat: -34.2608178,
+    lng: 146.093374
   },
   {
     slug: "lincoln-lifestyle-baranduda",
@@ -2612,8 +2612,8 @@ export const communities: Community[] = [
     amenities: ["Indoor heated pool", "Bowling green", "Clubhouse with games room", "Gym"],
     summary:
       "An over-50s community near Albury-Wodonga, with Stage 3 over 60% sold.",
-    lat: -36.15,
-    lng: 146.9833
+    lat: -36.1703175,
+    lng: 146.9463845
   },
   {
     slug: "lincoln-lifestyle-northern-rivers",
@@ -2627,8 +2627,8 @@ export const communities: Community[] = [
     amenities: ["Competition-sized bowling green", "Pickleball courts", "Clubhouse and wellness centre"],
     summary:
       "A gated over-50s community on the NSW North Coast between Yamba and Maclean, planned for 250 homes.",
-    lat: -29.45,
-    lng: 153.2667
+    lat: -29.4885548,
+    lng: 153.2209445
   },
   {
     slug: "lincoln-lifestyle-huntly",
@@ -2642,8 +2642,8 @@ export const communities: Community[] = [
     amenities: ["Heated indoor swimming pool", "Bowling green and pickleball courts", "Wellness centre"],
     summary:
       "An over-50s land lease community minutes from Bendigo.",
-    lat: -36.65,
-    lng: 144.2833
+    lat: -36.665341,
+    lng: 144.3491701
   },
   {
     slug: "lincoln-lifestyle-eden-gardens",
@@ -2657,8 +2657,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green", "Golf buggy zone", "Clubhouse", "Beach access"],
     summary:
       "An over-50s coastal community on the Sapphire Coast.",
-    lat: -37.0667,
-    lng: 149.9
+    lat: -37.046707,
+    lng: 149.8931178
   },
   {
     slug: "campbell-lifestyle-estate",
@@ -2672,8 +2672,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green", "Outdoor pool", "Gym", "Community clubhouse"],
     summary:
       "A nearly sold-out over-50s community near Cessnock, with 3 homes remaining.",
-    lat: -32.8333,
-    lng: 151.35
+    lat: -32.8257279,
+    lng: 151.3611657
   },
   {
     slug: "portland-lifestyle-estate",
@@ -2687,8 +2687,8 @@ export const communities: Community[] = [
     amenities: ["Covered swimming pool", "Bowling green", "Clubhouse with theatrette"],
     summary:
       "A coastal over-50s community in Portland, planned for 119 homes next to Portland Golf Club.",
-    lat: -38.3333,
-    lng: 141.6
+    lat: -38.3697138,
+    lng: 141.6093356
   },
   {
     slug: "sundown-lifestyle-estate",
@@ -2702,8 +2702,8 @@ export const communities: Community[] = [
     amenities: ["Outdoor pool", "BBQ area", "Pet-friendly"],
     summary:
       "A sold-out over-50s independent living community 10 minutes from Canberra CBD.",
-    lat: -35.3667,
-    lng: 149.15
+    lat: -35.3488407,
+    lng: 149.1600894
   },
   {
     slug: "nambucca-river-lifestyle-estate",
@@ -2717,8 +2717,8 @@ export const communities: Community[] = [
     amenities: ["Boat ramp", "Bowling green", "Outdoor pool", "Community room"],
     summary:
       "A riverside over-50s community 10 minutes from Nambucca Heads, with 1 home remaining.",
-    lat: -30.7167,
-    lng: 152.9167
+    lat: -30.6896,
+    lng: 152.9446
   },
   {
     slug: "albury-gardens-lifestyle-estate",
@@ -2732,8 +2732,8 @@ export const communities: Community[] = [
     amenities: ["Outdoor swimming pool", "Clubhouse with community kitchen", "Community garden"],
     summary:
       "An over-50s independent living community near Albury.",
-    lat: -36.05,
-    lng: 146.9333
+    lat: -36.0419414,
+    lng: 146.9664682
   },
   {
     slug: "officer-lifestyle-estate",
@@ -2747,8 +2747,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green and pickleball court", "Indoor pool and gym", "Community bus"],
     summary:
       "An over-50s community in Melbourne's south-east, with 3 homes remaining.",
-    lat: -38.0833,
-    lng: 145.4167
+    lat: -38.0594915,
+    lng: 145.4211561
   },
   {
     slug: "lincoln-lifestyle-kangaroo-flat",
@@ -2762,8 +2762,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green", "Gym", "Outdoor pool", "Clubhouse and community garden"],
     summary:
       "A masterplanned over-50s community in regional Victoria near Bendigo.",
-    lat: -36.7833,
-    lng: 144.2333
+    lat: -36.8183256,
+    lng: 144.2351959
   },
   {
     slug: "blue-gum-lifestyle-estate",
@@ -2777,8 +2777,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Community garden", "BBQ area", "Dog park"],
     summary:
       "An over-50s community in Melbourne's southeast, with a newly opened clubhouse.",
-    lat: -38.05,
-    lng: 145.35
+    lat: -38.0652563,
+    lng: 145.3874377
   },
   {
     slug: "hunter-valley-lifestyle-estate",
@@ -2792,8 +2792,8 @@ export const communities: Community[] = [
     amenities: ["Bowling green and outdoor pool", "Pickleball and sports pavilion", "Community garden"],
     summary:
       "An over-50s community in the Hunter Valley, with fewer than 15 homes remaining.",
-    lat: -32.75,
-    lng: 151.4667
+    lat: -32.8211293,
+    lng: 151.418035
   },
   {
     slug: "chinderah-lakes-lifestyle-estate",
@@ -2807,8 +2807,8 @@ export const communities: Community[] = [
     amenities: ["Outdoor swimming pool", "BBQ area", "Caravan storage"],
     summary:
       "A sold-out over-50s riverside estate on the Tweed River, five minutes from Kingscliff.",
-    lat: -28.3333,
-    lng: 153.5167
+    lat: -28.2426082,
+    lng: 153.5494744
   },
   {
     slug: "tweed-shores-lifestyle-estate",
@@ -2822,8 +2822,8 @@ export const communities: Community[] = [
     amenities: ["Outdoor swimming pool", "BBQ area", "Caravan storage"],
     summary:
       "A sold-out over-50s land lease community on the Tweed River, five minutes from Kingscliff.",
-    lat: -28.3333,
-    lng: 153.5167
+    lat: -28.2423056,
+    lng: 153.5443034
   },
   {
     slug: "brookhaven-lifestyle-estate",
@@ -2837,8 +2837,8 @@ export const communities: Community[] = [
     amenities: ["Outdoor pool", "Community garden", "BBQ area", "Caravan storage"],
     summary:
       "A sold-out over-50s community 10 minutes south of Coffs Harbour.",
-    lat: -30.35,
-    lng: 153.0833
+    lat: -30.3648946,
+    lng: 153.0445579
   },
   {
     slug: "nambucca-heads-lifestyle-estate",
@@ -2852,8 +2852,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse, firepit and games room", "BBQ area", "Beach access"],
     summary:
       "An over-50s community next to Nambucca Heads Island Golf Club, with beach access.",
-    lat: -30.6333,
-    lng: 153.0
+    lat: -30.6557054,
+    lng: 152.9882968
   },
   {
     slug: "silver-shores-village",
@@ -2867,8 +2867,8 @@ export const communities: Community[] = [
     amenities: ["Waterfront location", "Boat access", "Caravan and home sites"],
     summary:
       "A sold-out (resales only) coastal over-50s community on Pumicestone Passage.",
-    lat: -27.05,
-    lng: 153.05
+    lat: -27.0807672,
+    lng: 153.126773
   },
   {
     slug: "rosevale-home-village",
@@ -2882,8 +2882,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse and community kitchen", "Games room", "Walking tracks", "Caravan storage"],
     summary:
       "A sold-out coastal retirement community in the Shoalhaven region.",
-    lat: -35.15,
-    lng: 150.6
+    lat: -35.0990133,
+    lng: 150.596247
   },
   {
     slug: "liven-beach-road",
@@ -2956,7 +2956,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Clubhouse", "resort facilities", "pet-friendly grounds"],
     summary:
-      "A resort-style over-50s community in the Scenic Rim hinterland managed by Serenitas."
+      "A resort-style over-50s community in the Scenic Rim hinterland managed by Serenitas.",
+    lat: -28.0168721,
+    lng: 153.1651986
   },
   {
     slug: "the-outlook-lifestyle-resort",
@@ -2969,7 +2971,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Indoor heated pool", "bowling green", "tennis court", "gym", "clubhouse", "dance floor", "BBQ areas", "workshop", "caravan/boat parking", "vegetable garden"],
     summary:
-      "A coastal retirement resort offering waterfront views and resort-style facilities for active retirees in Albany."
+      "A coastal retirement resort offering waterfront views and resort-style facilities for active retirees in Albany.",
+    lat: -34.9642141,
+    lng: 117.9454768
   },
   {
     slug: "thyme-evans-head",
@@ -2982,7 +2986,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Clubhouse", "health & wellness facilities", "art and craft studio", "community sporting spaces", "treatment room"],
     summary:
-      "A boutique coastal community offering low-maintenance homes and resort-style living for active retirees on the NSW North Coast."
+      "A boutique coastal community offering low-maintenance homes and resort-style living for active retirees on the NSW North Coast.",
+    lat: -29.1063254,
+    lng: 153.4248636
   },
   {
     slug: "thyme-mareeba",
@@ -2995,7 +3001,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Mineral pool and spa", "clubhouse with bar", "art and craft studio", "cinema", "hobby shed", "Banksia lounge"],
     summary:
-      "A gated, pet-friendly resort community offering low-maintenance homes in the gateway to Far North Queensland."
+      "A gated, pet-friendly resort community offering low-maintenance homes in the gateway to Far North Queensland.",
+    lat: -17.0023831,
+    lng: 145.4379292
   },
   {
     slug: "the-anchorage-lifestyle-resort",
@@ -3023,12 +3031,14 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Heated indoor pool", "cinema", "sports bar", "coffee lounge", "hobby shed", "yoga studio", "bowling green", "community kitchen", "gym", "putting green", "bocce court", "community garden"],
     summary:
-      "A pet-friendly, over-50s residential community in Ballarat offering low-maintenance homes with resort-style facilities and no entry or exit fees."
+      "A pet-friendly, over-50s residential community in Ballarat offering low-maintenance homes with resort-style facilities and no entry or exit fees.",
+    lat: -37.5466014,
+    lng: 143.783889
   },
   {
     slug: "thyme-palm-cove",
     name: "Thyme Palm Cove",
-    suburb: "Kewarra Beach",
+    suburb: "Palm Cove",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -3036,7 +3046,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Future clubhouse with outdoor terraces and lounge spaces", "pet-friendly", "resort-style facilities"],
     summary:
-      "An over-50s land lease lifestyle resort in tropical Far North Queensland offering modern homes with no entry or exit fees."
+      "An over-50s land lease lifestyle resort in tropical Far North Queensland offering modern homes with no entry or exit fees.",
+    lat: -16.7492804,
+    lng: 145.6710595
   },
   {
     slug: "thyme-rothwell",
@@ -3049,7 +3061,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Future clubhouse with outdoor terraces", "pool", "gym", "game room", "cinema", "bowls facilities", "secure gated entry"],
     summary:
-      "Resort-style over-50s living on the Redcliffe Peninsula offering a transparent land lease model with no entry/exit fees or council rates."
+      "Resort-style over-50s living on the Redcliffe Peninsula offering a transparent land lease model with no entry/exit fees or council rates.",
+    lat: -27.2153199,
+    lng: 153.0478394
   },
   {
     slug: "thyme-lakeview-springs",
@@ -3077,7 +3091,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["35+ facilities including bowling green", "tennis", "indoor/outdoor heated pools", "spa", "sports bar", "cinema", "RV/caravan storage"],
     summary:
-      "A luxury resort-style community in Perth's south offering world-class facilities and independent living for retirees."
+      "A luxury resort-style community in Perth's south offering world-class facilities and independent living for retirees.",
+    lat: -32.3024175,
+    lng: 115.8012395
   },
   {
     slug: "thyme-moreton-bay",
@@ -3090,7 +3106,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Country Club with outdoor terraces", "Blue Gum Pavilion", "games room", "cinema", "communal kitchen", "swimming pool", "pet-friendly grounds"],
     summary:
-      "A resort-style over-50s community offering modern, low-maintenance homes with no entry or exit fees close to urban conveniences."
+      "A resort-style over-50s community offering modern, low-maintenance homes with no entry or exit fees close to urban conveniences.",
+    lat: -27.107103,
+    lng: 152.9425537
   },
   {
     slug: "vibe-baldivis-lifestyle-village",
@@ -3103,7 +3121,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Arts centre", "bowls green", "caravan & boat storage", "clubhouse", "gym", "golf driving nets", "library", "off-leash dog park", "outdoor pool", "tennis", "vegetable garden", "walking trails"],
     summary:
-      "A gated lifestyle village offering extensive recreational facilities for residents seeking an active, community-focused retirement lifestyle."
+      "A gated lifestyle village offering extensive recreational facilities for residents seeking an active, community-focused retirement lifestyle.",
+    lat: -32.3630711,
+    lng: 115.814333
   },
   {
     slug: "helena-valley-lifestyle-village",
@@ -3116,7 +3136,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Heated indoor pool", "gym and sauna", "bowls green", "arts centre and clubhouse", "caravan and boat storage", "village bus", "vegetable garden"],
     summary:
-      "An affordable, gated community offering resort-style facilities for those over 50 seeking a lifestyle change in Perth's foothills."
+      "An affordable, gated community offering resort-style facilities for those over 50 seeking a lifestyle change in Perth's foothills.",
+    lat: -31.9218324,
+    lng: 116.0352667
   },
   {
     slug: "hillview-lifestyle-village",
@@ -3129,7 +3151,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Heated indoor and outdoor pools", "gym", "spa", "sauna", "bowls green", "tennis", "squash", "arts centre", "clubhouse", "library", "dog park"],
     summary:
-      "A nature-focused lifestyle community 16km from Perth CBD balancing bush living with city conveniences."
+      "A nature-focused lifestyle community 16km from Perth CBD balancing bush living with city conveniences.",
+    lat: -31.9364942,
+    lng: 116.0062597
   },
   {
     slug: "pineview-lifestyle-village",
@@ -3142,7 +3166,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Heated indoor and outdoor pools", "spa", "gym", "bowls green", "tennis", "squash", "billiard tables", "clubhouse", "village bus", "library", "vegetable gardens"],
     summary:
-      "An over-50s, pet-friendly community in Perth's northern suburbs offering resort-style facilities."
+      "An over-50s, pet-friendly community in Perth's northern suburbs offering resort-style facilities.",
+    lat: -31.7249666,
+    lng: 115.7984255
   },
   {
     slug: "bridgewater-lifestyle-village",
@@ -3155,7 +3181,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Heated indoor and outdoor pools", "gym", "arts centre", "cinema", "clubhouse", "bowls green", "tennis", "squash", "sauna", "spa", "mini golf", "caravan & boat storage"],
     summary:
-      "A secure, resort-style retirement community within walking distance of shopping, medical services, and the Peel Estuary."
+      "A secure, resort-style retirement community within walking distance of shopping, medical services, and the Peel Estuary.",
+    lat: -32.5589326,
+    lng: 115.6948023
   },
   {
     slug: "busselton-lifestyle-village",
@@ -3168,7 +3196,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Heated indoor pool", "outdoor pool", "bowls green", "tennis", "squash", "gym", "sauna", "spa", "clubhouse", "walking trails", "caravan & boat storage", "dog park"],
     summary:
-      "A coastal lifestyle community for active individuals aged 45+ located just 2km from the beach."
+      "A coastal lifestyle community for active individuals aged 45+ located just 2km from the beach.",
+    lat: -33.6634219,
+    lng: 115.3407099
   },
   {
     slug: "golden-downs-lifestyle-community",
@@ -3181,7 +3211,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Pool & cabana", "tennis court", "8-rink bowling green", "clubhouse with licensed bar", "hairdresser", "library", "games room", "24-hour security"],
     summary:
-      "An over-50s resort-style residential community offering a relaxed, secure lifestyle near shopping centres and hospitals in Brisbane's north."
+      "An over-50s resort-style residential community offering a relaxed, secure lifestyle near shopping centres and hospitals in Brisbane's north.",
+    lat: -27.3520185,
+    lng: 153.0322146
   },
   {
     slug: "burleigh-town-lifestyle-community",
@@ -3194,7 +3226,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Clubhouse", "swimming pool", "bowl greens", "darts", "bar", "BBQ area", "table tennis", "community workshop", "library", "dance floor", "community gardens"],
     summary:
-      "An over-50s community offering resort-style living with independent housing and social activities on the Gold Coast."
+      "An over-50s community offering resort-style living with independent housing and social activities on the Gold Coast.",
+    lat: -28.1123052,
+    lng: 153.4375277
   },
   {
     slug: "rv-homebase",
@@ -3207,7 +3241,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["25m heated lap pool", "gymnasium", "four-rink bowling green", "wood/metal workshops", "arts and crafts building", "5-hole chip & putt golf", "tennis court", "dog wash station"],
     summary:
-      "Australia's favourite RV lifestyle village offering spacious country living designed for over-50s travellers on the Fraser Coast."
+      "Australia's favourite RV lifestyle village offering spacious country living designed for over-50s travellers on the Fraser Coast.",
+    lat: -25.5603263,
+    lng: 152.6722049
   },
   {
     slug: "great-lakes-lifestyle-community",
@@ -3220,7 +3256,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Community hall", "tennis court", "pool", "covered BBQ area", "table tennis", "darts", "boat ramp", "boat/caravan storage"],
     summary:
-      "A riverside over-50s community offering affordable, low-maintenance homes three hours north of Sydney."
+      "A riverside over-50s community offering affordable, low-maintenance homes three hours north of Sydney.",
+    lat: -32.0940255,
+    lng: 152.4472735
   },
   {
     slug: "latitude-25",
@@ -3248,7 +3286,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Nine-hole golf course", "Lake House with outdoor terraces and lounge spaces", "pet-friendly", "river and nature access"],
     summary:
-      "An over-50s lifestyle resort offering modern, low-maintenance homes under a transparent land lease model with no entry/exit fees."
+      "An over-50s lifestyle resort offering modern, low-maintenance homes under a transparent land lease model with no entry/exit fees.",
+    lat: -24.8790187,
+    lng: 152.3027663
   },
   {
     slug: "thyme-sunbury",
@@ -3261,7 +3301,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Details to be confirmed as the community progresses toward opening"],
     summary:
-      "A Thyme-branded over-50s lifestyle resort in Melbourne's outer north, part of the Serenitas portfolio."
+      "A Thyme-branded over-50s lifestyle resort in Melbourne's outer north, part of the Serenitas portfolio.",
+    lat: -37.5903397,
+    lng: 144.7546595
   },
   {
     slug: "thyme-ocean-grove",
@@ -3274,7 +3316,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Future clubhouse with outdoor terraces and lounge spaces", "pet-friendly gated community", "close to beach and golf club"],
     summary:
-      "A boutique over-50s resort-style community on the Bellarine Peninsula featuring modern, low-maintenance homes with no entry/exit fees."
+      "A boutique over-50s resort-style community on the Bellarine Peninsula featuring modern, low-maintenance homes with no entry/exit fees.",
+    lat: -38.2541841,
+    lng: 144.5595058
   },
   {
     slug: "ballina-pacific-palms-southern-cross-villages",
@@ -3287,7 +3331,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Clubhouses", "swimming pools", "BBQ areas", "car wash", "library", "social club", "darts facilities", "coin-operated laundry"],
     summary:
-      "A resort-style lifestyle community for over-50s residents offering independent living with no entry or exit fees."
+      "A resort-style lifestyle community for over-50s residents offering independent living with no entry or exit fees.",
+    lat: -28.8518425,
+    lng: 153.5565266
   },
   {
     slug: "thyme-forster",
@@ -3300,7 +3346,9 @@ export const communities: Community[] = [
     operatorSlug: "serenitas",
     amenities: ["Future clubhouse with pool", "spa", "lounge", "and dining spaces", "pet-friendly", "secure gated entry"],
     summary:
-      "Boutique over-50s resort-style living on the NSW Mid North Coast featuring modern, low-maintenance homes with no entry or exit fees."
+      "Boutique over-50s resort-style living on the NSW Mid North Coast featuring modern, low-maintenance homes with no entry or exit fees.",
+    lat: -32.2039533,
+    lng: 152.5289285
   },
   {
     slug: "springtree-cobram",
@@ -3772,7 +3820,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["8-rink undercover bowling green", "9-hole Shorehaven Golf Course", "9-hole putt putt", "waterfront Beach House", "Hamptons Country Club", "tennis and pickleball", "bocce and croquet"],
     summary:
-      "An over-50s luxury resort offering Hamptons-style living in a bayside setting with extensive recreational facilities."
+      "An over-50s luxury resort offering Hamptons-style living in a bayside setting with extensive recreational facilities.",
+    lat: -27.1149831,
+    lng: 153.0575794
   },
   {
     slug: "palm-lake-resort-beachmere-sands",
@@ -3785,7 +3835,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Country club", "outdoor pool", "4 & 9-hole golf courses", "music room", "gym", "library", "croquet courts", "bar", "tennis courts", "billiards room", "art & craft centre", "undercover bowls green"],
     summary:
-      "The best in over-55s living, offering exclusive resort amenities near Moreton Bay about 65 minutes from Brisbane CBD."
+      "The best in over-55s living, offering exclusive resort amenities near Moreton Bay about 65 minutes from Brisbane CBD.",
+    lat: -27.1115142,
+    lng: 153.0600575
   },
   {
     slug: "palm-lake-resort-bethania",
@@ -3813,7 +3865,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Hemingway's Country Club", "The Cove recreational centre", "8-rink undercover bowls green", "tennis and pickleball precinct", "gymnasium", "wetlands walking tracks"],
     summary:
-      "A luxury over-50s resort on the Sunshine Coast offering designer homes and a gated community environment for active retirees."
+      "A luxury over-50s resort on the Sunshine Coast offering designer homes and a gated community environment for active retirees.",
+    lat: -26.7800365,
+    lng: 153.0810309
   },
   {
     slug: "palm-lake-resort-carindale",
@@ -3826,7 +3880,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Indoor heated pool", "4-lane bowling green with night lights", "putt-putt", "boules", "movie theatre", "library", "snooker tables", "gym", "spa", "workshop"],
     summary:
-      "A resort-style community for over-50s near Brisbane offering luxury homes with established gardens and extensive recreational facilities."
+      "A resort-style community for over-50s near Brisbane offering luxury homes with established gardens and extensive recreational facilities.",
+    lat: -27.4964905,
+    lng: 153.1253598
   },
   {
     slug: "palm-lake-resort-cooroy-noosa",
@@ -3839,7 +3895,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["The Pavilion clubhouse", "8-rink undercover bowling green", "indoor and outdoor pools with spa", "tennis", "gymnasium", "tenpin bowling", "billiards", "virtual golf simulator"],
     summary:
-      "A luxury retirement community near Noosa blending relaxed country style with coastal ambience through resort-style homes."
+      "A luxury retirement community near Noosa blending relaxed country style with coastal ambience through resort-style homes.",
+    lat: -26.4043463,
+    lng: 152.9106714
   },
   {
     slug: "palm-lake-resort-deception-bay",
@@ -3852,7 +3910,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Resort pool", "indoor pool", "tennis court", "bowling green", "gymnasium", "library", "snooker tables", "BBQ area", "workshop", "caravan and boat storage"],
     summary:
-      "A bayside resort ideally located on the waterfront in Moreton Bay, offering resort-style living between Brisbane and the Sunshine Coast."
+      "A bayside resort ideally located on the waterfront in Moreton Bay, offering resort-style living between Brisbane and the Sunshine Coast.",
+    lat: -27.1978977,
+    lng: 153.0359826
   },
   {
     slug: "palm-lake-resort-eagleby-heights",
@@ -3865,7 +3925,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Two clubhouses (Grand Summer House and Lakeview)", "indoor and outdoor pools", "undercover bowling green", "tennis courts", "theatre", "gym", "craft room", "library"],
     summary:
-      "A master planned lifestyle community offering architecturally designed homes between Brisbane and the Gold Coast."
+      "A master planned lifestyle community offering architecturally designed homes between Brisbane and the Gold Coast.",
+    lat: -27.6876837,
+    lng: 153.2130216
   },
   {
     slug: "palm-lake-resort-hervey-bay",
@@ -3893,12 +3955,14 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Community hall with baby grand piano", "library", "bowling green", "indoor pool", "sauna", "gym", "craft room", "games room", "dance floor", "courtesy bus", "security gates"],
     summary:
-      "A luxury over-50s resort-style community between Brisbane and the Gold Coast, featuring individually designed homes and a secure lifestyle environment."
+      "A luxury over-50s resort-style community between Brisbane and the Gold Coast, featuring individually designed homes and a secure lifestyle environment.",
+    lat: -27.7239049,
+    lng: 153.1950261
   },
   {
     slug: "palm-lake-resort-toowoomba",
     name: "Palm Lake Resort Toowoomba",
-    suburb: "Toowoomba",
+    suburb: "Cranley",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -3906,7 +3970,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Pinnacle Country Club", "8-rink undercover bowling green", "infinity edge pool", "indoor and outdoor pools", "tennis precinct", "9-hole putt putt", "gymnasium", "sauna"],
     summary:
-      "A luxury resort-style community for over-50s offering modern, elegant, low-maintenance homes in Toowoomba's elevated Garden City location."
+      "A luxury resort-style community for over-50s offering modern, elegant, low-maintenance homes in Toowoomba's elevated Garden City location.",
+    lat: -27.5277897,
+    lng: 151.9325836
   },
   {
     slug: "palm-lake-resort-upper-coomera",
@@ -3919,7 +3985,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Library", "gym", "tennis court", "bowling green", "resort pool", "dance floor", "games room", "bar", "BBQ area", "caravan storage"],
     summary:
-      "A boutique community on the Coomera River between Brisbane and the Gold Coast, offering picturesque recreational facilities."
+      "A boutique community on the Coomera River between Brisbane and the Gold Coast, offering picturesque recreational facilities.",
+    lat: -27.8790041,
+    lng: 153.3015928
   },
   {
     slug: "palm-lake-resort-waterford",
@@ -3932,7 +4000,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Country club with 1", "500+ sqm covered space", "movie theatre", "games room", "dining facilities", "championship 8-rink indoor bowling complex", "gymnasium", "sauna", "swimming pool"],
     summary:
-      "A resort community designed for active over-50s seeking luxury resort living, 30 minutes south of Brisbane."
+      "A resort community designed for active over-50s seeking luxury resort living, 30 minutes south of Brisbane.",
+    lat: -27.7023852,
+    lng: 153.1541476
   },
   {
     slug: "palm-lake-resort-ballina",
@@ -3945,7 +4015,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["The Oasis Country Club with bowling green", "heated pool", "gym", "movie theatre", "tennis courts", "library", "arts room", "dance floor", "virtual golf simulator"],
     summary:
-      "A vibrant over-55s lifestyle community with world-class resort facilities right on the doorstep."
+      "A vibrant over-55s lifestyle community with world-class resort facilities right on the doorstep.",
+    lat: -28.8439889,
+    lng: 153.5650314
   },
   {
     slug: "palm-lake-resort-banora-point",
@@ -3958,7 +4030,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Clubhouse with dance floor", "piano", "and library", "4-rink bowling green", "snooker tables", "hair salon", "resort pool", "games room", "workshop", "croquet court"],
     summary:
-      "A luxury over-50s community in the Tweed Valley offering resort-style living positioned between beaches and hinterland."
+      "A luxury over-50s community in the Tweed Valley offering resort-style living positioned between beaches and hinterland.",
+    lat: -28.2092269,
+    lng: 153.5396675
   },
   {
     slug: "palm-lake-resort-fern-bay",
@@ -3971,7 +4045,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Country Club", "off-leash pet area", "outdoor and indoor heated pools", "bowling green", "workshop", "dance floor", "library", "tennis courts", "movie theatre", "gymnasium", "boat ramp"],
     summary:
-      "Luxurious over-50s living near Newcastle offering a beachside lifestyle within 25 minutes of the city."
+      "Luxurious over-50s living near Newcastle offering a beachside lifestyle within 25 minutes of the city.",
+    lat: -32.856627,
+    lng: 151.8051767
   },
   {
     slug: "palm-lake-resort-tea-gardens",
@@ -3984,7 +4060,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Two country clubs (Water Lilies and Promenade)", "indoor and outdoor pools", "bowling green", "tenpin bowling", "virtual golf simulator", "gym", "spa", "saunas", "tennis precinct"],
     summary:
-      "Luxury resort-style living across 23 hectares with access to the scenic Mid-Coast region's beaches, rivers, and golf courses."
+      "Luxury resort-style living across 23 hectares with access to the scenic Mid-Coast region's beaches, rivers, and golf courses.",
+    lat: -32.6574273,
+    lng: 152.1444613
   },
   {
     slug: "palm-lake-resort-tweed-river",
@@ -3997,7 +4075,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Clubhouse with 180-degree river views", "swimming pool and spa", "fitness centre", "marina with boat storage and moorings", "boardwalk along riverfront"],
     summary:
-      "A luxury over-50s community offering stunning river views, world-class amenities, and a pet-friendly atmosphere."
+      "A luxury over-50s community offering stunning river views, world-class amenities, and a pet-friendly atmosphere.",
+    lat: -28.2213644,
+    lng: 153.5528959
   },
   {
     slug: "palm-lake-resort-yamba",
@@ -4010,7 +4090,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Library", "pet friendly", "bowling green", "lounge areas", "dance floor", "pool table", "darts", "BBQ area", "caravan storage", "boat storage", "bar"],
     summary:
-      "A gated resort community on the scenic Clarence River offering resort-style living with no entry or exit fees."
+      "A gated resort community on the scenic Clarence River offering resort-style living with no entry or exit fees.",
+    lat: -29.4293835,
+    lng: 153.322323
   },
   {
     slug: "palm-lake-resort-yamba-cove",
@@ -4023,7 +4105,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Heated magnesium swimming pool and spa", "yoga studio", "gymnasium", "movie theatre", "golf simulator", "art studio", "gated secure living"],
     summary:
-      "An award-winning, luxury over-50s lifestyle community offering architecturally designed homes with comprehensive recreational amenities."
+      "An award-winning, luxury over-50s lifestyle community offering architecturally designed homes with comprehensive recreational amenities.",
+    lat: -29.4338156,
+    lng: 153.320099
   },
   {
     slug: "palm-lake-resort-paynesville",
@@ -4037,7 +4121,9 @@ export const communities: Community[] = [
     amenities: ["Heated indoor swimming pool and spa", "3-lane ten-pin bowling alley", "8-rink undercover bowling green", "gymnasium", "luxury cinema", "yoga studio", "pickleball courts", "billiards room"],
     priceFrom: "$745,000",
     summary:
-      "A luxury over-50s gated community in Victoria's Gippsland Lakes region offering new homes with extensive recreational facilities."
+      "A luxury over-50s gated community in Victoria's Gippsland Lakes region offering new homes with extensive recreational facilities.",
+    lat: -37.9118252,
+    lng: 147.716002
   },
   {
     slug: "palm-lake-resort-phillip-island",
@@ -4050,7 +4136,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Indoor heated pool (32°C)", "indoor bowls", "Grand Hall with movie theatre and dance floor", "games room", "gym", "library", "elegant dining room", "BBQ area"],
     summary:
-      "Exclusive resort-style living in a prestigious Cowes location between the golf course and lawn bowls club."
+      "Exclusive resort-style living in a prestigious Cowes location between the golf course and lawn bowls club.",
+    lat: -38.4552015,
+    lng: 145.2528678
   },
   {
     slug: "palm-lake-resort-truganina",
@@ -4063,7 +4151,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Paradise Palms Country Club", "indoor heated pool", "undercover bowling green", "gym", "licensed bar", "workshop", "dance floor", "movie theatre", "golf simulator", "sauna & spa"],
     summary:
-      "A resort-style community offering high-quality Hebel homes and extensive recreational facilities for active retirees in metropolitan Melbourne."
+      "A resort-style community offering high-quality Hebel homes and extensive recreational facilities for active retirees in metropolitan Melbourne.",
+    lat: -37.8428876,
+    lng: 144.7108965
   },
   {
     slug: "palm-lake-resort-willow-lodge",
@@ -4076,7 +4166,9 @@ export const communities: Community[] = [
     operatorSlug: "palm-lake-resort",
     amenities: ["Swimming pool", "bowling green", "onsite medical centre", "hairdresser", "cafe/coffee lounge", "craft shop", "workshop", "cinema", "gym", "bar", "library", "games room", "dance floor"],
     summary:
-      "An over-50s resort-style living community offering 2 and 3 bedroom homes 55 minutes south of Melbourne."
+      "An over-50s resort-style living community offering 2 and 3 bedroom homes 55 minutes south of Melbourne.",
+    lat: -38.0428482,
+    lng: 145.2086099
   },
   {
     slug: "ocean-club-resort",
@@ -4171,7 +4263,9 @@ export const communities: Community[] = [
     operatorSlug: "millbray",
     amenities: ["Pool & spa pavilion", "pickleball courts", "bowling green", "fitness studio", "cinema", "golf simulator", "craft room", "event space", "dog park"],
     summary:
-      "A gated over-50s community in Flagstone blending thoughtful design with wellness and social connection."
+      "A gated over-50s community in Flagstone blending thoughtful design with wellness and social connection.",
+    lat: -27.798426,
+    lng: 152.9470977
   },
   {
     slug: "monterey",
@@ -4184,7 +4278,9 @@ export const communities: Community[] = [
     operatorSlug: "allam-property-group",
     amenities: ["Beach access nearby", "national parks and bushwalks", "community pool", "tennis courts", "community centre", "golf and bowls at Kew Country Club"],
     summary:
-      "An over-55s land lease community on the NSW Mid North Coast offering a new lease on life with convenient access to beaches, recreation and regional services."
+      "An over-55s land lease community on the NSW Mid North Coast offering a new lease on life with convenient access to beaches, recreation and regional services.",
+    lat: -31.6407907,
+    lng: 152.7012567
   },
   {
     slug: "monterey-tuncurry",
