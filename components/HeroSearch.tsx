@@ -106,7 +106,7 @@ export default function HeroSearch({ mode }: { mode: Mode }) {
 
   return (
     <div>
-      <p className="text-xs font-semibold uppercase tracking-wide text-ink/50">
+      <p className="text-xs font-semibold uppercase tracking-wide text-ink/70">
         {isPurchaser ? "Looking for a community?" : "Researching the sector?"}
       </p>
 
