@@ -1,19 +1,21 @@
 import type { Metadata } from "next";
-import { Source_Serif_4, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const sourceSerif = Source_Serif_4({
-  subsets: ["latin"],
+const sourceSerif = localFont({
+  src: "./fonts/SourceSerif4-latin.woff2",
   variable: "--font-source-serif",
-  weight: ["500", "600", "700"]
+  weight: "500 700",
+  display: "swap"
 });
 
-const inter = Inter({
-  subsets: ["latin"],
+const inter = localFont({
+  src: "./fonts/Inter-latin.woff2",
   variable: "--font-inter",
-  weight: ["400", "500", "600", "700"]
+  weight: "400 700",
+  display: "swap"
 });
 
 export const metadata: Metadata = {

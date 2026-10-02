@@ -10,13 +10,12 @@ import { Community, Operator } from "./types";
  * original wording — no text is copied from source articles or operator
  * marketing material, and no images are included.
  *
- * Coverage: 280 communities across 20 operators, spanning
+ * Coverage: 279 communities across 20 operators, spanning
  * NSW, VIC, QLD, WA, SA and ACT.
  *
- * lat/lng values (where present) are approximate town/suburb-centre
- * coordinates (not exact street addresses), added for the map view. Good
- * enough to place a marker in the right town, not for turn-by-turn
- * directions. Not every community has coordinates yet.
+ * lat/lng values are street-address-level coordinates for each community
+ * (or its development site, for communities not yet built), geocoded from
+ * published addresses and checked in October 2026.
  *
  * The Australian land lease sector has several hundred communities
  * nationally — this file is still growing. Still missing: TAS and NT
@@ -39,7 +38,7 @@ export const operators: Operator[] = [
     name: "Stockland Halcyon",
     description:
       "Stockland's land lease communities brand for the over-50s market, built on the Halcyon business Stockland acquired in 2021, with communities across Queensland, New South Wales, Victoria and Western Australia.",
-    communityCount: 30,
+    communityCount: 29,
     website: "https://www.stockland.com.au/halcyon-communities",
     listed: true
   },
@@ -263,7 +262,7 @@ export const communities: Community[] = [
   {
     slug: "halcyon-coves",
     name: "Halcyon Coves",
-    suburb: "Aura",
+    suburb: "Banya",
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
@@ -272,23 +271,8 @@ export const communities: Community[] = [
     amenities: ["Lagoon-style pool", "Community gardens", "Bowling green", "Recreation precinct"],
     summary:
       "A Sunshine Coast community within the Aura masterplan, released in stages from 2024 across six sub-neighbourhoods.",
-    lat: -26.833,
-    lng: 153.083
-  },
-  {
-    slug: "halcyon-ridge",
-    name: "Halcyon Ridge",
-    suburb: "Toowoomba",
-    state: "QLD",
-    type: "Over-50s",
-    status: "Established",
-    homeCount: 200,
-    operatorSlug: "stockland-halcyon",
-    amenities: ["Country Club with ballroom", "Heated indoor pool and spa", "Gym", "Tennis courts"],
-    summary:
-      "An established community acquired by Stockland from Living Gems Group, combining a regional Queensland setting with resort-style facilities.",
-    lat: -27.5598,
-    lng: 151.9507
+    lat: -26.837118,
+    lng: 153.0405704
   },
   {
     slug: "acacia-ponds-village",
@@ -302,8 +286,8 @@ export const communities: Community[] = [
     amenities: ["Community facilities", "Landscaped grounds"],
     summary:
       "An established Hampshire Villages community on the NSW South Coast, near the site of Hampshire's proposed Merimbula Lake Village expansion.",
-    lat: -36.9333,
-    lng: 149.8833
+    lat: -36.9238912,
+    lng: 149.8759324
   },
   {
     slug: "kin-kora",
@@ -632,8 +616,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Gym", "Bowling green", "Library", "Community garden", "BBQ area", "Bar"],
     summary:
       "An over-50s land lease community on the Preston River in Boyanup, 18km from Bunbury, with homes currently selling in Stage 4.",
-    lat: -33.5333,
-    lng: 115.7333
+    lat: -33.480258,
+    lng: 115.7291709
   },
   {
     slug: "sierra",
@@ -647,8 +631,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Gym", "Games room", "Library", "Shared kitchen", "Gated entry"],
     summary:
       "A rural over-50s land lease community about an hour from Perth in the Avon Valley, with views across farmland and a neighbouring golf course; final homes in Stage 3 selling now.",
-    lat: -31.75,
-    lng: 116.3667
+    lat: -31.8013587,
+    lng: 116.3590243
   },
   {
     slug: "mandurah-gardens",
@@ -662,8 +646,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Bowling green", "Library", "Gated entry"],
     summary:
       "An established over-50s land lease village near the Serpentine River at Mandurah, close to shopping, medical and public transport.",
-    lat: -32.5333,
-    lng: 115.7167
+    lat: -32.5395945,
+    lng: 115.7563395
   },
   {
     slug: "strathalbyn",
@@ -677,8 +661,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Pool room", "Gym", "Bocce court", "Library", "Gated entry"],
     summary:
       "An over-50s lifestyle village in the countryside town of Strathalbyn, with final homes selling now.",
-    lat: -35.2667,
-    lng: 138.8833
+    lat: -35.2602882,
+    lng: 138.8935896
   },
   {
     slug: "paralowie",
@@ -692,8 +676,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Community garden", "BBQ area", "Caravan storage", "Gated entry"],
     summary:
       "An established over-50s land lease village in Adelaide's north, set among tropical landscaping close to shops, cafes and parks.",
-    lat: -34.7667,
-    lng: 138.6167
+    lat: -34.7628316,
+    lng: 138.5928712
   },
   {
     slug: "normanville",
@@ -707,8 +691,8 @@ export const communities: Community[] = [
     amenities: [],
     summary:
       "A new over-50s lifestyle village coming soon to the Fleurieu Peninsula, near Links Lady Bay Golf Resort and the coast.",
-    lat: -35.3833,
-    lng: 138.2833
+    lat: -35.4611883,
+    lng: 138.3065336
   },
   {
     slug: "alexandrina-cove",
@@ -722,8 +706,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Tennis court", "Putting green", "Pool room", "Media room", "Library", "Gym", "Bocce court", "BBQ area", "Caravan storage"],
     summary:
       "A waterfront over-50s community within the Coorong Quays marina on Hindmarsh Island, currently selling.",
-    lat: -35.5333,
-    lng: 138.8833
+    lat: -35.5135212,
+    lng: 138.8047507
   },
   {
     slug: "four-lanterns",
@@ -737,8 +721,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Community garden", "BBQ area", "Gated entry"],
     summary:
       "An established over-50s land lease community on 10 acres of landscaped grounds near Leppington, close to Liverpool Hospital and local shops.",
-    lat: -33.95,
-    lng: 150.8167
+    lat: -33.9562911,
+    lng: 150.8291405
   },
   {
     slug: "sweetwater-grove",
@@ -752,8 +736,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Clubhouse", "Community garden", "Bowling green", "BBQ area", "Caravan storage", "Gated entry"],
     summary:
       "An over-50s lifestyle community near Port Stephens and Newcastle, built around a private pond, with Stage 6 homes selling now.",
-    lat: -32.8167,
-    lng: 151.7167
+    lat: -32.8170192,
+    lng: 151.6967211
   },
   {
     slug: "wodonga-gardens",
@@ -767,8 +751,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Pool room", "Plunge pool", "Pickleball court", "Library", "Gym", "Bowling green", "Bar", "Sauna", "Putting green"],
     summary:
       "An over-50s land lease community in West Wodonga close to local services, dining and golf, with Stage 5 homes selling now.",
-    lat: -36.1167,
-    lng: 146.8667
+    lat: -36.1105027,
+    lng: 146.8398233
   },
   {
     slug: "gemlife-gold-coast",
@@ -1082,8 +1066,8 @@ export const communities: Community[] = [
     amenities: ["Community centre", "Alfresco deck", "Lounge and multipurpose spaces"],
     summary:
       "An over-50s land lease community in Forster on the NSW Mid North Coast, with a community centre and display homes soon completing.",
-    lat: -32.1806,
-    lng: 152.5083
+    lat: -32.2229986,
+    lng: 152.5307918
   },
   {
     slug: "pelican-shores",
@@ -1097,8 +1081,8 @@ export const communities: Community[] = [
     amenities: ["Waterfront location"],
     summary:
       "A waterfront over-50s land lease village near Geelong, with established homes currently for sale and a limited release of new 3-bedroom homes.",
-    lat: -38.1833,
-    lng: 144.4333
+    lat: -38.158953,
+    lng: 144.4570465
   },
   {
     slug: "bayway-village",
@@ -1112,8 +1096,8 @@ export const communities: Community[] = [
     amenities: ["Indoor swimming pool", "Community centre", "Cinema", "Bowls court", "Pickleball court"],
     summary:
       "An over-50s land lease community near Newcastle, with homes from $530K and no stamp duty, council rates or exit fees.",
-    lat: -32.8627,
-    lng: 151.7992
+    lat: -32.856627,
+    lng: 151.8051767
   },
   {
     slug: "banksia-waters",
@@ -1127,8 +1111,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Croquet court", "Community bus"],
     summary:
       "A 110-acre over-50s resort-style community in Tweed Heads West with an active social calendar, close to subtropical rainforest and beaches.",
-    lat: -28.1667,
-    lng: 153.5167
+    lat: -28.1855279,
+    lng: 153.492065
   },
   {
     slug: "bayside",
@@ -1142,8 +1126,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Boat and caravan storage"],
     summary:
       "An over-50s land lease community in Brisbane's inner eastern suburbs, close to Moreton Bay.",
-    lat: -27.4667,
-    lng: 153.1167
+    lat: -27.4721569,
+    lng: 153.1424848
   },
   {
     slug: "beachfront",
@@ -1172,8 +1156,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "BBQ and community areas", "Beach access"],
     summary:
       "An over-50s coastal community near Port Stephens beaches.",
-    lat: -32.7167,
-    lng: 152.15
+    lat: -32.7827367,
+    lng: 152.0768658
   },
   {
     slug: "boronia-range",
@@ -1187,8 +1171,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Bowling green", "Community garden"],
     summary:
       "An over-55s lifestyle community in regional NSW near Albury.",
-    lat: -36.05,
-    lng: 146.9333
+    lat: -36.0283781,
+    lng: 146.945805
   },
   {
     slug: "bremer-waters",
@@ -1202,8 +1186,8 @@ export const communities: Community[] = [
     amenities: ["Clubhouse", "Swimming pool", "Boat and caravan storage"],
     summary:
       "An over-55s land lease community on the Bremer River near Ipswich.",
-    lat: -27.6167,
-    lng: 152.7667
+    lat: -27.5974538,
+    lng: 152.7784184
   },
   {
     slug: "bridge-street",
@@ -1247,8 +1231,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Library", "BBQ area"],
     summary:
       "An established over-50s community in Belmont near Lake Macquarie and Nine Mile Beach.",
-    lat: -33.0333,
-    lng: 151.6667
+    lat: -33.0315063,
+    lng: 151.6607899
   },
   {
     slug: "edgewater",
@@ -1262,8 +1246,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Tennis court", "Lawn bowls", "Boat and caravan storage"],
     summary:
       "An over-50s community on the Maroochy River near Sunshine Coast beaches.",
-    lat: -26.65,
-    lng: 152.9667
+    lat: -26.6237808,
+    lng: 153.0401484
   },
   {
     slug: "encounter-bay",
@@ -2162,8 +2146,8 @@ export const communities: Community[] = [
     amenities: ["Swimming pool", "Billiards room", "Fitness centre", "Dining facilities"],
     summary:
       "A waterfront over-55s lifestyle community on the NSW South Coast.",
-    lat: -35.2692823,
-    lng: 150.4789283
+    lat: -35.2669556,
+    lng: 150.4758156
   },
   {
     slug: "ingenia-lifestyle-nepean-river",
@@ -3361,7 +3345,9 @@ export const communities: Community[] = [
     operatorSlug: "springtree",
     amenities: ["Gym", "swimming pool", "function space", "bar", "games room", "cinema", "BBQ area", "bowling green", "pickleball court", "putting green", "driving nets", "community gardens", "dog park"],
     summary:
-      "An over-55s lifestyle resort offering countryside charm and modern conveniences on the Murray River, less than three hours from Melbourne."
+      "An over-55s lifestyle resort offering countryside charm and modern conveniences on the Murray River, less than three hours from Melbourne.",
+    lat: -35.929778,
+    lng: 145.659669
   },
   {
     slug: "springtree-yarrawonga",
@@ -3375,7 +3361,9 @@ export const communities: Community[] = [
     amenities: ["Gym", "swimming pool", "function space", "bar", "kitchen", "lounge", "private dining", "BBQ area", "social bowling green", "pickleball court", "community gardens", "outdoor seating"],
     priceFrom: "$424,000",
     summary:
-      "A brand-new lakeside lifestyle resort near water activities, wineries and golf courses, with homes from $424,000."
+      "A brand-new lakeside lifestyle resort near water activities, wineries and golf courses, with homes from $424,000.",
+    lat: -36.020008,
+    lng: 146.0134949
   },
   {
     slug: "springtree-warragul",
@@ -3388,7 +3376,9 @@ export const communities: Community[] = [
     operatorSlug: "springtree",
     amenities: ["Gym", "swimming pool", "function space", "bar", "lounge", "cinema", "BBQ area", "bowling green", "pickleball court", "community gardens"],
     summary:
-      "A new over-55s resort in Gippsland offering a relaxed, connected lifestyle with modern, low-maintenance homes coming soon."
+      "A new over-55s resort in Gippsland offering a relaxed, connected lifestyle with modern, low-maintenance homes coming soon.",
+    lat: -38.138928,
+    lng: 145.948374
   },
   {
     slug: "b-by-halcyon",
@@ -3401,7 +3391,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools and saunas", "wellness spaces", "cinema and bar", "pickleball courts", "bowling green", "creative arts courtyard"],
     summary:
-      "A premium over-50s lifestyle community nestled in the Buderim rainforest foothills offering a serene, nature-inspired lifestyle with no stamp duty or exit fees."
+      "A premium over-50s lifestyle community nestled in the Buderim rainforest foothills offering a serene, nature-inspired lifestyle with no stamp duty or exit fees.",
+    lat: -26.672009,
+    lng: 153.0273332
   },
   {
     slug: "halcyon-bayside",
@@ -3414,7 +3406,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Proximity to Stockland Shoreline", "cafes and dining", "Redland Bay Shopping Village", "medical centres", "and coastal parks"],
     summary:
-      "Stockland's largest-ever land lease community, offering over-50s living in Redland Bay with new releases of homes now selling."
+      "Stockland's largest-ever land lease community, offering over-50s living in Redland Bay with new releases of homes now selling.",
+    lat: -27.6827821,
+    lng: 153.2982665
   },
   {
     slug: "halcyon-berwick",
@@ -3427,7 +3421,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-quality clubhouse", "mineral salt pools", "saunas", "wellness spaces", "cinema", "bar", "pickleball courts", "walking paths"],
     summary:
-      "A gated, over-55s lifestyle community within Stockland's master-planned Minta community offering architecturally designed homes with no stamp duty or exit fees."
+      "A gated, over-55s lifestyle community within Stockland's master-planned Minta community offering architecturally designed homes with no stamp duty or exit fees.",
+    lat: -38.0768702,
+    lng: 145.3673186
   },
   {
     slug: "halcyon-dales",
@@ -3440,7 +3436,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Clubhouse with resort-style facilities", "pickleball courts", "lawn bowls", "dining and entertainment areas"],
     summary:
-      "A nature-inspired over-50s lifestyle community in Beerwah with views of the Glasshouse Mountains."
+      "A nature-inspired over-50s lifestyle community in Beerwah with views of the Glasshouse Mountains.",
+    lat: -26.8553676,
+    lng: 152.9603334
   },
   {
     slug: "halcyon-edgebrook",
@@ -3454,7 +3452,9 @@ export const communities: Community[] = [
     amenities: ["Future clubhouse overlooking green spine and lake", "weekly social activities", "central green spine", "secure gated environment"],
     priceFrom: "$805,900",
     summary:
-      "A vibrant over-50s lifestyle community between Brisbane and the Gold Coast, with contemporary homes and expansive green spaces."
+      "A vibrant over-50s lifestyle community between Brisbane and the Gold Coast, with contemporary homes and expansive green spaces.",
+    lat: -27.6877563,
+    lng: 153.2204739
   },
   {
     slug: "halcyon-evergreen",
@@ -3467,7 +3467,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Gold class cinema", "dining facilities", "bowling greens", "pickleball courts", "Homestead and Stables precincts"],
     summary:
-      "A vibrant lifestyle community for over-55s in Melbourne's south-east featuring a newly opened $14M clubhouse and resort-style facilities."
+      "A vibrant lifestyle community for over-55s in Melbourne's south-east featuring a newly opened $14M clubhouse and resort-style facilities.",
+    lat: -38.1382231,
+    lng: 145.3761973
   },
   {
     slug: "halcyon-glades",
@@ -3480,7 +3482,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-inspired mineral salt pools", "saunas", "wellness spaces", "gym", "bowls green", "cinema and bar", "pickleball courts"],
     summary:
-      "An over-50s lifestyle community in Northern Brisbane offering resort-quality facilities between Brisbane and the Sunshine Coast."
+      "An over-50s lifestyle community in Northern Brisbane offering resort-quality facilities between Brisbane and the Sunshine Coast.",
+    lat: -27.0599982,
+    lng: 152.961491
   },
   {
     slug: "halcyon-greenhaven",
@@ -3493,7 +3497,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Exclusive clubhouse with bowling green and pickleball courts", "swimming pool", "community cafe", "walking trails", "conservation areas"],
     summary:
-      "A coming-soon over-55s gated community in Armstrong Creek featuring resort-style amenities and a nature-focused design."
+      "A coming-soon over-55s gated community in Armstrong Creek featuring resort-style amenities and a nature-focused design.",
+    lat: -38.2296854,
+    lng: 144.3754165
   },
   {
     slug: "halcyon-greens",
@@ -3506,7 +3512,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["18-hole championship golf course access", "heated indoor pool", "tennis and pickleball courts", "resort-style leisure club", "library"],
     summary:
-      "A country-club inspired over-50s community in Pimpama offering low-maintenance homes with golf course access and resort-style facilities."
+      "A country-club inspired over-50s community in Pimpama offering low-maintenance homes with golf course access and resort-style facilities.",
+    lat: -27.8194462,
+    lng: 153.312756
   },
   {
     slug: "halcyon-highlands",
@@ -3520,7 +3528,9 @@ export const communities: Community[] = [
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinemas", "bars", "pickleball courts", "clubhouse facilities"],
     priceFrom: "$599,000",
     summary:
-      "An exclusive over-55s gated community in Melbourne's north offering architecturally designed homes with resort-inspired facilities."
+      "An exclusive over-55s gated community in Melbourne's north offering architecturally designed homes with resort-inspired facilities.",
+    lat: -37.5890191,
+    lng: 144.8885714
   },
   {
     slug: "halcyon-horizon",
@@ -3533,7 +3543,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["$14.5M resort-quality clubhouse", "secure gated community", "proximity to shopping centres", "golf clubs", "and beaches"],
     summary:
-      "An over-55s lifestyle village in Armstrong Creek, Geelong, featuring resort-quality living with a newly opened clubhouse."
+      "An over-55s lifestyle village in Armstrong Creek, Geelong, featuring resort-quality living with a newly opened clubhouse.",
+    lat: -38.2455127,
+    lng: 144.3535566
   },
   {
     slug: "halcyon-illyarrie",
@@ -3546,7 +3558,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-style facilities and social spaces", "pickleball courts", "community function rooms", "proximity to shopping and medical facilities"],
     summary:
-      "A gated over-55s land lease community in Perth's north offering resort-style living with low-maintenance homes."
+      "A gated over-55s land lease community in Perth's north offering resort-style living with low-maintenance homes.",
+    lat: -31.743881,
+    lng: 115.8017114
   },
   {
     slug: "halcyon-jardin",
@@ -3560,7 +3574,9 @@ export const communities: Community[] = [
     amenities: ["$13M Clubhouse (The Pavilion) with mineral salt pools", "saunas", "wellness spaces", "cinema", "bar", "and tennis courts"],
     priceFrom: "$649,000",
     summary:
-      "An over-55s lifestyle community in Clyde North offering peaceful, resort-style living with architecturally designed homes."
+      "An over-55s lifestyle community in Clyde North offering peaceful, resort-style living with architecturally designed homes.",
+    lat: -38.0955922,
+    lng: 145.3608518
   },
   {
     slug: "halcyon-lakeside",
@@ -3573,7 +3589,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-style pool", "mineral salt pools", "saunas", "wellness spaces", "cinema", "pickleball courts", "lawn bowls green", "6km of walking trails"],
     summary:
-      "A Sunshine Coast community offering luxury lakeside over-50s living with panoramic views across two adjoining lakes."
+      "A Sunshine Coast community offering luxury lakeside over-50s living with panoramic views across two adjoining lakes.",
+    lat: -26.596709,
+    lng: 153.0216797
   },
   {
     slug: "halcyon-landing",
@@ -3586,7 +3604,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Recreation centre with pool table", "community garden", "bowling green", "mineral salt pools and saunas", "wellness spaces", "cinema", "bar", "pickleball courts"],
     summary:
-      "A picturesque, resort-style over-50s community on the Sunshine Coast nestled in peaceful surrounds near the Maroochy River."
+      "A picturesque, resort-style over-50s community on the Sunshine Coast nestled in peaceful surrounds near the Maroochy River.",
+    lat: -26.6181304,
+    lng: 153.039163
   },
   {
     slug: "halcyon-nirimba",
@@ -3599,7 +3619,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Central clubhouse with leisure and social spaces", "200+km of connected walking and cycling paths", "swimming pool", "pickleball courts"],
     summary:
-      "An established over-50s lifestyle community within the larger Aura master-planned development on the Sunshine Coast."
+      "An established over-50s lifestyle community within the larger Aura master-planned development on the Sunshine Coast.",
+    lat: -26.8275731,
+    lng: 153.0582806
   },
   {
     slug: "halcyon-parks",
@@ -3612,20 +3634,24 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["36-acre natural parklands with a flora and fauna-filled lake", "bowling green"],
     summary:
-      "An established over-50s lifestyle community launched in 2004, surrounded by natural parklands near Caloundra's beaches."
+      "An established over-50s lifestyle community launched in 2004, surrounded by natural parklands near Caloundra's beaches.",
+    lat: -26.7700987,
+    lng: 153.1023773
   },
   {
     slug: "halcyon-peninsula",
     name: "Halcyon Peninsula",
-    suburb: "Redland Bay",
-    state: "QLD",
+    suburb: "Curlewis",
+    state: "VIC",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 325,
     operatorSlug: "stockland-halcyon",
-    amenities: ["Details to be confirmed as the community progresses toward launch"],
+    amenities: ["Clubhouse", "Recreational facilities", "Landscaped grounds"],
     summary:
-      "A planned over-50s lifestyle community in the Redland Bay area, part of Stockland's expanding Halcyon portfolio in south-east Queensland."
+      "A coming-soon over-50s community on a 26-hectare site on the Bellarine Peninsula, around 17km east of Geelong's CBD, planned for about 325 land lease homes with a clubhouse and recreation facilities.",
+    lat: -38.171328,
+    lng: 144.53878
   },
   {
     slug: "halcyon-promenade",
@@ -3638,7 +3664,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Resort-style social", "leisure and sporting precincts", "gated community with state-of-the-art design"],
     summary:
-      "An over-50s lifestyle community in Moreton Bay offering nature-inspired living with modern turnkey homes and premium resort facilities."
+      "An over-50s lifestyle community in Moreton Bay offering nature-inspired living with modern turnkey homes and premium resort facilities.",
+    lat: -27.1618274,
+    lng: 152.9951488
   },
   {
     slug: "halcyon-providence",
@@ -3651,7 +3679,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools and saunas", "wellness spaces", "cinema and bar facilities", "pickleball courts"],
     summary:
-      "An over-50s land lease community near Ipswich offering architecturally designed homes with no stamp duty or exit fees."
+      "An over-50s land lease community near Ipswich offering architecturally designed homes with no stamp duty or exit fees.",
+    lat: -27.6966308,
+    lng: 152.8336541
   },
   {
     slug: "halcyon-rise",
@@ -3664,7 +3694,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["BBQ pavilion", "gold-class cinema", "pickleball courts", "riverfront parkland along Logan River", "clubhouse with dining area"],
     summary:
-      "A resort-style over-50s community combining country living with city convenience, 32km from Brisbane's South Bank."
+      "A resort-style over-50s community combining country living with city convenience, 32km from Brisbane's South Bank.",
+    lat: -27.7065475,
+    lng: 153.1209886
   },
   {
     slug: "halcyon-serrata",
@@ -3677,7 +3709,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["The Lodge", "clubhouse", "resort-quality facilities", "nature corridor", "gated community"],
     summary:
-      "A picturesque and private over-50s community in Moreton Bay, surrounded by scenic landscapes with display homes now open."
+      "A picturesque and private over-50s community in Moreton Bay, surrounded by scenic landscapes with display homes now open.",
+    lat: -27.1635875,
+    lng: 152.9894796
   },
   {
     slug: "halcyon-vista",
@@ -3690,7 +3724,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["25-metre heated magnesium pool", "vibrant clubhouse with bar and dining", "elevated terrace homes", "conservation land access"],
     summary:
-      "A boutique over-50s community offering low-maintenance living in a secure, gated community in Logan Village."
+      "A boutique over-50s community offering low-maintenance living in a secure, gated community in Logan Village.",
+    lat: -27.7801617,
+    lng: 153.1280245
   },
   {
     slug: "halcyon-waters",
@@ -3703,7 +3739,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinema and bar", "pickleball and tennis courts", "100 acres of lakefront parklands"],
     summary:
-      "A gated over-50s community on the Gold Coast offering a modern lifestyle within a lush, waterfront setting."
+      "A gated over-50s community on the Gold Coast offering a modern lifestyle within a lush, waterfront setting.",
+    lat: -27.8791618,
+    lng: 153.3703452
   },
   {
     slug: "halcyon-wildflower",
@@ -3716,7 +3754,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinema and bar facilities", "pickleball courts", "Display Village with five styled homes"],
     summary:
-      "Stockland's first WA land lease community, offering a serene, pristine lifestyle for over-55s in Perth's south."
+      "Stockland's first WA land lease community, offering a serene, pristine lifestyle for over-55s in Perth's south.",
+    lat: -32.136495,
+    lng: 115.9062871
   },
   {
     slug: "halcyon-yandina",
@@ -3729,7 +3769,9 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Clubhouse with firepit", "proximity to Yandina Medical Clinic", "Yandina Markets", "and Yandina Bowls Club"],
     summary:
-      "A Sunshine Coast community offering over-50s residents new home designs in a historic hinterland village."
+      "A Sunshine Coast community offering over-50s residents new home designs in a historic hinterland village.",
+    lat: -26.5542554,
+    lng: 152.9526488
   },
   {
     slug: "vision-by-halcyon",
@@ -3742,12 +3784,14 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Private marina and floating boathouse", "mineral salt pools", "saunas", "wellness spaces", "picnic boat and kayak access", "boardwalk"],
     summary:
-      "An established boutique over-50s community offering pristine, resort-quality living with direct Broadwater access on the Gold Coast."
+      "An established boutique over-50s community offering pristine, resort-quality living with direct Broadwater access on the Gold Coast.",
+    lat: -27.8743031,
+    lng: 153.3663935
   },
   {
     slug: "natrium-coral-cove",
     name: "Natrium Coral Cove",
-    suburb: "Coral Cove",
+    suburb: "Innes Park",
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
@@ -3755,7 +3799,9 @@ export const communities: Community[] = [
     operatorSlug: "vivacity-property",
     amenities: ["Country Club with theatre and bar", "wellness centre with gym", "sauna and plunge pool", "swimming pools", "art studio"],
     summary:
-      "An exclusive over-55s coastal community offering refined living near the southern Great Barrier Reef."
+      "An exclusive over-55s coastal community offering refined living near the southern Great Barrier Reef.",
+    lat: -24.8697734,
+    lng: 152.4692465
   },
   {
     slug: "tallowood-medowie",
@@ -3768,7 +3814,9 @@ export const communities: Community[] = [
     operatorSlug: "vivacity-property",
     amenities: ["Country Club with 20m indoor pool", "gym", "sauna", "cinema room", "library", "private dining room", "bar", "games room", "tennis and pickleball court", "covered bowling green", "outdoor pool"],
     summary:
-      "An independent retirement community in Port Stephens offering world-class facilities in a natural landscape setting."
+      "An independent retirement community in Port Stephens offering world-class facilities in a natural landscape setting.",
+    lat: -32.7456064,
+    lng: 151.8680599
   },
   {
     slug: "stratford-gardens",
@@ -3781,7 +3829,9 @@ export const communities: Community[] = [
     operatorSlug: "vivacity-property",
     amenities: ["Historic Stratford House with gardens", "Country Club with dining", "bar", "games and cinema", "indoor swimming pool", "gym", "bowls facilities"],
     summary:
-      "A lifestyle community blending rural charm with modern conveniences, centred on the historic Stratford House and its gardens."
+      "A lifestyle community blending rural charm with modern conveniences, centred on the historic Stratford House and its gardens.",
+    lat: -34.230309,
+    lng: 150.5898995
   },
   {
     slug: "magnolia-resort",
@@ -3794,7 +3844,9 @@ export const communities: Community[] = [
     operatorSlug: "vivacity-property",
     amenities: ["24/7 clubhouse with golf simulator, cinema, commercial kitchen, gym, library, art room", "heated 20m pool, spa, sauna, tennis court, lawn bowls, workshop, vegetable gardens, dog run, onsite hairdresser"],
     summary:
-      "A vibrant over-55s community in Glenvale centred on freedom, friendship and everyday convenience with extensive recreational facilities."
+      "A vibrant over-55s community in Glenvale centred on freedom, friendship and everyday convenience with extensive recreational facilities.",
+    lat: -27.5727178,
+    lng: 151.9113912
   },
   {
     slug: "lakeside-goolwa",
@@ -3807,7 +3859,9 @@ export const communities: Community[] = [
     operatorSlug: "vivacity-property",
     amenities: ["Marina berths for sailing", "lawn bowls", "swimming pool", "leisure lounge for social gatherings", "workshop and hobby rooms", "secure boat/caravan/kayak storage", "walking and cycling paths"],
     summary:
-      "A 55+ retirement community in coastal Goolwa offering resort-style living with marina access and a focus on connection."
+      "A 55+ retirement community in coastal Goolwa offering resort-style living with marina access and a focus on connection.",
+    lat: -35.4900995,
+    lng: 138.8113326
   },
   {
     slug: "palm-lake-resort-beachmere-bay",
@@ -4181,7 +4235,9 @@ export const communities: Community[] = [
     operatorSlug: "ocean-club-resort",
     amenities: ["Heated swimming pool", "yoga classes", "lawn bowls", "architecturally-designed contemporary homes", "resort-style facilities"],
     summary:
-      "Resort-style living in a seaside community on the Mid-North Coast of NSW for active over-50s, with no exit fees or stamp duty."
+      "Resort-style living in a seaside community on the Mid-North Coast of NSW for active over-50s, with no exit fees or stamp duty.",
+    lat: -31.5646367,
+    lng: 152.83408
   },
   {
     slug: "solana-1770-agnes-water",
@@ -4194,7 +4250,9 @@ export const communities: Community[] = [
     operatorSlug: "solana-lifestyle-resorts",
     amenities: ["Livewell Centre with indoor/outdoor pools", "tennis courts", "lawn bowls", "gymnasium", "cinema", "library", "craft rooms", "cafe"],
     summary:
-      "Ground-level, low-maintenance homes in a peaceful coastal setting where residents enjoy active leisure and relaxed beach town living."
+      "Ground-level, low-maintenance homes in a peaceful coastal setting where residents enjoy active leisure and relaxed beach town living.",
+    lat: -24.2162394,
+    lng: 151.9015187
   },
   {
     slug: "solana-northern-beaches-mackay",
@@ -4237,7 +4295,9 @@ export const communities: Community[] = [
     operatorSlug: "solana-lifestyle-resorts",
     amenities: ["Livewell Centre with indoor/outdoor pools", "tennis courts", "bowling greens", "gym", "cinema", "library", "craft rooms", "cafe", "community garden"],
     summary:
-      "A 50+ lifestyle resort offering ground-level, low-maintenance homes with no stamp duty, body corporate fees, or exit fees; now sold out with resales available."
+      "A 50+ lifestyle resort offering ground-level, low-maintenance homes with no stamp duty, body corporate fees, or exit fees; now sold out with resales available.",
+    lat: -27.0642307,
+    lng: 153.1668176
   },
   {
     slug: "solana-bargara",
@@ -4246,11 +4306,13 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0,
+    homeCount: 409,
     operatorSlug: "solana-lifestyle-resorts",
-    amenities: ["Details to be confirmed as the community progresses toward launch"],
+    amenities: ["Livewell Centre with indoor and outdoor facilities", "RV-friendly garage options"],
     summary:
-      "A forthcoming over-50s lifestyle resort in Bargara, currently taking registrations of interest ahead of its launch."
+      "An upcoming over-50s coastal lifestyle community by Stockwell on a 17-hectare site at 551 Windermere Road, Bargara, approved for 409 homes, around 5km from Bargara Central.",
+    lat: -24.84705,
+    lng: 152.458017
   },
   {
     slug: "ashcroft",
@@ -4283,17 +4345,19 @@ export const communities: Community[] = [
     lng: 152.7012567
   },
   {
-    slug: "monterey-tuncurry",
-    name: "Monterey Tuncurry",
+    slug: "allam-tuncurry",
+    name: "Allam Tuncurry (name TBC)",
     suburb: "Tuncurry",
     state: "NSW",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 283,
+    homeCount: 273,
     operatorSlug: "allam-property-group",
     amenities: ["Planned community centre and shared amenities"],
     summary:
-      "Allam Property's planned second land lease community on the NSW Mid North Coast, currently at development application stage with council."
+      "Allam Property Group's planned over-55s land lease community at 40-80 Chapmans Road, Tuncurry, on the NSW Mid North Coast, approved for 273 homes by the NSW Land and Environment Court in September 2026. A community name has not yet been announced.",
+    lat: -32.156773,
+    lng: 152.482586
   },
   {
     slug: "oceane-victor-harbor",

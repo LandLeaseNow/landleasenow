@@ -44,7 +44,7 @@ function CenteredSelect({
         onClick={() => setOpen((o) => !o)}
         aria-haspopup="listbox"
         aria-expanded={open}
-        className="flex w-full items-center justify-center gap-2 rounded-sm border border-eucalypt/10 bg-card px-4 py-3 text-center text-sm text-ink shadow-sm"
+        className="flex w-full items-center justify-center gap-2 rounded-sm border border-eucalypt/10 bg-card px-4 py-3 text-center text-base text-ink shadow-sm"
       >
         <span className="truncate">{selectedLabel}</span>
         <svg
@@ -123,7 +123,7 @@ export default function HeroSearch({ mode }: { mode: Mode }) {
           name="q"
           type="text"
           placeholder={isPurchaser ? "Suburb, town or region" : "Operator, suburb or state"}
-          className="w-full min-w-0 flex-1 rounded-sm border border-eucalypt/10 bg-card px-4 py-3 text-sm text-ink shadow-sm placeholder:text-ink/40 focus:outline-none focus:ring-1 focus:ring-ink/30 sm:min-w-[220px]"
+          className="w-full min-w-0 flex-1 rounded-sm border border-eucalypt/10 bg-card px-4 py-3 text-base text-ink shadow-sm placeholder:text-ink/55 focus:outline-none focus:ring-1 focus:ring-ink/30 sm:min-w-[220px]"
         />
 
         {isPurchaser ? (
@@ -132,7 +132,7 @@ export default function HeroSearch({ mode }: { mode: Mode }) {
             name="type"
             placeholder="All types"
             options={TYPE_OPTIONS}
-            className="sm:w-36"
+            className="sm:w-40"
           />
         ) : (
           <CenteredSelect
@@ -140,13 +140,13 @@ export default function HeroSearch({ mode }: { mode: Mode }) {
             name="status"
             placeholder="All statuses"
             options={STATUS_OPTIONS}
-            className="sm:w-36"
+            className="sm:w-40"
           />
         )}
 
         <button
           type="submit"
-          className="shrink-0 whitespace-nowrap rounded-sm bg-black px-8 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
+          className="shrink-0 whitespace-nowrap rounded-sm bg-black px-8 py-3 text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
         >
           {isPurchaser ? "Search" : "Search coverage"}
         </button>
