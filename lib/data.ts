@@ -10,12 +10,13 @@ import { Community, Operator } from "./types";
  * original wording — no text is copied from source articles or operator
  * marketing material, and no images are included.
  *
- * Coverage: 279 communities across 20 operators, spanning
+ * Coverage: 285 communities across 21 operators, spanning
  * NSW, VIC, QLD, WA, SA and ACT.
  *
- * lat/lng values are street-address-level coordinates for each community
- * (or its development site, for communities not yet built), geocoded from
- * published addresses and checked in October 2026.
+ * lat/lng values (where present) are approximate town/suburb-centre
+ * coordinates (not exact street addresses), added for the map view. Good
+ * enough to place a marker in the right town, not for turn-by-turn
+ * directions. Not every community has coordinates yet.
  *
  * The Australian land lease sector has several hundred communities
  * nationally — this file is still growing. Still missing: TAS and NT
@@ -38,7 +39,7 @@ export const operators: Operator[] = [
     name: "Stockland Halcyon",
     description:
       "Stockland's land lease communities brand for the over-50s market, built on the Halcyon business Stockland acquired in 2021, with communities across Queensland, New South Wales, Victoria and Western Australia.",
-    communityCount: 29,
+    communityCount: 30,
     website: "https://www.stockland.com.au/halcyon-communities",
     listed: true
   },
@@ -71,7 +72,7 @@ export const operators: Operator[] = [
     name: "Lifestyle Communities",
     description:
       "ASX-listed, Melbourne-based operator focused entirely on Victoria, running dozens of land lease communities for people aged over 50 under a standard 90-year land lease model.",
-    communityCount: 26,
+    communityCount: 3,
     listed: true
   },
   {
@@ -196,6 +197,15 @@ export const operators: Operator[] = [
     website: "https://kingsleyliving.com.au/",
     listed: false
   },
+  {
+    slug: "riverbend",
+    name: "Riverbend",
+    description:
+      "Privately owned land lease and lifestyle resort brand developed by Brisbane-based Metacap, with communities across Queensland and New South Wales and further sites approved or proposed in South Australia.",
+    communityCount: 5,
+    website: "https://riverbend.com.au",
+    listed: false
+  },
 ];
 
 export const communities: Community[] = [
@@ -273,6 +283,21 @@ export const communities: Community[] = [
       "A Sunshine Coast community within the Aura masterplan, released in stages from 2024 across six sub-neighbourhoods.",
     lat: -26.837118,
     lng: 153.0405704
+  },
+  {
+    slug: "halcyon-ridge",
+    name: "Halcyon Ridge",
+    suburb: "Toowoomba",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 200,
+    operatorSlug: "stockland-halcyon",
+    amenities: ["Country Club with ballroom", "Heated indoor pool and spa", "Gym", "Tennis courts"],
+    summary:
+      "An established community acquired by Stockland from Living Gems Group, combining a regional Queensland setting with resort-style facilities.",
+    lat: -27.5727178,
+    lng: 151.9113912
   },
   {
     slug: "acacia-ponds-village",
@@ -385,29 +410,27 @@ export const communities: Community[] = [
     suburb: "Cowes",
     state: "VIC",
     type: "Over-50s",
-    status: "Selling Now",
+    status: "Under Development",
     homeCount: 260,
     operatorSlug: "lifestyle-communities",
-    amenities: ["Indoor pool", "Sauna", "Gym", "Golf simulator", "Cinema", "Billiards", "Pickleball court", "Croquet court", "Culinary kitchen"],
-    priceFrom: "$610,000",
+    amenities: ["Clubhouse", "Shared boat access", "Beach proximity"],
     summary:
       "A Phillip Island community close to the Cowes town centre and beach, part of Lifestyle Communities' Club Lifestyle program offering shared recreational boats.",
-    lat: -38.4560789,
-    lng: 145.2001312
+    lat: -38.4478,
+    lng: 145.2394
   },
   {
     slug: "lifestyle-st-leonards",
-    name: "Lifestyle St Leonards – The Shores",
+    name: "Lifestyle St Leonards",
     suburb: "St Leonards",
     state: "VIC",
     type: "Over-50s",
-    status: "Selling Now",
+    status: "Under Development",
     homeCount: 170,
     operatorSlug: "lifestyle-communities",
-    amenities: ["Sauna", "Gym", "Indoor pool", "Billiards", "Pilates", "Library"],
-    priceFrom: "$499,000",
+    amenities: ["Beachside location", "Community clubhouse"],
     summary:
-      "A newer stage of Lifestyle Communities' St Leonards development on the Bellarine Peninsula, adjoining its earlier The Waves stage.",
+      "An expansion of Lifestyle Communities' existing St Leonards community on the Bellarine Peninsula, adding a second site nearby.",
     lat: -38.1879795,
     lng: 144.7013767
   },
@@ -425,371 +448,6 @@ export const communities: Community[] = [
       "A future community within the master-planned Merrifield precinct in Melbourne's north, extending Lifestyle Communities' presence in the growth corridor.",
     lat: -37.5667,
     lng: 144.9333
-  },
-  {
-    slug: "lifestyle-bellarine",
-    name: "Lifestyle Bellarine",
-    suburb: "Leopold",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Outdoor pool", "Indoor pool", "Sauna", "Alfresco", "Lounge", "Chip & putt", "Private beach"],
-    priceFrom: "$799,000",
-    summary:
-      "A coastal Lifestyle Communities village on the Bellarine Peninsula near Leopold, set on around 100 acres with private beach access.",
-    lat: -38.1746337,
-    lng: 144.4629455
-  },
-  {
-    slug: "lifestyle-berwick-waters",
-    name: "Lifestyle Berwick Waters",
-    suburb: "Clyde North",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Gym", "Indoor pool and spa", "Pickleball court", "Tennis court"],
-    priceFrom: "$500,000",
-    summary:
-      "A Lifestyle Communities village in Clyde North, part of the fast-growing south-east Melbourne corridor.",
-    lat: -38.0824527,
-    lng: 145.3663642
-  },
-  {
-    slug: "lifestyle-bittern",
-    name: "Lifestyle Bittern",
-    suburb: "Bittern",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Established",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Community garden", "Croquet court", "Indoor pool and spa", "Library", "Outdoor pool"],
-    summary:
-      "A Lifestyle Communities village on the Mornington Peninsula at Bittern, now fully sold with a waitlist for resales.",
-    lat: -38.332843,
-    lng: 145.1750101
-  },
-  {
-    slug: "lifestyle-brookfield",
-    name: "Lifestyle Brookfield",
-    suburb: "Melton",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Community kitchen", "Gym", "Indoor pool and spa", "Library", "Private cinema", "Putting green", "Workshop"],
-    priceFrom: "$310,000",
-    summary:
-      "Lifestyle Communities' first-ever village, located in Melton alongside Arnold's Creek.",
-    lat: -37.6924829,
-    lng: 144.5658887
-  },
-  {
-    slug: "lifestyle-casey-fields",
-    name: "Lifestyle Casey Fields",
-    suburb: "Cranbourne East",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Lounge", "Indoor pool", "Tennis court", "Gym"],
-    priceFrom: "$530,000",
-    summary:
-      "A Lifestyle Communities village minutes from central Cranbourne in Melbourne's south-east.",
-    lat: -38.1204711,
-    lng: 145.290371
-  },
-  {
-    slug: "lifestyle-chelsea-heights",
-    name: "Lifestyle Chelsea Heights",
-    suburb: "Chelsea Heights",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Indoor pool", "Library", "Outdoor pool", "Workshop"],
-    priceFrom: "$750,000",
-    summary:
-      "A Lifestyle Communities village near Edithvale Beach in Melbourne's bayside south-east.",
-    lat: -38.0311408,
-    lng: 145.1352686
-  },
-  {
-    slug: "lifestyle-deanside",
-    name: "Lifestyle Deanside",
-    suburb: "Deanside",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Indoor pool", "Cinema", "Billiards", "Library", "Outdoor BBQ", "Makers' studio", "Gym"],
-    priceFrom: "$490,000",
-    summary:
-      "A Lifestyle Communities village near Caroline Springs, Keilor and Taylors Lakes in Melbourne's west.",
-    lat: -37.7195343,
-    lng: 144.7073943
-  },
-  {
-    slug: "lifestyle-geelong",
-    name: "Lifestyle Geelong",
-    suburb: "Bell Park",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Gym", "Indoor pool and spa", "Library", "Tennis court", "Workshop"],
-    priceFrom: "$375,000",
-    summary:
-      "A Lifestyle Communities village in Bell Park, close to Geelong's CBD and sporting precincts.",
-    lat: -38.1029772,
-    lng: 144.3359914
-  },
-  {
-    slug: "lifestyle-hastings",
-    name: "Lifestyle Hastings",
-    suburb: "Hastings",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Conservation area", "Indoor pool and spa", "Library", "Gym"],
-    priceFrom: "$460,000",
-    summary:
-      "A coastal Lifestyle Communities village on the Mornington Peninsula at Hastings.",
-    lat: -38.3050211,
-    lng: 145.1752483
-  },
-  {
-    slug: "lifestyle-kaduna-park",
-    name: "Lifestyle Kaduna Park",
-    suburb: "Officer South",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Croquet court", "Gym", "Indoor pool and spa", "Pickleball court", "Workshop"],
-    priceFrom: "$480,000",
-    summary:
-      "A Lifestyle Communities village in Officer South, south-east Melbourne.",
-    lat: -38.0896518,
-    lng: 145.4259131
-  },
-  {
-    slug: "lifestyle-lyndarum",
-    name: "Lifestyle Lyndarum",
-    suburb: "Wollert",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Gym", "Indoor pool and spa", "Tennis court", "Workshop"],
-    priceFrom: "$430,000",
-    summary:
-      "A Lifestyle Communities village in Lyndarum, near Epping North in Melbourne's north.",
-    lat: -37.6136904,
-    lng: 145.0283409
-  },
-  {
-    slug: "lifestyle-meridian",
-    name: "Lifestyle Meridian",
-    suburb: "Clyde North",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Outdoor pool", "Indoor pool", "Bowling green", "Billiards", "Gym", "Pickleball court", "Lounge"],
-    priceFrom: "$580,000",
-    summary:
-      "A Lifestyle Communities village in the centre of the growing Clyde North area.",
-    lat: -38.102635,
-    lng: 145.3548112
-  },
-  {
-    slug: "lifestyle-mount-duneed",
-    name: "Lifestyle Mount Duneed",
-    suburb: "Mount Duneed",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Croquet court", "Gym", "Indoor pool", "Library", "Pickleball court", "Workshop"],
-    priceFrom: "$685,000",
-    summary:
-      "A Lifestyle Communities village between Geelong and the Bellarine Peninsula at Mount Duneed.",
-    lat: -38.2169354,
-    lng: 144.3195479
-  },
-  {
-    slug: "lifestyle-ocean-grove",
-    name: "Lifestyle Ocean Grove",
-    suburb: "Ocean Grove",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Established",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Croquet court", "Gym", "Indoor pool", "Library", "Outdoor pool", "Pickleball court", "Pizza oven"],
-    summary:
-      "A Lifestyle Communities village in the coastal town of Ocean Grove on the Bellarine Peninsula, now fully sold with a waitlist for resales.",
-    lat: -38.2466807,
-    lng: 144.5436696
-  },
-  {
-    slug: "lifestyle-officer",
-    name: "Lifestyle Officer",
-    suburb: "Officer",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bocce court", "Cinema", "Gym", "Indoor pool and spa", "Library", "Workshop"],
-    priceFrom: "$475,000",
-    summary:
-      "A Lifestyle Communities village in Officer, south-east Melbourne, with streets named after racing identities.",
-    lat: -38.0651777,
-    lng: 145.3953094
-  },
-  {
-    slug: "lifestyle-ridgelea",
-    name: "Lifestyle Ridgelea",
-    suburb: "Nar Nar Goon",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Indoor pool and spa", "Pickleball court", "Reformer Pilates", "Infrared sauna", "Private cinema", "Gym", "Lounge", "Private dining"],
-    priceFrom: "$499,000",
-    summary:
-      "A newer Lifestyle Communities village marketed as Pakenham East, with a premium amenity offering including reformer Pilates and an infrared sauna.",
-    lat: -38.0727384,
-    lng: 145.5210895
-  },
-  {
-    slug: "lifestyle-riverfield",
-    name: "Lifestyle Riverfield",
-    suburb: "Clyde",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards room", "Private cinema", "Indoor pool and spa", "Outdoor cinema and firepit", "Infrared sauna", "Reformer Pilates", "Lounge"],
-    priceFrom: "$659,000",
-    summary:
-      "A newer Lifestyle Communities village in Clyde, south-east Melbourne, with a gold-class private cinema and outdoor firepit.",
-    lat: -38.1334844,
-    lng: 145.3652068
-  },
-  {
-    slug: "lifestyle-seasons",
-    name: "Lifestyle Seasons",
-    suburb: "Tarneit",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Cinema", "Electric car", "Gym", "Indoor pool and spa", "Library"],
-    priceFrom: "$369,000",
-    summary:
-      "A Lifestyle Communities village in the heart of Tarneit, Melbourne's west.",
-    lat: -37.8442388,
-    lng: 144.6899484
-  },
-  {
-    slug: "lifestyle-shepparton",
-    name: "Lifestyle Shepparton",
-    suburb: "Shepparton",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Bowling green", "Cinema", "Outdoor pool", "Indoor pool and spa", "Outdoor gym", "Croquet court", "Tennis court"],
-    priceFrom: "$325,000",
-    summary:
-      "A Lifestyle Communities village in regional Shepparton, offering country-style amenities including a croquet court.",
-    lat: -36.4041588,
-    lng: 145.4166155
-  },
-  {
-    slug: "lifestyle-st-leonards-the-waves",
-    name: "Lifestyle St Leonards – The Waves",
-    suburb: "St Leonards",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Outdoor pool", "Indoor pool and spa", "Croquet court", "Billiards", "Bowling green", "Library", "Lounge"],
-    priceFrom: "$525,000",
-    summary:
-      "A Lifestyle Communities village on the Bellarine Peninsula at St Leonards, one of two adjoining stages at this seaside location.",
-    lat: -38.1844667,
-    lng: 144.701986
-  },
-  {
-    slug: "lifestyle-warragul",
-    name: "Lifestyle Warragul",
-    suburb: "Warragul",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Established",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Billiards", "Bowling green", "Gym", "Indoor pool and spa", "Library", "Tennis court", "Workshop"],
-    summary:
-      "A Lifestyle Communities village in regional Warragul, Gippsland, now fully sold with a waitlist for resales.",
-    lat: -38.1679022,
-    lng: 145.9138898
-  },
-  {
-    slug: "lifestyle-wollert",
-    name: "Lifestyle Wollert",
-    suburb: "Wollert",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Bowling green", "Croquet court", "Gym", "Indoor pool and spa", "Library", "Outdoor pool", "Pickleball court"],
-    priceFrom: "$480,000",
-    summary:
-      "A Lifestyle Communities village in Wollert, on Melbourne's northern growth corridor.",
-    lat: -37.6025353,
-    lng: 144.9794738
-  },
-  {
-    slug: "lifestyle-woodlea",
-    name: "Lifestyle Woodlea",
-    suburb: "Aintree",
-    state: "VIC",
-    type: "Over-50s",
-    status: "Selling Now",
-    homeCount: 0,
-    operatorSlug: "lifestyle-communities",
-    amenities: ["Private cinema", "Indoor pool and spa", "Billiards", "Gym", "Alfresco BBQ area", "Pickleball", "Golf simulator"],
-    priceFrom: "$535,000",
-    summary:
-      "A newer Lifestyle Communities village in Aintree, between Melton and Caroline Springs.",
-    lat: -37.7234923,
-    lng: 144.6741302
   },
   {
     slug: "oasis-redhead",
@@ -3718,9 +3376,7 @@ export const communities: Community[] = [
     operatorSlug: "springtree",
     amenities: ["Gym", "swimming pool", "function space", "bar", "games room", "cinema", "BBQ area", "bowling green", "pickleball court", "putting green", "driving nets", "community gardens", "dog park"],
     summary:
-      "An over-55s lifestyle resort offering countryside charm and modern conveniences on the Murray River, less than three hours from Melbourne.",
-    lat: -35.929778,
-    lng: 145.659669
+      "An over-55s lifestyle resort offering countryside charm and modern conveniences on the Murray River, less than three hours from Melbourne."
   },
   {
     slug: "springtree-yarrawonga",
@@ -3734,9 +3390,7 @@ export const communities: Community[] = [
     amenities: ["Gym", "swimming pool", "function space", "bar", "kitchen", "lounge", "private dining", "BBQ area", "social bowling green", "pickleball court", "community gardens", "outdoor seating"],
     priceFrom: "$424,000",
     summary:
-      "A brand-new lakeside lifestyle resort near water activities, wineries and golf courses, with homes from $424,000.",
-    lat: -36.020008,
-    lng: 146.0134949
+      "A brand-new lakeside lifestyle resort near water activities, wineries and golf courses, with homes from $424,000."
   },
   {
     slug: "springtree-warragul",
@@ -3749,9 +3403,7 @@ export const communities: Community[] = [
     operatorSlug: "springtree",
     amenities: ["Gym", "swimming pool", "function space", "bar", "lounge", "cinema", "BBQ area", "bowling green", "pickleball court", "community gardens"],
     summary:
-      "A new over-55s resort in Gippsland offering a relaxed, connected lifestyle with modern, low-maintenance homes coming soon.",
-    lat: -38.138928,
-    lng: 145.948374
+      "A new over-55s resort in Gippsland offering a relaxed, connected lifestyle with modern, low-maintenance homes coming soon."
   },
   {
     slug: "b-by-halcyon",
@@ -4014,17 +3666,15 @@ export const communities: Community[] = [
   {
     slug: "halcyon-peninsula",
     name: "Halcyon Peninsula",
-    suburb: "Curlewis",
-    state: "VIC",
+    suburb: "Redland Bay",
+    state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 325,
+    homeCount: 0,
     operatorSlug: "stockland-halcyon",
-    amenities: ["Clubhouse", "Recreational facilities", "Landscaped grounds"],
+    amenities: ["Details to be confirmed as the community progresses toward launch"],
     summary:
-      "A coming-soon over-50s community on a 26-hectare site on the Bellarine Peninsula, around 17km east of Geelong's CBD, planned for about 325 land lease homes with a clubhouse and recreation facilities.",
-    lat: -38.171328,
-    lng: 144.53878
+      "A planned over-50s lifestyle community in the Redland Bay area, part of Stockland's expanding Halcyon portfolio in south-east Queensland."
   },
   {
     slug: "halcyon-promenade",
@@ -4052,9 +3702,7 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools and saunas", "wellness spaces", "cinema and bar facilities", "pickleball courts"],
     summary:
-      "An over-50s land lease community near Ipswich offering architecturally designed homes with no stamp duty or exit fees.",
-    lat: -27.6966308,
-    lng: 152.8336541
+      "An over-50s land lease community near Ipswich offering architecturally designed homes with no stamp duty or exit fees."
   },
   {
     slug: "halcyon-rise",
@@ -4127,9 +3775,7 @@ export const communities: Community[] = [
     operatorSlug: "stockland-halcyon",
     amenities: ["Mineral salt pools", "saunas", "wellness spaces", "cinema and bar facilities", "pickleball courts", "Display Village with five styled homes"],
     summary:
-      "Stockland's first WA land lease community, offering a serene, pristine lifestyle for over-55s in Perth's south.",
-    lat: -32.136495,
-    lng: 115.9062871
+      "Stockland's first WA land lease community, offering a serene, pristine lifestyle for over-55s in Perth's south."
   },
   {
     slug: "halcyon-yandina",
@@ -4217,9 +3863,7 @@ export const communities: Community[] = [
     operatorSlug: "vivacity-property",
     amenities: ["24/7 clubhouse with golf simulator, cinema, commercial kitchen, gym, library, art room", "heated 20m pool, spa, sauna, tennis court, lawn bowls, workshop, vegetable gardens, dog run, onsite hairdresser"],
     summary:
-      "A vibrant over-55s community in Glenvale centred on freedom, friendship and everyday convenience with extensive recreational facilities.",
-    lat: -27.5727178,
-    lng: 151.9113912
+      "A vibrant over-55s community in Glenvale centred on freedom, friendship and everyday convenience with extensive recreational facilities."
   },
   {
     slug: "lakeside-goolwa",
@@ -4608,9 +4252,7 @@ export const communities: Community[] = [
     operatorSlug: "ocean-club-resort",
     amenities: ["Heated swimming pool", "yoga classes", "lawn bowls", "architecturally-designed contemporary homes", "resort-style facilities"],
     summary:
-      "Resort-style living in a seaside community on the Mid-North Coast of NSW for active over-50s, with no exit fees or stamp duty.",
-    lat: -31.5646367,
-    lng: 152.83408
+      "Resort-style living in a seaside community on the Mid-North Coast of NSW for active over-50s, with no exit fees or stamp duty."
   },
   {
     slug: "solana-1770-agnes-water",
@@ -4679,13 +4321,11 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 409,
+    homeCount: 0,
     operatorSlug: "solana-lifestyle-resorts",
-    amenities: ["Livewell Centre with indoor and outdoor facilities", "RV-friendly garage options"],
+    amenities: ["Details to be confirmed as the community progresses toward launch"],
     summary:
-      "An upcoming over-50s coastal lifestyle community by Stockwell on a 17-hectare site at 551 Windermere Road, Bargara, approved for 409 homes, around 5km from Bargara Central.",
-    lat: -24.84705,
-    lng: 152.458017
+      "A forthcoming over-50s lifestyle resort in Bargara, currently taking registrations of interest ahead of its launch."
   },
   {
     slug: "ashcroft",
@@ -4718,19 +4358,17 @@ export const communities: Community[] = [
     lng: 152.7012567
   },
   {
-    slug: "allam-tuncurry",
-    name: "Allam Tuncurry (name TBC)",
+    slug: "monterey-tuncurry",
+    name: "Monterey Tuncurry",
     suburb: "Tuncurry",
     state: "NSW",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 273,
+    homeCount: 283,
     operatorSlug: "allam-property-group",
     amenities: ["Planned community centre and shared amenities"],
     summary:
-      "Allam Property Group's planned over-55s land lease community at 40-80 Chapmans Road, Tuncurry, on the NSW Mid North Coast, approved for 273 homes by the NSW Land and Environment Court in September 2026. A community name has not yet been announced.",
-    lat: -32.156773,
-    lng: 152.482586
+      "Allam Property's planned second land lease community on the NSW Mid North Coast, currently at development application stage with council."
   },
   {
     slug: "oceane-victor-harbor",
@@ -4761,6 +4399,81 @@ export const communities: Community[] = [
       "A long-running mixed-use park on the Tweed Coast combining permanent over-50s land lease homes with a separate holiday park section, set on a peninsula between the Tweed River and Kingscliff Beach.",
     lat: -28.236074,
     lng: 153.5602572
+  },
+  {
+    slug: "riverbend-hervey-bay",
+    name: "Riverbend Hervey Bay",
+    suburb: "Urangan",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 160,
+    operatorSlug: "riverbend",
+    amenities: ["Swimming pools", "Gymnasium", "Cinema", "Library", "Craft room", "Activity centre", "RV/boat parking"],
+    summary:
+      "A Bali-inspired over-50s resort in Urangan under construction since 2023, the first of several Riverbend communities built to the same floor plans.",
+    lat: -25.3211338,
+    lng: 152.8990892
+  },
+  {
+    slug: "riverbend-agnes-water",
+    name: "Riverbend Agnes Water",
+    suburb: "Agnes Water",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 190,
+    operatorSlug: "riverbend",
+    amenities: ["Swimming pools", "Gymnasium", "Cinema", "Library", "Craft room", "Activity centre"],
+    summary:
+      "A planned 10-stage over-50s resort on the QLD Discovery Coast, using the same floor plans as Riverbend's Hervey Bay community.",
+    lat: -24.2145079,
+    lng: 151.9088863
+  },
+  {
+    slug: "riverbend-burpengary",
+    name: "Riverbend Burpengary",
+    suburb: "Burpengary",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 140,
+    operatorSlug: "riverbend",
+    amenities: ["Clubhouse", "Swimming pool", "Gymnasium"],
+    summary:
+      "An over-50s land lease community in Moreton Bay, north of Brisbane, with homes ranging from move-in ready to still under construction.",
+    lat: -27.1474951,
+    lng: 152.9758739
+  },
+  {
+    slug: "riverbend-yandina",
+    name: "Riverbend Yandina",
+    suburb: "Yandina",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 69,
+    operatorSlug: "riverbend",
+    amenities: ["Clubhouse"],
+    summary:
+      "A Sunshine Coast over-50s community under construction, distinct from the separate Stockland Halcyon Yandina development nearby.",
+    lat: -26.5689958,
+    lng: 152.9534233
+  },
+  {
+    slug: "riverbend-ballina",
+    name: "Riverbend Ballina",
+    suburb: "West Ballina",
+    state: "NSW",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 260,
+    operatorSlug: "riverbend",
+    amenities: ["20m heated swimming pool", "Gymnasium", "Library", "Craft room", "Bowling green", "Activity centre"],
+    summary:
+      "Riverbend's original over-50s village on the NSW Far North Coast, built out between 2004 and fully completed in 2019.",
+    lat: -28.8634894,
+    lng: 153.52903
   },
 ];
 
