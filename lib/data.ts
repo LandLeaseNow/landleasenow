@@ -2487,11 +2487,11 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 270,
+    homeCount: 453, // corrected 3 Oct 2026 per Stuart: TheWeeklySource reports the 270-home established community is being expanded with 183 more homes (second clubhouse under construction), 453 total — an earlier article described a 171-home/440-total version of the same expansion, treat 453 as the more current figure
     operatorSlug: "ingenia-communities",
     amenities: ["Clubhouse", "Indoor and outdoor pools", "Gym, spa and sauna", "Bowling green"],
     summary:
-      "An award-winning over-55s community in Port Stephens, expanding with a second clubhouse due early 2027.",
+      "An award-winning over-55s community in Port Stephens, expanding with 183 more homes and a second clubhouse.",
     lat: -32.7695398,
     lng: 152.0700844
   },
