@@ -22,13 +22,14 @@ const STATUS_FILTERS: StatusFilter[] = ["All", "Under Development", "Selling Now
 const ALL_STATES = "All";
 const ALL_OPERATORS = "All";
 
-type SizeFilter = "All" | "0-100" | "100-250" | "250+";
+type SizeFilter = "All" | "0-100" | "101-200" | "201-300" | "300+";
 
 const SIZE_FILTERS: { value: SizeFilter; label: string }[] = [
   { value: "All", label: "Any size" },
   { value: "0-100", label: "0–100 homes" },
-  { value: "100-250", label: "100–250 homes" },
-  { value: "250+", label: "250+ homes" }
+  { value: "101-200", label: "101–200 homes" },
+  { value: "201-300", label: "201–300 homes" },
+  { value: "300+", label: "300+ homes" }
 ];
 
 // "All" stays neutral black/white; the other three pick up the same hex
@@ -41,8 +42,9 @@ function colorForStatus(f: StatusFilter): string | undefined {
 function matchesSize(homeCount: number, size: SizeFilter) {
   if (size === "All") return true;
   if (size === "0-100") return homeCount <= 100;
-  if (size === "100-250") return homeCount > 100 && homeCount <= 250;
-  return homeCount > 250;
+  if (size === "101-200") return homeCount > 100 && homeCount <= 200;
+  if (size === "201-300") return homeCount > 200 && homeCount <= 300;
+  return homeCount > 300;
 }
 
 export default function CommunityMapExplorer({
