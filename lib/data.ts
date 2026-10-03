@@ -174,7 +174,7 @@ export const operators: Operator[] = [
     name: "Millbray",
     description:
       "An owner and operator of over-50s land lease living in Australia, focused on thoughtfully designed homes with resort-style amenities and connected neighbourhoods ('Millbray Made').",
-    communityCount: 1,
+    communityCount: 3,
     website: "https://millbray.com/",
     listed: false
   },
@@ -4710,6 +4710,36 @@ export const communities: Community[] = [
       "A gated over-50s community in Flagstone blending thoughtful design with wellness and social connection.",
     lat: -27.798426,
     lng: 152.9470977
+  },
+  {
+    slug: "millbray-innes-park",
+    name: "Innes Park",
+    suburb: "Innes Park",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 301, // TheWeeklySource: Millbray granted approval for a 301-lot relocatable home park in Innes Park (Bundaberg/Bargara area); coordinates are the suburb centre, no street address published yet
+    operatorSlug: "millbray",
+    amenities: [],
+    summary:
+      "A coming-soon Millbray over-50s community in Innes Park near Bargara, approved for 301 homes.",
+    lat: -24.8697734,
+    lng: 152.4692465
+  },
+  {
+    slug: "millbray-highfields",
+    name: "Highfields",
+    suburb: "Highfields",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 0, // Millbray has secured a site in Highfields, Toowoomba (listed on millbray.com as coming soon) but no home count has been publicly announced yet; coordinates are the suburb centre
+    operatorSlug: "millbray",
+    amenities: [],
+    summary:
+      "A coming-soon Millbray over-50s community in Highfields, Toowoomba.",
+    lat: -27.4517705,
+    lng: 151.9462897
   },
   {
     slug: "monterey",
