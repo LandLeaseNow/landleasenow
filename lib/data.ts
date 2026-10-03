@@ -2552,12 +2552,12 @@ export const communities: Community[] = [
     suburb: "Marsden Park",
     state: "NSW",
     type: "Over-50s",
-    status: "Under Development",
+    status: "Established", // corrected 3 Oct 2026 per Stuart: this is an established, fully built-out community with an active resale market, not under development
     homeCount: 228,
     operatorSlug: "ingenia-communities",
-    amenities: ["Community facilities (being renewed)"],
+    amenities: ["Community facilities"],
     summary:
-      "An over-55s community in northwest Sydney, with facilities and housing being renewed.",
+      "An established over-55s community in northwest Sydney.",
     lat: -33.7217461,
     lng: 150.8308865
   },
