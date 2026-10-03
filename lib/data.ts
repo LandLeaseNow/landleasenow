@@ -2508,7 +2508,13 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 3,
+    // Was 3, which was actually the count of homes currently listed for
+    // resale on Ingenia's own site, not the community's total size. 115 is
+    // the permanent/residential site count from Ingenia's FY21 property
+    // portfolio disclosure (the rest of its 483 total sites are annual and
+    // tourism sites, part of the adjoining holiday park, not this Lifestyle
+    // community) — worth a fresher source if one turns up.
+    homeCount: 115,
     operatorSlug: "ingenia-communities",
     amenities: ["Swimming pool", "Billiards room", "Fitness centre", "Dining facilities"],
     summary:
