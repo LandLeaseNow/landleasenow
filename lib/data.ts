@@ -3063,7 +3063,7 @@ export const communities: Community[] = [
     state: "ACT",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 88, // TheWeeklySource: Gateway's ACT land lease community acquisition article states the Symonston site has 88 manufactured homes
     operatorSlug: "lincoln-place",
     amenities: ["Outdoor pool", "BBQ area", "Pet-friendly"],
     summary:
@@ -3618,7 +3618,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 163, // TheWeeklySource: NSW Land and Environment Court approved a 163-site Serenitas lifestyle resort at Failford/Forster matching this address — not fully confirmed as the exact same project name
     operatorSlug: "serenitas",
     amenities: ["Community hall", "tennis court", "pool", "covered BBQ area", "table tennis", "darts", "boat ramp", "boat/caravan storage"],
     summary:
@@ -3951,7 +3951,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 280, // Stockland's Jan 2024 media release: Halcyon Jardin 'expected to see close to 280 homes' near the St Germain town centre — approximate, pre-completion estimate
     operatorSlug: "stockland-halcyon",
     amenities: ["$13M Clubhouse (The Pavilion) with mineral salt pools", "saunas", "wellness spaces", "cinema", "bar", "and tennis courts"],
     priceFrom: "$649,000",
