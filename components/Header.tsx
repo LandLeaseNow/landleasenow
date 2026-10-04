@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useAuth } from "@/components/AuthProvider";
 
 const NAV = [
   { href: "/communities", label: "Communities" },
@@ -9,6 +12,8 @@ const NAV = [
 ];
 
 export default function Header() {
+  const { user, loading, signOut } = useAuth();
+
   return (
     <header className="border-b border-eucalypt/10 bg-card">
       <div className="container-page flex h-20 items-center justify-between">
@@ -52,13 +57,27 @@ export default function Header() {
             <circle cx="12" cy="8" r="3.5" />
             <path d="M4.5 20c1.6-3.6 4.6-5.5 7.5-5.5s5.9 1.9 7.5 5.5" />
           </svg>
-          <Link href="/sign-up" className="font-medium text-white hover:underline">
-            Sign up
-          </Link>
-          <span className="text-white/50">or</span>
-          <Link href="/log-in" className="font-medium text-white hover:underline">
-            log in
-          </Link>
+          {loading ? (
+            <span className="text-white/50">...</span>
+          ) : user ? (
+            <>
+              <span className="max-w-[12rem] truncate font-medium">{user.email}</span>
+              <span className="text-white/50">·</span>
+              <button type="button" onClick={() => signOut()} className="font-medium text-white hover:underline">
+                Log out
+              </button>
+            </>
+          ) : (
+            <>
+              <Link href="/sign-up" className="font-medium text-white hover:underline">
+                Sign up
+              </Link>
+              <span className="text-white/50">or</span>
+              <Link href="/log-in" className="font-medium text-white hover:underline">
+                log in
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </header>

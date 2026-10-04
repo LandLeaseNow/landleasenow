@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { AuthProvider } from "@/components/AuthProvider";
 
 const sourceSerif = localFont({
   src: "./fonts/SourceSerif4-latin.woff2",
@@ -39,9 +40,11 @@ export default function RootLayout({
   return (
     <html lang="en-AU">
       <body className={`${sourceSerif.variable} ${inter.variable} font-sans`}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <AuthProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   );
