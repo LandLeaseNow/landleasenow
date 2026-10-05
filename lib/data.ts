@@ -1752,7 +1752,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 3,
+    homeCount: 120, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Heated swimming pool", "Gym and wellness centre", "Bowling green"],
     summary:
@@ -2052,7 +2052,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 239, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Swimming pool", "Clubhouse", "Boat and caravan storage"],
     summary:
@@ -3588,7 +3588,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 200, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "serenitas",
     amenities: ["Clubhouse", "swimming pool", "bowl greens", "darts", "bar", "BBQ area", "table tennis", "community workshop", "library", "dance floor", "community gardens"],
     summary:
@@ -3693,7 +3693,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 160, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "serenitas",
     amenities: ["Clubhouses", "swimming pools", "BBQ areas", "car wash", "library", "social club", "darts facilities", "coin-operated laundry"],
     summary:
@@ -4222,7 +4222,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 220, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "vivacity-property",
     amenities: ["24/7 clubhouse with golf simulator, cinema, commercial kitchen, gym, library, art room", "heated 20m pool, spa, sauna, tennis court, lawn bowls, workshop, vegetable gardens, dog run, onsite hairdresser"],
     summary:
