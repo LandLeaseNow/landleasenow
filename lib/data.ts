@@ -1617,7 +1617,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 210, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Swimming pool", "Tennis court", "Lawn bowls", "Boat and caravan storage"],
     summary:
@@ -1677,7 +1677,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 147, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Clubhouse", "Swimming pool", "Bowling green"],
     summary:
@@ -1872,7 +1872,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 264, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Clubhouse", "Swimming pool", "BBQ area"],
     summary:
@@ -1962,7 +1962,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 122, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Heated swimming pool", "Clubhouse", "Community bus"],
     summary:
@@ -2217,7 +2217,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Under Development",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 241, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Gym, pool and spa", "Cinema and library", "Lawn bowls"],
     summary:
@@ -2352,7 +2352,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 268, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Heated community pool and spa", "Woodworking room", "Community vegetable garden"],
     summary:
@@ -3603,7 +3603,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 274, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "serenitas",
     amenities: ["25m heated lap pool", "gymnasium", "four-rink bowling green", "wood/metal workshops", "arts and crafts building", "5-hole chip & putt golf", "tennis court", "dog wash station"],
     summary:
@@ -4327,7 +4327,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 219, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "palm-lake-resort",
     amenities: ["The Pavilion clubhouse", "8-rink undercover bowling green", "indoor and outdoor pools with spa", "tennis", "gymnasium", "tenpin bowling", "billiards", "virtual golf simulator"],
     summary:
@@ -4372,7 +4372,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Established",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 209, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "palm-lake-resort",
     amenities: ["Library", "art classes", "bowling green", "gym", "tennis court", "resort pool", "indoor pool and spa", "caravan and boat storage", "workshop", "dancefloor"],
     summary:
@@ -4658,7 +4658,7 @@ export const communities: Community[] = [
     state: "QLD",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 0, // UNRESEARCHABLE as of 3 Oct 2026: no published total-home-count found via web search for this community (likely too small/old/regional to have press coverage) - do not keep re-researching without a new source lead
+    homeCount: 212, // per Stuart (5 Oct 2026): researched manually
     operatorSlug: "solana-lifestyle-resorts",
     amenities: ["Livewell Centre with indoor/outdoor pools", "tennis courts", "lawn bowls", "gymnasium", "cinema", "library", "craft rooms", "cafe", "BBQ areas"],
     summary:
