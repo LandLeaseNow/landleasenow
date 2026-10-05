@@ -128,7 +128,7 @@ export default function CommunityMapExplorer({
                   backgroundColor: active ? (color ?? "#000000") : undefined,
                   color: active ? "#ffffff" : color
                 }}
-                className={`whitespace-nowrap rounded-sm px-3 py-2 transition-colors hover:opacity-80 ${
+                className={`whitespace-nowrap rounded-sm ${f === "All" ? "px-6" : "px-3"} py-2 transition-colors hover:opacity-80 ${
                   !color && !active ? "text-ink/60 hover:text-ink hover:opacity-100" : ""
                 }`}
               >
