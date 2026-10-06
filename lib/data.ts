@@ -2973,7 +2973,7 @@ export const communities: Community[] = [
     state: "VIC",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 96,
+    homeCount: 211, // per Stuart (6 Oct 2026): researched manually
     operatorSlug: "lincoln-place",
     amenities: ["Indoor heated pool", "Bowling green", "Clubhouse with games room", "Gym"],
     summary:
