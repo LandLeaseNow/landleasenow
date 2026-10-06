@@ -2082,7 +2082,7 @@ export const communities: Community[] = [
     state: "SA",
     type: "Over-50s",
     status: "Established",
-    homeCount: 3,
+    homeCount: 347, // per Stuart (6 Oct 2026): researched manually
     operatorSlug: "hometown-australia",
     amenities: ["Clubhouse", "Boat and caravan storage", "Hair and beauty salon"],
     summary:
@@ -3093,7 +3093,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 23,
+    homeCount: 96, // per Stuart (6 Oct 2026): researched manually
     operatorSlug: "lincoln-place",
     amenities: ["Outdoor swimming pool", "Clubhouse with community kitchen", "Community garden"],
     summary:
