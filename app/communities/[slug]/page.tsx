@@ -45,24 +45,24 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
         <aside className="h-fit rounded-md border border-eucalypt/10 bg-card p-6 shadow-md">
           <dl className="space-y-4 text-sm">
             <div>
-              <dt className="text-ink/50">Home type</dt>
+              <dt className="text-ink/70">Home type</dt>
               <dd className="font-medium">{community.type}</dd>
             </div>
             {community.homeCount > 0 && (
               <div>
-                <dt className="text-ink/50">Homes</dt>
+                <dt className="text-ink/70">Homes</dt>
                 <dd className="font-medium">{community.homeCount}</dd>
               </div>
             )}
             {community.priceFrom && (
               <div>
-                <dt className="text-ink/50">Price from</dt>
+                <dt className="text-ink/70">Price from</dt>
                 <dd className="font-medium">{community.priceFrom}</dd>
               </div>
             )}
             {operator && (
               <div>
-                <dt className="text-ink/50">Operator</dt>
+                <dt className="text-ink/70">Operator</dt>
                 <dd className="font-medium">
                   <Link href={`/operators/${operator.slug}`} className="text-eucalypt hover:underline">
                     {operator.name}
