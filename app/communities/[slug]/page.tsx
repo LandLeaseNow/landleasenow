@@ -12,6 +12,7 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
   if (!community) notFound();
 
   const operator = getOperator(community.operatorSlug);
+  const websiteUrl = community.website ?? operator?.website;
 
   return (
     <div className="container-page py-12">
@@ -70,6 +71,20 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
               </div>
             )}
           </dl>
+
+          {websiteUrl && (
+            <div className="mt-6 border-t border-eucalypt/10 pt-4 text-sm">
+              <p className="text-ink/70">Official website</p>
+              <a
+                href={websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block w-full rounded-sm bg-black px-6 py-3 text-center text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
+              >
+                Visit website ↗
+              </a>
+            </div>
+          )}
 
           <div className="mt-6 border-t border-eucalypt/10 pt-4 text-sm">
             <p className="text-ink/70">Are you the operator?</p>

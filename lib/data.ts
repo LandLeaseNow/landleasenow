@@ -31,6 +31,7 @@ export const operators: Operator[] = [
     description:
       "ASX-listed operator of land lease, rental and holiday communities across Australia, with active developments underway in New South Wales, Victoria and Queensland.",
     communityCount: 34,
+    website: "https://www.ingeniacommunities.com.au",
     listed: true
   },
   {
@@ -64,6 +65,7 @@ export const operators: Operator[] = [
     description:
       "ASX-listed pureplay land lease developer and operator founded in 2015, delivering resort-style over-50s communities across Queensland, New South Wales and Victoria, with its portfolio expanding sharply after acquiring developer Aliria's projects in 2025.",
     communityCount: 23,
+    website: "https://www.gemlife.com.au",
     listed: true
   },
   {
@@ -80,6 +82,7 @@ export const operators: Operator[] = [
     description:
       "The Australian arm of US land lease operator Hometown America, running around 58-60 over-55s communities across New South Wales, Queensland and South Australia, built largely through acquisition of existing parks.",
     communityCount: 63,
+    website: "https://hometownaustralia.com.au",
     listed: false
   },
   {
@@ -88,6 +91,7 @@ export const operators: Operator[] = [
     description:
       "Family-owned Australian developer operating since 1977, with around 38 land lease resorts for over-50s across Queensland, New South Wales and Victoria, home to more than 10,000 residents.",
     communityCount: 27,
+    website: "https://palmlakeresort.com.au",
     listed: false
   },
   {

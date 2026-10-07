@@ -40,6 +40,8 @@ export interface Community {
   operatorSlug: string;
   amenities: string[];
   priceFrom?: string;
+  // Optional community-specific page. When absent, the detail page falls back to the operator's website.
+  website?: string;
   summary: string;
   lat?: number;
   lng?: number;
