@@ -14,7 +14,7 @@ export default function CommunityCard({ community }: { community: Community }) {
   return (
     <Link
       href={`/communities/${community.slug}`}
-      className="group flex overflow-hidden rounded-sm bg-card shadow-sm hover:shadow-md transition-shadow"
+      className="group flex overflow-hidden rounded-md border border-eucalypt/5 bg-card shadow-sm transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-xl"
     >
       <span className={`type-bar ${TYPE_COLOR[community.type]}`} aria-hidden />
       <div className="flex-1 p-5">

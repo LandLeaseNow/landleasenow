@@ -23,18 +23,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="container-page py-16">
+      <section className="bg-sand-light">
+      <div className="container-page py-16">
         <div className="flex items-end justify-between">
           <h2 className="font-serif text-3xl text-eucalypt">Explore communities</h2>
           <Link href="/communities" className="text-sm text-eucalypt hover:underline">
             View all →
           </Link>
         </div>
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
+        <div className="mt-6 grid gap-6 md:grid-cols-3">
           {featured.map((c) => (
             <CommunityCard key={c.slug} community={c} />
           ))}
         </div>
+      </div>
       </section>
 
       <CommunityMapSection communities={communities} operators={operators} />
