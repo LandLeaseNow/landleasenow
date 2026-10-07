@@ -1812,7 +1812,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Established",
-    homeCount: 3,
+    homeCount: 301, // TheWeeklySource: Hometown Australia buys Laurieton Residential Resort - 301-site community
     operatorSlug: "hometown-australia",
     amenities: ["Wellness centre and indoor heated pool", "Clubhouse", "Lawn bowls"],
     summary:
@@ -1857,7 +1857,7 @@ export const communities: Community[] = [
     state: "NSW",
     type: "Over-50s",
     status: "Selling Now",
-    homeCount: 3,
+    homeCount: 215, // TheWeeklySource: Hometown adds Macquarie Shores - 215 homes
     operatorSlug: "hometown-australia",
     amenities: ["Swimming pool", "Tennis court", "Golf driving range"],
     summary:
