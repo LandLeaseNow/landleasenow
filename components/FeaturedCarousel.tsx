@@ -70,33 +70,33 @@ export default function FeaturedCarousel({
 
   return (
     <div>
-      <div className="flex items-end justify-between gap-4">
+      {/* Title on the left, arrows centred, "View all" on the right. The arrows are hidden on
+          phones, where the row is swiped instead. */}
+      <div className="grid grid-cols-[1fr_auto] items-end gap-4 md:grid-cols-[1fr_auto_1fr]">
         <h2 className="font-serif text-3xl text-eucalypt">{title}</h2>
-        <div className="flex items-center gap-4">
-          <Link href={viewAllHref} className="text-sm text-eucalypt hover:underline">
-            View all →
-          </Link>
-          <div className="flex gap-2">
-            <button
-              type="button"
-              onClick={() => scrollByPage(-1)}
-              disabled={!canPrev}
-              aria-label="Previous communities"
-              className={arrowClass}
-            >
-              <Arrow direction="left" />
-            </button>
-            <button
-              type="button"
-              onClick={() => scrollByPage(1)}
-              disabled={!canNext}
-              aria-label="Next communities"
-              className={arrowClass}
-            >
-              <Arrow direction="right" />
-            </button>
-          </div>
+        <div className="hidden gap-2 md:flex">
+          <button
+            type="button"
+            onClick={() => scrollByPage(-1)}
+            disabled={!canPrev}
+            aria-label="Previous communities"
+            className={arrowClass}
+          >
+            <Arrow direction="left" />
+          </button>
+          <button
+            type="button"
+            onClick={() => scrollByPage(1)}
+            disabled={!canNext}
+            aria-label="Next communities"
+            className={arrowClass}
+          >
+            <Arrow direction="right" />
+          </button>
         </div>
+        <Link href={viewAllHref} className="justify-self-end text-sm text-eucalypt hover:underline md:pb-3">
+          View all →
+        </Link>
       </div>
 
       {/* Padding + negative margin leave room for the card shadow and hover lift,
@@ -106,7 +106,7 @@ export default function FeaturedCarousel({
         className="-mx-2 -mb-6 flex snap-x snap-mandatory gap-6 overflow-x-auto scroll-smooth px-2 py-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {Children.map(children, (child) => (
-          <div className="w-full shrink-0 snap-start md:w-[calc((100%-3rem)/3)]">{child}</div>
+          <div className="flex w-full shrink-0 snap-start md:w-[calc((100%-3rem)/3)] [&>*]:min-w-0 [&>*]:flex-1">{child}</div>
         ))}
       </div>
     </div>
