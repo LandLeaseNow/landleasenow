@@ -1,12 +1,31 @@
 import Link from "next/link";
 import CommunityCard from "@/components/CommunityCard";
+import FeaturedCarousel from "@/components/FeaturedCarousel";
 import HeroSection from "@/components/HeroSection";
 import CommunityMapSection from "@/components/CommunityMapSection";
-import { communities, operators, getStateCounts } from "@/lib/data";
+import { communities, operators, getStateCounts, getCommunity } from "@/lib/data";
 import { STATE_LABELS } from "@/lib/types";
 
 export default function HomePage() {
-  const featured = communities.slice(0, 3);
+  // Hand-picked, in display order. The first three are one each from Ingenia,
+  // GemLife and Stockland Halcyon; the rest span other operators and states.
+  const featuredSlugs = [
+    "archers-run",
+    "gemlife-moreton-bay",
+    "halcyon-bayside",
+    "lincoln-lifestyle-yeppoon",
+    "liven-carabella",
+    "tuart-lakes-lifestyle-resort",
+    "lifestyle-shepparton",
+    "solana-northern-beaches-mackay",
+    "palm-lake-resort-pelican-waters",
+    "ocean-club-resort",
+    "sierra",
+    "springtree-yarrawonga"
+  ];
+  const featured = featuredSlugs
+    .map((slug) => getCommunity(slug))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
   const stateCounts = getStateCounts().sort((a, b) => b.count - a.count);
   const topOperators = [...operators].sort((a, b) => b.communityCount - a.communityCount);
 
@@ -24,17 +43,11 @@ export default function HomePage() {
       </section>
 
       <section className="container-page py-16">
-        <div className="flex items-end justify-between">
-          <h2 className="font-serif text-3xl text-eucalypt">Explore communities</h2>
-          <Link href="/communities" className="text-sm text-eucalypt hover:underline">
-            View all →
-          </Link>
-        </div>
-        <div className="mt-6 grid gap-6 md:grid-cols-3">
+        <FeaturedCarousel title="Explore communities" viewAllHref="/communities">
           {featured.map((c) => (
             <CommunityCard key={c.slug} community={c} />
           ))}
-        </div>
+        </FeaturedCarousel>
       </section>
 
       <CommunityMapSection communities={communities} operators={operators} />
