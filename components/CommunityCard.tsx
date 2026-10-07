@@ -2,21 +2,14 @@ import Link from "next/link";
 import { Community, STATUS_COLOR } from "@/lib/types";
 import { getOperator } from "@/lib/data";
 
-const TYPE_COLOR: Record<Community["type"], string> = {
-  "Over-50s": "bg-brass",
-  "All Ages": "bg-sky",
-  "Affordable / Rental": "bg-eucalypt-light"
-};
-
 export default function CommunityCard({ community }: { community: Community }) {
   const operator = getOperator(community.operatorSlug);
 
   return (
     <Link
       href={`/communities/${community.slug}`}
-      className="group flex overflow-hidden rounded-md border border-eucalypt/5 bg-card shadow-sm transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-xl"
+      className="group flex overflow-hidden rounded-md border border-eucalypt/10 bg-card shadow-md transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-xl"
     >
-      <span className={`type-bar ${TYPE_COLOR[community.type]}`} aria-hidden />
       <div className="flex-1 p-5">
         <div className="flex items-start justify-between gap-3">
           <div>

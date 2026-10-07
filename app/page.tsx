@@ -23,8 +23,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-sand-light">
-      <div className="container-page py-16">
+      <section className="container-page py-16">
         <div className="flex items-end justify-between">
           <h2 className="font-serif text-3xl text-eucalypt">Explore communities</h2>
           <Link href="/communities" className="text-sm text-eucalypt hover:underline">
@@ -36,7 +35,6 @@ export default function HomePage() {
             <CommunityCard key={c.slug} community={c} />
           ))}
         </div>
-      </div>
       </section>
 
       <CommunityMapSection communities={communities} operators={operators} />
