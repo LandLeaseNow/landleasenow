@@ -42,7 +42,7 @@ export default function CommunityDetailPage({ params }: { params: { slug: string
           </ul>
         </div>
 
-        <aside className="h-fit rounded-sm border border-eucalypt/10 bg-card p-6">
+        <aside className="h-fit rounded-md border border-eucalypt/10 bg-card p-6 shadow-md">
           <dl className="space-y-4 text-sm">
             <div>
               <dt className="text-ink/50">Home type</dt>
