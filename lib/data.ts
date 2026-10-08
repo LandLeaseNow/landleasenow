@@ -49,6 +49,7 @@ export const operators: Operator[] = [
     description:
       "Family-owned land lease operator running communities for over-50s across New South Wales, Victoria, South Australia and Western Australia, with some communities offering a shared-equity purchase option.",
     communityCount: 4,
+    website: "https://hampshirevillages.com.au",
     listed: false
   },
   {
@@ -57,6 +58,7 @@ export const operators: Operator[] = [
     description:
       "ASX-listed provider of affordable rental communities for seniors, expanding into all-age rental parks in regional Queensland.",
     communityCount: 3,
+    website: "https://www.eurekagroupholdings.com.au",
     listed: true
   },
   {
@@ -74,6 +76,7 @@ export const operators: Operator[] = [
     description:
       "ASX-listed, Melbourne-based operator focused entirely on Victoria, running dozens of land lease communities for people aged over 50 under a standard 90-year land lease model.",
     communityCount: 26,
+    website: "https://www.lifestylecommunities.com.au",
     listed: true
   },
   {
@@ -100,6 +103,7 @@ export const operators: Operator[] = [
     description:
       "Family-owned Gold Coast land lease developer founded in the 1980s, building over-50s resorts across South East Queensland with a pipeline extending into Townsville, Yeppoon and northern NSW.",
     communityCount: 3,
+    website: "https://www.livinggems.com.au",
     listed: false
   },
   {
@@ -108,6 +112,7 @@ export const operators: Operator[] = [
     description:
       "Land lease operator majority-owned by Mirvac, Pacific Equity Partners and Tasman Capital Partners, running around 34 communities across NSW, VIC, QLD and WA under brands including Thyme Lifestyle Resorts and National Lifestyle Villages.",
     communityCount: 30,
+    website: "https://serenitas.com.au",
     listed: false
   },
   {
