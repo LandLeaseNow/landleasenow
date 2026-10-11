@@ -143,8 +143,22 @@ export default function CommunityMapExplorer({
             type="button"
             onClick={() => setPanelOpen((open) => !open)}
             aria-expanded={panelOpen}
-            className="inline-flex h-11 items-center justify-center gap-2 rounded-sm bg-black px-12 text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-sm bg-black px-8 text-base font-medium text-white shadow-sm transition-colors hover:bg-neutral-800"
           >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              className="h-[18px] w-[18px]"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            >
+              <path d="M6 4v5M6 13v7M12 4v9M12 17v3M18 4v3M18 11v9" />
+              <circle cx="6" cy="11" r="2" />
+              <circle cx="12" cy="15" r="2" />
+              <circle cx="18" cy="9" r="2" />
+            </svg>
             Filter
             {advancedFilterCount > 0 && (
               <span className="flex h-5 w-5 items-center justify-center rounded-full bg-white text-xs font-semibold text-black">
