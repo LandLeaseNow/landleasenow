@@ -223,6 +223,15 @@ export const operators: Operator[] = [
     website: "https://goodlifelifestyleresorts.com.au",
     listed: false
   },
+  {
+    slug: "clifton-lifestyle",
+    name: "Clifton Lifestyle",
+    description:
+      "Privately owned Sydney-based developer and operator of over-55s land lease communities, led by Kenny Phillips and Richard Volpe, with award-winning communities in Old Bar and Yamba and further sites approved in New South Wales, South Australia and Queensland.",
+    communityCount: 6,
+    website: "https://cliftonlifestyle.com.au",
+    listed: false
+  },
 ];
 
 export const communities: Community[] = [
@@ -4909,6 +4918,97 @@ export const communities: Community[] = [
       "A master-planned over-50s and RV lifestyle resort in Howard on the Fraser Coast, near Hervey Bay, with 213 free-standing homes.",
     lat: -25.3187601,
     lng: 152.5613958
+  },
+  {
+    slug: "clifton-old-bar",
+    name: "Clifton Old Bar",
+    suburb: "Old Bar",
+    state: "NSW",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 129, // TheWeeklySource: 129 homes, fully sold and occupied
+    operatorSlug: "clifton-lifestyle",
+    amenities: [],
+    summary:
+      "An award-winning over-55s land lease community at Old Bar on the NSW Mid North Coast, with all 129 homes sold and occupied.",
+    lat: -31.9526029,
+    lng: 152.5551274
+  },
+  {
+    slug: "clifton-lifestyle-yamba",
+    name: "Clifton Lifestyle Yamba",
+    suburb: "Yamba",
+    state: "NSW",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 197, // TheWeeklySource: 197 homes; stage 7 half sold
+    operatorSlug: "clifton-lifestyle",
+    amenities: [],
+    summary:
+      "An award-winning over-55s land lease community in Yamba on the NSW far north coast, with 197 homes released in stages.",
+    lat: -29.44,
+    lng: 153.3594444
+  },
+  {
+    slug: "clifton-lifestyle-taree",
+    name: "Clifton Lifestyle Taree",
+    suburb: "Taree",
+    state: "NSW",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 58, // Domain project listing: 58 residences (earlier TheWeeklySource article said 50)
+    operatorSlug: "clifton-lifestyle",
+    amenities: [],
+    priceFrom: "$475,000",
+    summary:
+      "A boutique over-55s land lease community at Taree on the NSW Mid North Coast, with 58 homes planned.",
+    lat: -31.8930535,
+    lng: 152.4704184
+  },
+  {
+    slug: "clifton-lifestyle-hindmarsh-valley",
+    name: "Clifton Lifestyle Hindmarsh Valley",
+    suburb: "Hindmarsh Valley",
+    state: "SA",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 272, // TheWeeklySource: 272 manufactured homes approved
+    operatorSlug: "clifton-lifestyle",
+    amenities: [],
+    summary:
+      "An approved over-55s land lease community at Hindmarsh Valley near Victor Harbor, planned for 272 homes.",
+    lat: -35.4606675,
+    lng: 138.6042797
+  },
+  {
+    slug: "clifton-lifestyle-toowoomba",
+    name: "Clifton Lifestyle Toowoomba",
+    suburb: "Torrington",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 312, // TheWeeklySource: 312 homes approved in 15 stages; coordinates are the Torrington suburb centre
+    operatorSlug: "clifton-lifestyle",
+    amenities: [],
+    summary:
+      "An approved over-55s land lease community at Torrington in Toowoomba, planned for 312 homes across 15 stages.",
+    lat: -27.54552,
+    lng: 151.8868179
+  },
+  {
+    slug: "clifton-highworth",
+    name: "Highworth",
+    suburb: "Highworth",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 230, // TheWeeklySource: Clifton bought this approved 230-home land lease site in Aug 2026 from Ingenia and Sun Communities; no Clifton brand name announced; coordinates are the Highworth suburb centre
+    operatorSlug: "clifton-lifestyle",
+    amenities: [],
+    summary:
+      "An approved 230-home over-55s land lease site at Highworth in the Sunshine Coast hinterland, bought by Clifton Lifestyle in 2026.",
+    lat: -26.6159741,
+    lng: 152.9294762
   },
 ];
 
