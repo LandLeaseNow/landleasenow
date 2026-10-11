@@ -214,6 +214,15 @@ export const operators: Operator[] = [
     website: "https://riverbend.com.au",
     listed: false
   },
+  {
+    slug: "good-life-resorts",
+    name: "Good Life RV & Lifestyle Resorts",
+    description:
+      "Queensland construction and development company AHC Limited, operating the Good Life RV & Lifestyle Resorts land lease brand with a first over-50s community on the Fraser Coast.",
+    communityCount: 1,
+    website: "https://goodlifelifestyleresorts.com.au",
+    listed: false
+  },
 ];
 
 export const communities: Community[] = [
@@ -4884,6 +4893,22 @@ export const communities: Community[] = [
       "Riverbend's original over-50s village on the NSW Far North Coast, built out between 2004 and fully completed in 2019.",
     lat: -28.8634894,
     lng: 153.52903
+  },
+  {
+    slug: "good-life-fraser-coast",
+    name: "Good Life RV & Lifestyle Resort Fraser Coast",
+    suburb: "Howard",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 213, // per Stuart (11 Oct 2026) / TheWeeklySource & goodlifelifestyleresorts.com.au: 213-lot master-planned community; tenure is land lease per TheWeeklySource (resort site says no DMF / no exit fees); coordinates are the Howard town centre
+    operatorSlug: "good-life-resorts",
+    amenities: [],
+    priceFrom: "$773,850",
+    summary:
+      "A master-planned over-50s and RV lifestyle resort in Howard on the Fraser Coast, near Hervey Bay, with 213 free-standing homes.",
+    lat: -25.3187601,
+    lng: 152.5613958
   },
 ];
 
