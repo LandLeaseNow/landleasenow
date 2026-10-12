@@ -30,7 +30,7 @@ export const operators: Operator[] = [
     name: "Ingenia Communities",
     description:
       "ASX-listed operator of land lease, rental and holiday communities across Australia, with active developments underway in New South Wales, Victoria and Queensland.",
-    communityCount: 34,
+    communityCount: 33,
     website: "https://www.ingeniacommunities.com.au",
     listed: true
   },
@@ -2503,21 +2503,6 @@ export const communities: Community[] = [
       "An established over-55s community on the NSW North Coast with river and scenic views.",
     lat: -30.8897168,
     lng: 153.0328127
-  },
-  {
-    slug: "ingenia-lifestyle-anna-bay",
-    name: "Ingenia Lifestyle Anna Bay",
-    suburb: "Anna Bay",
-    state: "NSW",
-    type: "Over-50s",
-    status: "Under Development",
-    homeCount: 229, // The Senior: a 229-home over-55s Ingenia development on ~30ha at Anna Bay — not cross-checked against Ingenia's own annual report
-    operatorSlug: "ingenia-communities",
-    amenities: ["Coastal surroundings", "Community spaces"],
-    summary:
-      "A new, smaller-scale over-55s coastal community coming to Anna Bay.",
-    lat: -32.7695398,
-    lng: 152.0700844
   },
   {
     slug: "ingenia-lifestyle-element",
