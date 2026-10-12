@@ -250,6 +250,15 @@ export const operators: Operator[] = [
     website: "https://www.regenliving.com.au",
     listed: false
   },
+  {
+    slug: "vantage-by-avid",
+    name: "Vantage by AVID",
+    description:
+      "The land lease communities business of AVID Property Group, launched in 2024 after AVID acquired the operating Living Gems communities, with established and new over-50s communities across South East Queensland and Victoria.",
+    communityCount: 12,
+    website: "https://avid.com.au/vantage/",
+    listed: false
+  },
 ];
 
 export const communities: Community[] = [
@@ -5103,6 +5112,187 @@ export const communities: Community[] = [
       "A proposed 191-home over-55s land lease community at Aldinga on the Fleurieu Peninsula by Oliver Hume, with planning consent secured and site works targeted for late 2026.",
     lat: -35.2673234,
     lng: 138.4831296
+  },
+  {
+    slug: "vantage-caboolture-riverfront",
+    name: "Vantage Caboolture Riverfront",
+    suburb: "Caboolture",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0, // Count not published by Vantage; formerly Living Gems Caboolture Riverfront, one of the eight communities AVID bought in 2024; coordinates are the Caboolture suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An established over-50s land lease community in Caboolture, formerly Living Gems Caboolture Riverfront and now part of Vantage by AVID, with move-in ready homes still available.",
+    lat: -27.0839336,
+    lng: 152.9510863
+  },
+  {
+    slug: "vantage-eagleby-hedges",
+    name: "Vantage Eagleby Hedges",
+    suburb: "Eagleby",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0, // Count not published by Vantage; formerly Sapphire by Living Gems; coordinates are the Eagleby suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An established over-50s land lease community in Eagleby between Brisbane and the Gold Coast, formerly Sapphire by Living Gems and now part of Vantage by AVID.",
+    lat: -27.7030065,
+    lng: 153.2181428
+  },
+  {
+    slug: "vantage-eagleby-pines",
+    name: "Vantage Eagleby Pines",
+    suburb: "Eagleby",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0, // Count not published by Vantage; formerly Ruby by Living Gems; coordinates are the Eagleby suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An established over-50s land lease community in Eagleby between Brisbane and the Gold Coast, formerly Ruby by Living Gems and now part of Vantage by AVID.",
+    lat: -27.7030065,
+    lng: 153.2181428
+  },
+  {
+    slug: "vantage-logan-village-green",
+    name: "Vantage Logan Village Green",
+    suburb: "Logan Village",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 231, // TheWeeklySource: Amber 'will when completed be a 231-home community'; planned total; coordinates are the Logan Village town centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An over-50s land lease community in Logan Village on a ten hectare site, formerly Amber by Living Gems, with the first two stages sold out.",
+    lat: -27.7675482,
+    lng: 153.1070052
+  },
+  {
+    slug: "vantage-logan-village-links",
+    name: "Vantage Logan Village Links",
+    suburb: "Logan Village",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 200, // Jimboomba Times: Opal 'includes 200 homes'; coordinates are the Logan Village town centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An established over-50s land lease community on Quinzeh Creek Road in Logan Village, formerly Opal by Living Gems, currently with no homes for sale.",
+    lat: -27.7675482,
+    lng: 153.1070052
+  },
+  {
+    slug: "vantage-maleny",
+    name: "Vantage Maleny",
+    suburb: "Maleny",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0, // Count not published by Vantage; formerly Living Gems Maleny; coordinates are the Maleny town centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An established over-50s land lease community in Maleny on the Sunshine Coast hinterland, formerly Living Gems Maleny and now part of Vantage by AVID.",
+    lat: -26.756741,
+    lng: 152.8424214
+  },
+  {
+    slug: "vantage-pacific-paradise",
+    name: "Vantage Pacific Paradise",
+    suburb: "Pacific Paradise",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 0, // Count not published by Vantage; formerly Living Gems Pacific Paradise; coordinates are the Pacific Paradise suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "An established over-50s land lease community in Pacific Paradise on the Sunshine Coast, formerly Living Gems Pacific Paradise and now part of Vantage by AVID.",
+    lat: -26.624715,
+    lng: 153.0706896
+  },
+  {
+    slug: "vantage-hervey-bay",
+    name: "Vantage Hervey Bay",
+    suburb: "Kawungan",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 300, // TheWeeklySource: 300 over-55s homes on 23ha, construction begun; first residents moved in 2025; homes from $550,000; coordinates are the Kawungan suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    priceFrom: "$550,000",
+    summary:
+      "A new over-50s land lease community at Kawungan in Hervey Bay on a 23 hectare site, with a clubhouse now open, AVID's first newly built land lease community.",
+    lat: -25.309433,
+    lng: 152.8436448
+  },
+  {
+    slug: "vantage-lilywood",
+    name: "Vantage Lilywood",
+    suburb: "Waraba",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 294, // Urban Developer: 294 land lease lots on 13.53ha, approved (Moreton Daily says 296); coordinates are the Waraba suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "A new gated over-50s land lease community in Waraba in Moreton Bay, approved for 294 lots on 13.5 hectares, with display homes open.",
+    lat: -27.0861715,
+    lng: 152.8793021
+  },
+  {
+    slug: "vantage-logan-reserve",
+    name: "Vantage Logan Reserve",
+    suburb: "Logan Reserve",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 372, // Urban Developer: 372 land lease lots on 20.46ha, approved; coordinates are the Logan Reserve suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "A new gated over-50s land lease community at Logan Reserve, approved for 372 lots on 20.5 hectares, with display homes open.",
+    lat: -27.7170594,
+    lng: 153.1084184
+  },
+  {
+    slug: "vantage-harmony",
+    name: "Vantage Harmony",
+    suburb: "Palmview",
+    state: "QLD",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 0, // Count not published by Vantage; AVID page says 'Planning is underway'; coordinates are the Palmview suburb centre
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "A planned over-50s land lease community in the Harmony estate at Palmview on the Sunshine Coast, with planning underway and a display home open by appointment.",
+    lat: -26.7484795,
+    lng: 153.0537793
+  },
+  {
+    slug: "vantage-bloomdale",
+    name: "Vantage Bloomdale",
+    suburb: "Diggers Rest",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 304, // Downsizing.com.au: 'delivering 304 homes ... over the next five years' (an AVID release says 300); planned total; coordinates are the Diggers Rest locality
+    operatorSlug: "vantage-by-avid",
+    amenities: [],
+    summary:
+      "A new over-50s land lease community at Bloomdale near Diggers Rest, about 28 kilometres north-west of Melbourne, delivering 304 homes over five years.",
+    lat: -37.6275995,
+    lng: 144.7200075
   },
 ];
 
