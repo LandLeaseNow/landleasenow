@@ -232,6 +232,24 @@ export const operators: Operator[] = [
     website: "https://cliftonlifestyle.com.au",
     listed: false
   },
+  {
+    slug: "edenlife-communities",
+    name: "Edenlife Communities",
+    description:
+      "Western Australian over-50s land lease operator, part of the Lester Group, with established, selling and planned communities at Australind, Byford and Margaret River.",
+    communityCount: 3,
+    website: "https://edenlife.com.au",
+    listed: false
+  },
+  {
+    slug: "regen-living",
+    name: "ReGen Living",
+    description:
+      "Over-55s land lease brand from Oliver Hume, a 70-year-old Australian developer, with communities at Waurn Ponds in Geelong and Aldinga in South Australia.",
+    communityCount: 2,
+    website: "https://www.regenliving.com.au",
+    listed: false
+  },
 ];
 
 export const communities: Community[] = [
@@ -5009,6 +5027,82 @@ export const communities: Community[] = [
       "An approved 230-home over-55s land lease site at Highworth in the Sunshine Coast hinterland, bought by Clifton Lifestyle in 2026.",
     lat: -26.6159741,
     lng: 152.9294762
+  },
+  {
+    slug: "edenlife-australind",
+    name: "Edenlife Australind",
+    suburb: "Australind",
+    state: "WA",
+    type: "Over-50s",
+    status: "Established",
+    homeCount: 208, // Edenlife website: all lots sold out; 208 homes per TheWeeklySource Nov 2025 (earlier reports gave 186 and 204); coordinates are the Australind suburb centre
+    operatorSlug: "edenlife-communities",
+    amenities: [],
+    summary:
+      "A gated over-50s land lease community near Bunbury on the Western Australian south-west coast, now fully sold, with some established homes occasionally available.",
+    lat: -33.2807362,
+    lng: 115.7204483
+  },
+  {
+    slug: "edenlife-byford",
+    name: "Edenlife Byford",
+    suburb: "Byford",
+    state: "WA",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 197, // Edenlife website: Stage 1 80% sold, Stage 2a available; 197 sites per TheWeeklySource Nov 2025; coordinates are the Byford suburb centre
+    operatorSlug: "edenlife-communities",
+    amenities: [],
+    summary:
+      "A new over-50s land lease community in Byford, south-east of Perth, with stage 1 around 80 percent sold and stage 2a homes now available.",
+    lat: -32.2164603,
+    lng: 116.0073809
+  },
+  {
+    slug: "edenlife-margaret-river",
+    name: "Edenlife Margaret River",
+    suburb: "Margaret River",
+    state: "WA",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 140, // Edenlife website: 'over 140 sites, coming soon'; TheWeeklySource Nov 2025 about 140 (an older 2023 plan said 159); coordinates are the Margaret River town centre
+    operatorSlug: "edenlife-communities",
+    amenities: [],
+    summary:
+      "A planned over-50s land lease community in Margaret River with around 140 sites, lodged for development approval and coming soon.",
+    lat: -33.9531776,
+    lng: 115.0769369
+  },
+  {
+    slug: "regen-living-waurn-ponds",
+    name: "ReGen Living Waurn Ponds",
+    suburb: "Waurn Ponds",
+    state: "VIC",
+    type: "Over-50s",
+    status: "Selling Now",
+    homeCount: 195, // Oliver Hume media release: 195 homes, from about $580,000; TheWeeklySource Aug 2026 quotes entry in the $600,000s; coordinates are the Waurn Ponds suburb centre
+    operatorSlug: "regen-living",
+    amenities: [],
+    priceFrom: "$580,000",
+    summary:
+      "An under-construction over-55s land lease community in Waurn Ponds, Geelong, by Oliver Hume, with a planned clubhouse and the first homes now selling.",
+    lat: -38.2158244,
+    lng: 144.3061193
+  },
+  {
+    slug: "regen-living-aldinga",
+    name: "ReGen Living Aldinga",
+    suburb: "Aldinga",
+    state: "SA",
+    type: "Over-50s",
+    status: "Under Development",
+    homeCount: 191, // TheWeeklySource Sept 2026: 191 relocatable homes on 6.3ha, planning consent secured; coordinates are the Aldinga suburb centre
+    operatorSlug: "regen-living",
+    amenities: [],
+    summary:
+      "A proposed 191-home over-55s land lease community at Aldinga on the Fleurieu Peninsula by Oliver Hume, with planning consent secured and site works targeted for late 2026.",
+    lat: -35.2673234,
+    lng: 138.4831296
   },
 ];
 
